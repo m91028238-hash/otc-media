@@ -1,0 +1,1556 @@
+{
+  "title": "Sacred art and architecture",
+  "sections": [
+    {
+      "id": "byzantine",
+      "title": "Byzantine",
+      "lead": "Gold is not decoration. In these mosaics it is the light of heaven, and the face of Christ looks at you as a living presence.",
+      "more": "The Byzantine icon is a theology in colour. The Pantocrator holds the book and blesses. Gold is not a luxury for its own sake. It is the light behind the world. Mosaics at Ravenna and Constantinople, and later the brick cathedral at Westminster, belong to this family of looking. An icon is venerated. It is not adored.",
+      "works": [
+        {
+          "id": "byzantine-hagia-sophia-nave",
+          "title": "Hagia Sophia, the nave",
+          "artist": "Unknown architects, under the Emperor Justinian",
+          "year": "532–537",
+          "place": "Istanbul",
+          "line": "Justinian’s great church still holds a vast bowl of light under its dome, the model of Byzantine building for a thousand years.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-hagia-sophia-nave.jpg",
+          "width": 10368,
+          "height": 7776,
+          "credit": {
+            "author": "Arnoldius",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_central_nave.jpg"
+          }
+        },
+        {
+          "id": "byzantine-hagia-sophia-exterior",
+          "title": "Hagia Sophia, from the outside",
+          "artist": "Unknown architects, under the Emperor Justinian",
+          "year": "532–537",
+          "place": "Istanbul",
+          "line": "The dome and the minarets mark the skyline of the city that was once Constantinople, where this church was the heart of Eastern Christendom.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-hagia-sophia-exterior.jpg",
+          "width": 7106,
+          "height": 4826,
+          "credit": {
+            "author": "Alvesgaspar",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Istanbul_July_2022-2.jpg"
+          }
+        },
+        {
+          "id": "byzantine-hagia-sophia-deesis",
+          "title": "Christ Pantocrator, the Deësis mosaic",
+          "artist": "Unknown Byzantine mosaicist",
+          "year": "c. 1261",
+          "place": "Hagia Sophia, Istanbul",
+          "line": "After the Latin occupation, this mosaic was set high in the south gallery: Christ blesses, and the grave beauty of the face has never been forgotten.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-hagia-sophia-deesis.jpg",
+          "width": 2744,
+          "height": 2900,
+          "credit": {
+            "author": "Dianelos Georgoudis",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christ_Pantocrator_mosaic_from_Hagia_Sophia_2744_x_2900_pixels_3.1_MB.jpg"
+          }
+        },
+        {
+          "id": "byzantine-sinai-pantocrator",
+          "title": "Christ Pantocrator",
+          "artist": "Unknown Byzantine painter",
+          "year": "6th century",
+          "place": "St Catherine's Monastery, Sinai",
+          "line": "The oldest known panel of Christ as Ruler of all. One side of the face is gentle, the other is the Judge, and the book is open in his hand.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-sinai-pantocrator.jpg",
+          "width": 2023,
+          "height": 3774,
+          "credit": {
+            "author": "Unknown artistUnknown artist",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay.jpg"
+          }
+        },
+        {
+          "id": "byzantine-san-vitale-dome",
+          "title": "The sanctuary of San Vitale",
+          "artist": "Unknown architects and mosaicists",
+          "year": "547",
+          "place": "Ravenna",
+          "line": "An eight-sided church sheathed in mosaic, built when Ravenna was Justinian’s capital in the West.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-vitale-dome.jpg",
+          "width": 7233,
+          "height": 5718,
+          "credit": {
+            "author": "Commonists",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Vitale_(Ravenna)_-_Dome_interior.jpg"
+          }
+        },
+        {
+          "id": "byzantine-san-vitale-justinian",
+          "title": "The Emperor Justinian and his court",
+          "artist": "Unknown Byzantine mosaicist",
+          "year": "c. 547",
+          "place": "San Vitale, Ravenna",
+          "line": "Justinian brings the paten for the Mass, with clergy, soldiers and courtiers around him, as if the emperor himself stood at the altar.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-vitale-justinian.jpg",
+          "width": 3679,
+          "height": 5721,
+          "credit": {
+            "author": "Ввласенко",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Justinian_and_his_retinue._Detail_of_the_mosaic_in_the_Basilica_of_San_Vitale._Ravena,_Italy.jpg"
+          }
+        },
+        {
+          "id": "byzantine-san-vitale-theodora",
+          "title": "The Empress Theodora",
+          "artist": "Unknown Byzantine mosaicist",
+          "year": "c. 547",
+          "place": "San Vitale, Ravenna",
+          "line": "Theodora comes forward with the chalice, in jewels and a golden halo, a partner in the same offering.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-vitale-theodora.jpg",
+          "width": 5184,
+          "height": 3456,
+          "credit": {
+            "author": "José Luiz",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Theodora_-_San_Vitale_-_Ravenna_2016.jpg"
+          }
+        },
+        {
+          "id": "byzantine-apollinare-classe",
+          "title": "The apse of Sant’Apollinare in Classe",
+          "artist": "Unknown Byzantine mosaicists",
+          "year": "c. 549",
+          "place": "Ravenna",
+          "line": "A jewelled cross shines in a garden of trees and lambs, and Saint Apollinaris stands as a shepherd among his people.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-apollinare-classe.jpg",
+          "width": 4896,
+          "height": 3264,
+          "credit": {
+            "author": "bradhostetler",
+            "licence": "CC BY-SA 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Sant_Apollinare_in_Classe_-_54032001509.jpg"
+          }
+        },
+        {
+          "id": "byzantine-monreale-interior",
+          "title": "Christ Pantocrator in the apse, Monreale",
+          "artist": "Unknown mosaicists, under King William II of Sicily",
+          "year": "c. 1180–90",
+          "place": "Monreale Cathedral, Sicily",
+          "line": "A vast blessing Christ fills the apse, and the whole sanctuary is clothed in gold, as if the church itself were an icon.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-monreale-interior.jpg",
+          "width": 5472,
+          "height": 3648,
+          "credit": {
+            "author": "Benjamin Smith",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monreale_-_Cathedral_-_7.jpg"
+          }
+        },
+        {
+          "id": "byzantine-monreale-pantocrator",
+          "title": "The face of the Pantocrator, Monreale",
+          "artist": "Unknown mosaicists, under King William II of Sicily",
+          "year": "c. 1180–90",
+          "place": "Monreale Cathedral, Sicily",
+          "line": "The gaze is steady and the blessing hand is raised. The tiles of gold around the face are the light that does not fail.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-monreale-pantocrator.jpg",
+          "width": 2048,
+          "height": 3072,
+          "credit": {
+            "author": "José Luiz",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christ_Pantocrator_-_Cathedral_of_Monreale_-_Italy_2015_(2).JPG"
+          }
+        },
+        {
+          "id": "byzantine-cefalu-pantocrator",
+          "title": "Christ Pantocrator, Cefalù",
+          "artist": "Unknown mosaicists, under King Roger II of Sicily",
+          "year": "1148",
+          "place": "Cefalù Cathedral, Sicily",
+          "line": "In the apse of a Norman cathedral, the same Lord appears as at Sinai and Monreale: book, blessing, and a face of grave mercy.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-cefalu-pantocrator.jpg",
+          "width": 3888,
+          "height": 2592,
+          "credit": {
+            "author": "Andreas Wahra",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cefalu_Christus_Pantokrator.jpg"
+          }
+        },
+        {
+          "id": "byzantine-san-marco-mosaics",
+          "title": "The golden mosaics of St Mark’s",
+          "artist": "Unknown Venetian mosaicists",
+          "year": "11th–13th century",
+          "place": "Basilica of St Mark, Venice",
+          "line": "The Holy Women come to the empty tomb, and the whole vault is a field of gold, the Gospel told in mosaic over the people at Mass.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-marco-mosaics.jpg",
+          "width": 5472,
+          "height": 3648,
+          "credit": {
+            "author": "Richard Mortel",
+            "licence": "CC BY 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detail_of_the_mosaic_decoration_inside_St._Mark%27s_Basilica,_Venice_(19).jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "romanesque",
+      "title": "Romanesque",
+      "lead": "These churches were built like a fortress of prayer: thick walls, round arches, and stone that seems to hold the weight of the world.",
+      "more": "From the tenth century into the twelfth, churches in much of Europe were built with round arches, thick walls, and small windows. The pilgrimage church at Compostela is one of them, later wrapped in baroque fronts. The style is heavy because the vault is heavy. It is not a failure to be Gothic.",
+      "works": [
+        {
+          "id": "romanesque-durham-nave",
+          "title": "The nave of Durham Cathedral",
+          "artist": "Unknown masons of Durham",
+          "year": "from 1093",
+          "place": "Durham",
+          "line": "Massive piers and the earliest great ribbed vault in Europe: a Norman church that already reaches toward the Gothic, yet keeps the weight of Romanesque stone.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-durham-nave.jpg",
+          "width": 8687,
+          "height": 5791,
+          "credit": {
+            "author": "Michael D Beckwith",
+            "licence": "CC0",
+            "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Durham_Cathedral_Nave.jpg"
+          }
+        },
+        {
+          "id": "romanesque-saint-sernin-nave",
+          "title": "The nave of Saint-Sernin",
+          "artist": "Unknown masons of Toulouse",
+          "year": "11th–12th century",
+          "place": "Toulouse",
+          "line": "The greatest surviving pilgrimage church of the route to Compostela, a long barrel of stone for the crowds who walked to the tomb of Saint Saturnin.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-saint-sernin-nave.jpg",
+          "width": 8043,
+          "height": 7065,
+          "credit": {
+            "author": "Didier Descouens",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:(Toulouse)_-_Basilica_Saint-Sernin_nave.jpg"
+          }
+        },
+        {
+          "id": "romanesque-vezelay-narthex",
+          "title": "The narthex of Vézelay",
+          "artist": "Unknown masons of Burgundy",
+          "year": "c. 1120–50",
+          "place": "Basilica of Sainte-Marie-Madeleine, Vézelay",
+          "line": "Pilgrims entered under these carved capitals and the great tympanum of the Mission of the Apostles, on the road to Compostela and to the tomb of Saint Mary Magdalene.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-vezelay-narthex.jpg",
+          "width": 6225,
+          "height": 4154,
+          "credit": {
+            "author": "Benjamin Smith",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A9zelay_-_Basilique_Sainte-Marie-Madeleine_-_Narthex_-_01.jpg"
+          }
+        },
+        {
+          "id": "romanesque-santiago-portico",
+          "title": "The Pórtico de la Gloria",
+          "artist": "Master Mateo",
+          "year": "completed 1188",
+          "place": "Cathedral of Santiago de Compostela",
+          "line": "Behind the later baroque front, Master Mateo’s porch still greets the pilgrim: Apostles and prophets in stone, and the smiling figure of Daniel among them.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-santiago-portico.jpg",
+          "width": 3090,
+          "height": 4121,
+          "credit": {
+            "author": "Constantin Uhde",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:036_Santiago_(da_Compostela)_Portico_de_la_G_loria_in_der_Kathedrale.jpg"
+          }
+        },
+        {
+          "id": "romanesque-speyer",
+          "title": "Speyer Cathedral",
+          "artist": "Unknown masons, under the Salian emperors",
+          "year": "from 1030",
+          "place": "Speyer",
+          "line": "The largest Romanesque church in the world, a burial place of emperors, its west front rising over the old town at evening.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-speyer.jpg",
+          "width": 7649,
+          "height": 5222,
+          "credit": {
+            "author": "Roman Eisele",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Speyer_-_Altstadt_-_Altp%C3%B6rtel_-_Blick_auf_Domfassade_und_Kircht%C3%BCrme_mit_Abendsonne.jpg"
+          }
+        },
+        {
+          "id": "romanesque-autun-tympanum",
+          "title": "The Last Judgement, Autun",
+          "artist": "Gislebertus",
+          "year": "c. 1130",
+          "place": "Cathedral of Saint-Lazare, Autun",
+          "line": "Christ sits in a mandorla while the dead rise and the weighing of souls begins. The sculptor signed the work: “Gislebertus hoc fecit.”",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-autun-tympanum.png",
+          "width": 2592,
+          "height": 2156,
+          "credit": {
+            "author": "NateBergin",
+            "licence": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:01_Tympanum_Autun_Cathedral.png"
+          }
+        },
+        {
+          "id": "romanesque-moissac-tympanum",
+          "title": "Christ in Majesty, Moissac",
+          "artist": "Unknown sculptors of Moissac",
+          "year": "c. 1115–30",
+          "place": "Abbey of Saint-Pierre, Moissac",
+          "line": "The Lord is enthroned among the four living creatures of the Apocalypse, a vision in stone above the south door of the abbey.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-moissac-tympanum.jpg",
+          "width": 4495,
+          "height": 3000,
+          "credit": {
+            "author": "w:Séraphin-Médéric Mieusement (1840-1905)",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moissac_Tympan-Portal.jpg"
+          }
+        },
+        {
+          "id": "romanesque-conques",
+          "title": "Sainte-Foy at Conques",
+          "artist": "Unknown masons of the Rouergue",
+          "year": "11th–12th century",
+          "place": "Conques",
+          "line": "A pilgrimage church in a fold of the hills, with a carved Last Judgement over the door and the golden reliquary of Saint Faith within.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-conques.jpg",
+          "width": 2980,
+          "height": 4886,
+          "credit": {
+            "author": "Krzysztof Golik",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Faith_Abbey_Church_in_Conques_05.jpg"
+          }
+        },
+        {
+          "id": "romanesque-pisa-cathedral",
+          "title": "Pisa Cathedral",
+          "artist": "Buscheto and successors",
+          "year": "from 1063",
+          "place": "Pisa",
+          "line": "White and dark marble, round arches and a skyline of the cathedral, the baptistery and the leaning campanile — Romanesque of the Tuscan shore.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-pisa-cathedral.jpg",
+          "width": 5181,
+          "height": 2925,
+          "credit": {
+            "author": "Zairon",
+            "licence": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pisa_Cattedrale_di_Santa_Maria_Assunta_Esterno_Angolo_Sud_Ovest_4.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gothic",
+      "title": "Gothic",
+      "lead": "Then the walls turned into light. Pointed arches and ribs of stone opened the church so that coloured glass could preach the Gospel in the sun.",
+      "more": "Pointed arches, ribbed vaults, and walls of glass. The abbey church of Saint-Denis under Abbot Suger is the usual beginning, in the 1140s. Chartres, after the fire of 1194, is the example a person can still walk into. Gothic is a way of building for the Mass. It is not the only Catholic way.",
+      "works": [
+        {
+          "id": "gothic-chartres-nave",
+          "title": "The nave of Chartres Cathedral",
+          "artist": "Unknown masons of Chartres",
+          "year": "rebuilt after 1194",
+          "place": "Chartres",
+          "line": "After the fire of 1194 the cathedral was raised again in a single great campaign. The windows still hold their medieval glass, and the vault runs like a prayer toward the east.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-chartres-nave.jpg",
+          "width": 6087,
+          "height": 7830,
+          "credit": {
+            "author": "Ludvig14",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres_Notre-Dame_Interior_018_2856.jpg"
+          }
+        },
+        {
+          "id": "gothic-chartres-valley",
+          "title": "Chartres across the fields",
+          "artist": "Unknown masons of Chartres",
+          "year": "rebuilt after 1194",
+          "place": "Chartres",
+          "line": "The two towers rise over the wheat, the church a landmark for anyone walking the old roads of France.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-chartres-valley.jpg",
+          "width": 3072,
+          "height": 4080,
+          "credit": {
+            "author": "Bedoule",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Chartres_vue_%C3%A0_travers_la_v%C3%A9g%C3%A9tation_depuis_la_vall%C3%A9e_de_l%E2%80%99Eure,_%C3%A0_Chartres_(Eure-et-Loir,_France).jpg"
+          }
+        },
+        {
+          "id": "gothic-sainte-chapelle",
+          "title": "The Sainte-Chapelle",
+          "artist": "Unknown masons, for King Louis IX",
+          "year": "1242–48",
+          "place": "Paris",
+          "line": "Saint Louis built this upper chapel to hold the Crown of Thorns. The walls are almost all glass, and the stone is only a frame for the light.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-sainte-chapelle.jpg",
+          "width": 5759,
+          "height": 8682,
+          "credit": {
+            "author": "Diego Delso",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Capilla,_Par%C3%ADs,_Francia,_2022-11-01,_DD_71-73_HDR.jpg"
+          }
+        },
+        {
+          "id": "gothic-notre-dame-paris",
+          "title": "Notre-Dame de Paris",
+          "artist": "Bishop Maurice de Sully and his masons",
+          "year": "from 1163",
+          "place": "Paris",
+          "line": "The west front, the rose, and the flying buttresses of the cathedral of Paris, a Gothic church the whole world knows.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-notre-dame-paris.jpg",
+          "width": 3348,
+          "height": 4519,
+          "credit": {
+            "author": "P e z i",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg"
+          }
+        },
+        {
+          "id": "gothic-reims-facade",
+          "title": "Reims Cathedral",
+          "artist": "Unknown masons of Reims",
+          "year": "from 1211",
+          "place": "Reims",
+          "line": "The west front is a forest of angels and kings. The kings of France were crowned here, before the high altar.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-reims-facade.jpg",
+          "width": 4821,
+          "height": 7500,
+          "credit": {
+            "author": "Gennadii Saus i Segura",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_the_west_facade_of_Notre-Dame_Cathedral_in_Reims.jpg"
+          }
+        },
+        {
+          "id": "gothic-cologne-facade",
+          "title": "Cologne Cathedral",
+          "artist": "Unknown masons of Cologne",
+          "year": "begun 1248, finished 1880",
+          "place": "Cologne",
+          "line": "The twin spires were completed in the nineteenth century from the medieval plan, and they still dominate the Rhine.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-cologne-facade.jpg",
+          "width": 3062,
+          "height": 4969,
+          "credit": {
+            "author": "Raimond Spekking",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968.jpg"
+          }
+        },
+        {
+          "id": "gothic-amiens-nave",
+          "title": "The nave of Amiens Cathedral",
+          "artist": "Robert de Luzarches and successors",
+          "year": "from 1220",
+          "place": "Amiens",
+          "line": "The highest completed nave of the High Gothic in France, a river of stone and light running to the choir.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-amiens-nave.jpg",
+          "width": 7000,
+          "height": 5871,
+          "credit": {
+            "author": "Diliff",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amiens_Cathedral_Nave_2,_Picardy,_France_-_Diliff.jpg"
+          }
+        },
+        {
+          "id": "gothic-strasbourg",
+          "title": "Strasbourg Cathedral",
+          "artist": "Erwin von Steinbach and successors",
+          "year": "from the 12th century",
+          "place": "Strasbourg",
+          "line": "A single great spire and a west front of deep carved stone, the cathedral of Alsace.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-strasbourg.jpg",
+          "width": 6574,
+          "height": 8402,
+          "credit": {
+            "author": "Diliff",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral_Exterior_-_Diliff.jpg"
+          }
+        },
+        {
+          "id": "gothic-milan-duomo",
+          "title": "The Duomo of Milan",
+          "artist": "Unknown masters, from the late 14th century",
+          "year": "from 1386",
+          "place": "Milan",
+          "line": "A forest of pinnacles and statues in white marble, the Gothic of Italy at its most lavish, on the great square of the city.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-milan-duomo.jpg",
+          "width": 4164,
+          "height": 3129,
+          "credit": {
+            "author": "Jiuguang Wang",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milan_Cathedral_from_Piazza_del_Duomo.jpg"
+          }
+        },
+        {
+          "id": "gothic-saint-denis-choir",
+          "title": "The choir of Saint-Denis",
+          "artist": "Abbot Suger’s masons",
+          "year": "1140s",
+          "place": "Basilica of Saint-Denis, near Paris",
+          "line": "Here Gothic building began. Suger opened the walls of the royal abbey so that light, which he called a sign of the true Light, could fill the sanctuary.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-saint-denis-choir.jpg",
+          "width": 2756,
+          "height": 3668,
+          "credit": {
+            "author": "Pierre Poschadel",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Denis_(93),_basilique_Saint-Denis,_abside_3-BF.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "basilicas",
+      "title": "Basilicas and cathedrals",
+      "lead": "From the Pope’s own church at the Lateran to the unfinished spires of the Sagrada Família, these are the great houses of the Mass.",
+      "more": "A cathedral is the church of a Bishop, with his chair, the cathedra. A basilica is an honour the Pope gives to a church. The two words are not synonyms. Saint Peter’s is both. A parish church may be neither, and it is still a church. Florence’s dome is a cathedral’s crown, raised in the fifteenth century.",
+      "works": [
+        {
+          "id": "basilica-st-peters-facade",
+          "title": "Saint Peter’s Basilica",
+          "artist": "Donato Bramante, Michelangelo, Carlo Maderno, Gian Lorenzo Bernini and others",
+          "year": "1506–1626",
+          "place": "Vatican City",
+          "line": "Over the tomb of the Apostle, the largest church in Christendom, with Maderno’s façade and the dome Michelangelo raised above the crossing.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-peters-facade.jpg",
+          "width": 13066,
+          "height": 6823,
+          "credit": {
+            "author": "Alvesgaspar",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg"
+          }
+        },
+        {
+          "id": "basilica-st-peters-interior",
+          "title": "The nave of Saint Peter’s",
+          "artist": "Michelangelo, Maderno, Bernini and others",
+          "year": "16th–17th century",
+          "place": "Vatican City",
+          "line": "The long nave leads to Bernini’s baldachin and the confession over the Apostle’s grave, under the Latin of the dome: “Tu es Petrus.”",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-peters-interior.jpg",
+          "width": 5400,
+          "height": 3038,
+          "credit": {
+            "author": "Christoph Strässler",
+            "licence": "CC BY-SA 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inside_of_St._Peter%27s_Basilica,_Rome,_Italy_-_52994318235.jpg"
+          }
+        },
+        {
+          "id": "basilica-lateran-facade",
+          "title": "The Archbasilica of St John Lateran",
+          "artist": "Alessandro Galilei (façade), on a far older church",
+          "year": "façade 1735; the church from the 4th century",
+          "place": "Rome",
+          "line": "The cathedral of the Pope, “mother and head of all the churches of the city and the world,” standing on the site Constantine gave to the Church.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-lateran-facade.jpg",
+          "width": 7507,
+          "height": 6805,
+          "credit": {
+            "author": "Livioandronico2013",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archbasilica_of_St._John_Lateran_HD.jpg"
+          }
+        },
+        {
+          "id": "basilica-lateran-interior",
+          "title": "The nave of St John Lateran",
+          "artist": "Francesco Borromini (remodelling) and earlier builders",
+          "year": "the church from the 4th century; nave remodelled in the 17th",
+          "place": "Rome",
+          "line": "The Pope’s own cathedra stands in the apse. The nave, rebuilt after fire and decay, still serves as the cathedral of Rome.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-lateran-interior.jpg",
+          "width": 4841,
+          "height": 3124,
+          "credit": {
+            "author": "Ondřej Žváček",
+            "licence": "CC BY 2.5",
+            "licenceUrl": "https://creativecommons.org/licenses/by/2.5/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vnit%C5%99ek_baziliky_sv._Jana_v_Later%C3%A1n%C4%9B.jpg"
+          }
+        },
+        {
+          "id": "basilica-maggiore-facade",
+          "title": "Santa Maria Maggiore",
+          "artist": "Unknown early Christian builders; façade by Ferdinando Fuga",
+          "year": "from the 5th century; façade 1743",
+          "place": "Rome",
+          "line": "The greatest church of Our Lady in Rome, raised on the Esquiline after the Council of Ephesus, when Mary was confessed as Mother of God.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-maggiore-facade.jpg",
+          "width": 8647,
+          "height": 5765,
+          "credit": {
+            "author": "Diego Delso",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Santa_Mar%C3%ADa_la_Mayor,_Roma,_Italia,_2022-09-16,_DD_02.jpg"
+          }
+        },
+        {
+          "id": "basilica-maggiore-interior",
+          "title": "The nave of Santa Maria Maggiore",
+          "artist": "Unknown 5th-century builders",
+          "year": "from the 5th century",
+          "place": "Rome",
+          "line": "The original columns and the mosaics of the nave still tell the childhood of Christ and the life of the Virgin, in a hall of pale stone and gold.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-maggiore-interior.jpg",
+          "width": 5165,
+          "height": 3725,
+          "credit": {
+            "author": "Livioandronico2013",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Santa_Maria_Maggiore_(Rome).jpg"
+          }
+        },
+        {
+          "id": "basilica-st-paul-facade",
+          "title": "St Paul Outside the Walls",
+          "artist": "Rebuilt after the fire of 1823, on Constantine’s and Honorius’s church",
+          "year": "the church from the 4th–5th century; rebuilt in the 19th",
+          "place": "Rome",
+          "line": "Over the tomb of the Apostle Paul, one of the four great papal basilicas, its new façade looking toward the road that leaves the city.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-paul-facade.jpg",
+          "width": 7836,
+          "height": 5155,
+          "credit": {
+            "author": "Herbert Weber, Hildesheim",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Paolo_fuori_le_mura-1.jpg"
+          }
+        },
+        {
+          "id": "basilica-st-paul-interior",
+          "title": "The nave of St Paul Outside the Walls",
+          "artist": "Rebuilt after 1823, following the ancient plan",
+          "year": "19th century, on a 4th–5th-century plan",
+          "place": "Rome",
+          "line": "A forest of columns leads to the apse mosaic of Christ, and the portraits of the Popes run along the walls above.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-paul-interior.jpg",
+          "width": 3968,
+          "height": 2976,
+          "credit": {
+            "author": "Palickap",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roma,_Basilica_di_San_Paolo_Fuori_le_Mura,_interno_(1).jpg"
+          }
+        },
+        {
+          "id": "basilica-florence-duomo",
+          "title": "The cathedral of Florence",
+          "artist": "Arnolfo di Cambio; façade by Emilio De Fabris; dome by Filippo Brunelleschi",
+          "year": "from 1296; façade 1887; dome 1420–36",
+          "place": "Florence",
+          "line": "White, green and pink marble on the west front of the cathedral whose dome, by Brunelleschi, is still the skyline of the city.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-florence-duomo.jpg",
+          "width": 5184,
+          "height": 3456,
+          "credit": {
+            "author": "Fred Romero from Paris, France",
+            "licence": "CC BY 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Cattedrale_di_Santa_Maria_del_Fiore_(40924837940).jpg"
+          }
+        },
+        {
+          "id": "basilica-sagrada-exterior",
+          "title": "The Sagrada Família",
+          "artist": "Antoni Gaudí",
+          "year": "begun 1882, still being finished",
+          "place": "Barcelona",
+          "line": "Gaudí gave his life to this church of the Holy Family. The Nativity and Passion fronts are a Gospel in stone, still rising.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-sagrada-exterior.jpg",
+          "width": 4912,
+          "height": 7360,
+          "credit": {
+            "author": "Alvesgaspar",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_March_2015-14a.jpg"
+          }
+        },
+        {
+          "id": "basilica-sagrada-interior",
+          "title": "The nave of the Sagrada Família",
+          "artist": "Antoni Gaudí",
+          "year": "20th–21st century, from Gaudí’s plan",
+          "place": "Barcelona",
+          "line": "The columns branch like trees, and the vaults open like a canopy of leaves, a forest of stone filled with coloured light.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-sagrada-interior.jpg",
+          "width": 5152,
+          "height": 3864,
+          "credit": {
+            "author": "Mafer Arenas",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_la_Sagrada_Familia_interior_a_las_bovedas.jpg"
+          }
+        },
+        {
+          "id": "basilica-assisi",
+          "title": "The Basilica of Saint Francis",
+          "artist": "Unknown masons, begun under Pope Gregory IX",
+          "year": "from 1228",
+          "place": "Assisi",
+          "line": "The church over the tomb of Saint Francis stands on the hill like a fortress, and the frescoes of Giotto and his workshop still cover its walls.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-assisi.jpg",
+          "width": 8064,
+          "height": 5379,
+          "credit": {
+            "author": "Hagai Agmon-Snir حچاي اچمون-سنير חגי אגמון-שניר",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:BasilicaDiSanFrancescoAssisiMar262024_02.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "painting",
+      "title": "Painting",
+      "lead": "A man who could not read could still see the Calling of Saint Matthew, or Mary receiving the angel, and know what had been done for him.",
+      "more": "From the catacomb walls to the altarpieces of the seventeenth century, Catholics painted the mysteries so that a person who could not read could still see them. A painting can be pious and bad, or beautiful and theologically careless. The Church has judged both. She has not canonised a style.",
+      "works": [
+        {
+          "id": "painting-caravaggio-calling-matthew",
+          "title": "The Calling of Saint Matthew",
+          "artist": "Caravaggio",
+          "year": "c. 1599–1600",
+          "place": "San Luigi dei Francesi, Rome",
+          "line": "A shaft of light falls across a tavern table. Christ points, and Matthew, still at the money, draws back in surprise, as if the call had just reached him.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-caravaggio-calling-matthew.jpg",
+          "width": 9770,
+          "height": 10039,
+          "credit": {
+            "author": "Caravaggio",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg"
+          }
+        },
+        {
+          "id": "painting-michelangelo-creation-adam",
+          "title": "The Creation of Adam",
+          "artist": "Michelangelo",
+          "year": "c. 1511–12",
+          "place": "Sistine Chapel, Vatican City",
+          "line": "The Father’s finger almost meets Adam’s, and the whole vault seems to wait on that inch of air between the two hands.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-michelangelo-creation-adam.jpg",
+          "width": 6720,
+          "height": 4480,
+          "credit": {
+            "author": "Michelangelo",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sistine_Chapel_ceiling,_Creation_of_Adam.jpg"
+          }
+        },
+        {
+          "id": "painting-michelangelo-sistine-ceiling",
+          "title": "The Sistine Chapel ceiling",
+          "artist": "Michelangelo",
+          "year": "1508–12",
+          "place": "Sistine Chapel, Vatican City",
+          "line": "Nine scenes from Genesis run down the vault, with prophets, sibyls and the ancestors of Christ, painted by one man lying on the scaffolding.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-michelangelo-sistine-ceiling.jpg",
+          "width": 3456,
+          "height": 5184,
+          "credit": {
+            "author": "Jörg Bittner Unna",
+            "licence": "CC BY 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27Sistine_Chapel_ceiling%27_by_Michelangelo_JBU21.JPG"
+          }
+        },
+        {
+          "id": "painting-michelangelo-last-judgement",
+          "title": "The Last Judgement",
+          "artist": "Michelangelo",
+          "year": "1536–41",
+          "place": "Sistine Chapel, Vatican City",
+          "line": "On the wall behind the altar, the dead rise and Christ the Judge stands at the centre, with Our Lady beside him, in a storm of bodies and light.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-michelangelo-last-judgement.jpg",
+          "width": 3991,
+          "height": 4395,
+          "credit": {
+            "author": "Michelangelo",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Last_Judgement_(Michelangelo).jpg"
+          }
+        },
+        {
+          "id": "painting-raphael-sistine-madonna",
+          "title": "The Sistine Madonna",
+          "artist": "Raphael",
+          "year": "1512–13",
+          "place": "Gemäldegalerie Alte Meister, Dresden",
+          "line": "Our Lady comes forward on the clouds, the Child in her arms, Saints Sixtus and Barbara at her side, and two small angels leaning on the sill.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-raphael-sistine-madonna.jpg",
+          "width": 7029,
+          "height": 9546,
+          "credit": {
+            "author": "Raphael",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raphael_-_The_Sistine_Madonna_-_Google_Arts_%26_Culture.jpg"
+          }
+        },
+        {
+          "id": "painting-raphael-transfiguration",
+          "title": "The Transfiguration",
+          "artist": "Raphael",
+          "year": "1516–20",
+          "place": "Pinacoteca Vaticana, Vatican City",
+          "line": "Above, Christ is transfigured between Moses and Elijah; below, the Apostles cannot heal the boy. It was Raphael’s last painting.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-raphael-transfiguration.jpg",
+          "width": 6349,
+          "height": 9381,
+          "credit": {
+            "author": "Matthieu.lett.ube",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rapha%C3%ABl,_La_Transfiguration,_1518%E2%80%931520,_huile_sur_bois,_405_%C3%97_278_cm,_Mus%C3%A9es_du_Vatican,_Pinacoth%C3%A8que,_inv._4.jpg"
+          }
+        },
+        {
+          "id": "painting-fra-angelico-annunciation",
+          "title": "The Annunciation",
+          "artist": "Fra Angelico",
+          "year": "c. 1425–26",
+          "place": "Museo del Prado, Madrid",
+          "line": "The angel bows in a loggia of pale columns, and Mary, a book on her knee, receives the word that will become flesh.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-fra-angelico-annunciation.jpg",
+          "width": 20039,
+          "height": 15939,
+          "credit": {
+            "author": "Fra Angelico",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Anunciaci%C3%B3n,_by_Fra_Angelico,_from_Prado_in_Google_Earth_-_main_panel.jpg"
+          }
+        },
+        {
+          "id": "painting-el-greco-orgaz",
+          "title": "The Burial of the Count of Orgaz",
+          "artist": "El Greco",
+          "year": "1586–88",
+          "place": "Church of Santo Tomé, Toledo",
+          "line": "Saints Augustine and Stephen stoop to bury a charitable lord, while his soul is received in a heaven of elongated light.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-el-greco-orgaz.jpg",
+          "width": 6817,
+          "height": 9089,
+          "credit": {
+            "author": "El Greco",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_entierro_del_se%C3%B1or_de_Orgaz_-_El_Greco.jpg"
+          }
+        },
+        {
+          "id": "painting-leonardo-last-supper",
+          "title": "The Last Supper",
+          "artist": "Leonardo da Vinci",
+          "year": "1495–98",
+          "place": "Santa Maria delle Grazie, Milan",
+          "line": "Christ has just said that one of them will betray him. The Apostles start back, and the still figure at the centre holds the table together.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-leonardo-last-supper.jpg",
+          "width": 5381,
+          "height": 2926,
+          "credit": {
+            "author": "Leonardo da Vinci",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg"
+          }
+        },
+        {
+          "id": "painting-titian-assumption",
+          "title": "The Assumption of the Virgin",
+          "artist": "Titian",
+          "year": "1516–18",
+          "place": "Basilica dei Frari, Venice",
+          "line": "Mary is lifted in a whirl of light and angels, and the Apostles stare up from the earth, in the great altarpiece of the Friars’ church.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-titian-assumption.jpg",
+          "width": 2304,
+          "height": 3456,
+          "credit": {
+            "author": "Titian",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_Gloriosa_dei_Frari_-_The_Assumption.JPG"
+          }
+        },
+        {
+          "id": "painting-murillo-immaculate-conception",
+          "title": "The Immaculate Conception of El Escorial",
+          "artist": "Bartolomé Esteban Murillo",
+          "year": "c. 1660–65",
+          "place": "Museo del Prado, Madrid",
+          "line": "Our Lady stands on the moon, in a mantle of blue, among angels — the Spanish image of the woman conceived without sin.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-murillo-immaculate-conception.jpg",
+          "width": 1888,
+          "height": 2717,
+          "credit": {
+            "author": "Bartolomé Esteban Murillo",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inmaculada_Concepci%C3%B3n_(Murillo,_El_Escorial).jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "glass",
+      "title": "Stained glass",
+      "lead": "At Chartres and in the Sainte-Chapelle the windows are not an ornament added later. They are the walls, and the story of salvation is told in fire and colour.",
+      "more": "Medieval glass is a wall that teaches. At Chartres the windows keep the Infancy, the Passion, the saints, and the trades of the donors. The colour is the light of the liturgy, not a decoration added after the theology. Later centuries smashed a great deal of it. What survives is a primary source.",
+      "works": [
+        {
+          "id": "glass-sainte-chapelle",
+          "title": "The windows of the Sainte-Chapelle",
+          "artist": "Unknown glaziers, for King Louis IX",
+          "year": "1240s",
+          "place": "Paris",
+          "line": "Fifteen great windows and a rose tell the story of the world from Genesis to the coming of the relics of the Passion, in a cage of light.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-sainte-chapelle.jpg",
+          "width": 5904,
+          "height": 3936,
+          "credit": {
+            "author": "Oldmanisold",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_Interior_Stained_Glass.jpg"
+          }
+        },
+        {
+          "id": "glass-chartres-north-rose",
+          "title": "The north rose of Chartres",
+          "artist": "Unknown glaziers of Chartres",
+          "year": "c. 1230",
+          "place": "Chartres Cathedral",
+          "line": "Our Lady sits at the centre of a wheel of kings and prophets, the glass still the deep blue for which Chartres is known.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-chartres-north-rose.jpg",
+          "width": 5633,
+          "height": 5562,
+          "credit": {
+            "author": "Ludvig14",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres_Notre-Dame_WindowsNR_018_2912.jpg"
+          }
+        },
+        {
+          "id": "glass-chartres-west-rose",
+          "title": "The west rose and lancets of Chartres",
+          "artist": "Unknown glaziers of Chartres",
+          "year": "c. 1215, with earlier lancets",
+          "place": "Chartres Cathedral",
+          "line": "The rose of the Last Judgement sits above the three tall lights of the Infancy, the Passion and the Life of Christ, the oldest glass in the cathedral.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-chartres-west-rose.jpg",
+          "width": 3432,
+          "height": 9628,
+          "credit": {
+            "author": "Michelet-密是力 (talk) 06:49, 6 November 2016 (UTC)",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitrail_Chartres-050_rectifi%C3%A9.jpg"
+          }
+        },
+        {
+          "id": "glass-chartres-belle-verriere",
+          "title": "Notre-Dame de la Belle Verrière",
+          "artist": "Unknown glaziers of Chartres",
+          "year": "12th century, with 13th-century surrounds",
+          "place": "Chartres Cathedral",
+          "line": "The Virgin and Child in a blue that survived the fire of 1194, later set in a new window of angels and the gifts of the Spirit.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-chartres-belle-verriere.jpg",
+          "width": 3881,
+          "height": 6947,
+          "credit": {
+            "author": "Ludvig14",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres_Notre-Dame_Windows030_018_3025.jpg"
+          }
+        },
+        {
+          "id": "glass-notre-dame-south-rose",
+          "title": "The south rose of Notre-Dame de Paris",
+          "artist": "Jean de Chelles and Pierre de Montreuil",
+          "year": "c. 1260; restored after 2019",
+          "place": "Paris",
+          "line": "Christ is seated in the heart of the rose, with the Apostles and the Virtues around him, the south window of the cathedral of Paris.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-notre-dame-south-rose.jpg",
+          "width": 5391,
+          "height": 3594,
+          "credit": {
+            "author": "Ibex73",
+            "licence": "CC BY 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_rose_window_of_Notre-Dame_de_Paris_(interior),_December_2024_(3).jpg"
+          }
+        },
+        {
+          "id": "glass-saint-denis-rose",
+          "title": "The north rose of Saint-Denis",
+          "artist": "Unknown glaziers of Saint-Denis",
+          "year": "13th century",
+          "place": "Basilica of Saint-Denis, near Paris",
+          "line": "God the Creator sits at the centre of the rose in the church where Gothic glass began, under Abbot Suger’s care for light.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-saint-denis-rose.jpg",
+          "width": 6515,
+          "height": 4758,
+          "credit": {
+            "author": "Diliff",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_Saint_Denis_North_Transept_Rose_Window,_Paris,_France_-_Diliff.jpg"
+          }
+        },
+        {
+          "id": "glass-reims-rose",
+          "title": "A rose of Reims Cathedral",
+          "artist": "Unknown glaziers of Reims",
+          "year": "13th century",
+          "place": "Reims",
+          "line": "The west rose of the coronation church, a wheel of colour over the kings who were crowned in the nave below.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-reims-rose.jpg",
+          "width": 3888,
+          "height": 5184,
+          "credit": {
+            "author": "Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reims_cathedral_rose_window_4.jpg"
+          }
+        },
+        {
+          "id": "glass-leon-rose",
+          "title": "The west rose of León Cathedral",
+          "artist": "Unknown glaziers of León",
+          "year": "13th century",
+          "place": "León, Spain",
+          "line": "Spanish Gothic glass at its height: a great rose in the “House of Light,” as the cathedral of León is called.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-leon-rose.jpg",
+          "width": 9000,
+          "height": 6000,
+          "credit": {
+            "author": "Joselodos",
+            "licence": "CC0",
+            "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stained_glass_window,_rose_window,_west_facade,_Le%C3%B3n_Cathedral,_Spain.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sculpture",
+      "title": "Sculpture",
+      "lead": "Stone is made to speak: a mother holds her dead Son in her arms, Moses turns with the Law, and Saint Teresa falls back in prayer.",
+      "more": "The portal is a sermon in stone. At Notre-Dame the Virgin’s doorway sets her dormition and crowning above the doors the people use. Romanesque tympana judged the world in a mandorla. Renaissance tombs remembered a particular face. None of this is idolatry when the honour passes to the person. The argument is on the apologetics page, and the council is linked there.",
+      "works": [
+        {
+          "id": "sculpture-michelangelo-pieta",
+          "title": "The Pietà",
+          "artist": "Michelangelo",
+          "year": "1498–99",
+          "place": "St Peter's Basilica, Vatican City",
+          "line": "Mary holds her Son across her knees, larger than a mother should be, and the sorrow is quiet. Michelangelo was not yet twenty-five.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-pieta.jpg",
+          "width": 5378,
+          "height": 4453,
+          "credit": {
+            "author": "Juan M Romero",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo%27s_Piet%C3%A0,_St_Peter%27s_Basilica_(1498%E2%80%9399).jpg"
+          }
+        },
+        {
+          "id": "sculpture-bernini-st-teresa",
+          "title": "The Ecstasy of Saint Teresa",
+          "artist": "Gian Lorenzo Bernini",
+          "year": "1647–52",
+          "place": "Santa Maria della Vittoria, Rome",
+          "line": "The angel of the Transverberation stands over the saint, and she falls back in the pain and joy she described in her life. The Cornaro chapel is a theatre of prayer.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-bernini-st-teresa.jpg",
+          "width": 4242,
+          "height": 6722,
+          "credit": {
+            "author": "Gian Lorenzo Bernini",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ecstasy_of_Saint_Teresa_September_2015-2a.jpg"
+          }
+        },
+        {
+          "id": "sculpture-michelangelo-moses",
+          "title": "Moses",
+          "artist": "Michelangelo",
+          "year": "c. 1513–15",
+          "place": "San Pietro in Vincoli, Rome",
+          "line": "Made for the tomb of Pope Julius II, Moses turns with the horns of light and the tablets of the Law, as if he had just come down from the mountain.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-moses.jpg",
+          "width": 3168,
+          "height": 4752,
+          "credit": {
+            "author": "Szilas",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo_-_Moses_-_San_Pietro_in_Vincoli-11.jpg"
+          }
+        },
+        {
+          "id": "sculpture-bernini-baldachin",
+          "title": "The baldachin of Saint Peter’s",
+          "artist": "Gian Lorenzo Bernini",
+          "year": "1624–33",
+          "place": "St Peter's Basilica, Vatican City",
+          "line": "Four twisted bronze columns rise over the high altar and the tomb of the Apostle, a canopy the size of a church within the church.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-bernini-baldachin.jpg",
+          "width": 7675,
+          "height": 4943,
+          "credit": {
+            "author": "Wilfredor",
+            "licence": "CC0",
+            "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Peter%27s_Baldachin.jpg"
+          }
+        },
+        {
+          "id": "sculpture-ghiberti-gates-of-paradise",
+          "title": "The Gates of Paradise",
+          "artist": "Lorenzo Ghiberti",
+          "year": "1425–52",
+          "place": "Baptistery of San Giovanni, Florence",
+          "line": "Ten gilded panels of the Old Testament, so called by Michelangelo, still face the cathedral from the east door of the baptistery.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-ghiberti-gates-of-paradise.jpg",
+          "width": 3330,
+          "height": 5118,
+          "credit": {
+            "author": "Sailko",
+            "licence": "CC BY 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Firenze,_battistero_di_san_giovanni,_porta_del_paradiso_02.jpg"
+          }
+        },
+        {
+          "id": "sculpture-donatello-magdalene",
+          "title": "The Penitent Magdalene",
+          "artist": "Donatello",
+          "year": "c. 1453–55",
+          "place": "Museo dell’Opera del Duomo, Florence",
+          "line": "Mary Magdalene is carved in wood, worn by fasting and prayer, her hands almost joining. The beauty is in the repentance.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-donatello-magdalene.jpg",
+          "width": 4000,
+          "height": 6000,
+          "credit": {
+            "author": "George M. Groutas",
+            "licence": "CC BY 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penitent_Magdalene_(Donatello).jpg"
+          }
+        },
+        {
+          "id": "sculpture-michelangelo-bruges-madonna",
+          "title": "The Madonna of Bruges",
+          "artist": "Michelangelo",
+          "year": "c. 1504",
+          "place": "Church of Our Lady, Bruges",
+          "line": "The only sculpture of Michelangelo to leave Italy in his lifetime. The Child is already stepping away from his Mother’s knee, toward his work.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-bruges-madonna.jpg",
+          "width": 3788,
+          "height": 5682,
+          "credit": {
+            "author": "Michelangelo",
+            "licence": "CC0",
+            "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Br%C3%BCgge-Liebfrauenkirche-Br%C3%BCgger_Madonna_DSC0210.jpg"
+          }
+        },
+        {
+          "id": "sculpture-notre-dame-saint-denis",
+          "title": "Saint Denis, Notre-Dame de Paris",
+          "artist": "Unknown Gothic sculptors of Paris",
+          "year": "13th century",
+          "place": "Notre-Dame de Paris",
+          "line": "The first bishop of Paris carries his own head, a martyr’s sign carved on the west front, so that everyone who entered would remember how the faith came to the city.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-notre-dame-saint-denis.jpg",
+          "width": 3168,
+          "height": 4752,
+          "credit": {
+            "author": "Thesupermat",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_Cath%C3%A9drale_Notre-Dame_-_Portail_de_la_Vierge_-_PA00086250_-_003.jpg"
+          }
+        },
+        {
+          "id": "sculpture-reims-smiling-angel",
+          "title": "The Smiling Angel of Reims",
+          "artist": "Unknown sculptors of Reims",
+          "year": "13th century",
+          "place": "Reims Cathedral",
+          "line": "The angel of the Annunciation on the north door of the west front, with a smile that has become the emblem of the cathedral.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-reims-smiling-angel.jpg",
+          "width": 4000,
+          "height": 2252,
+          "credit": {
+            "author": "Dazaikrosan48",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasmejani_an%C4%91eo.jpg"
+          }
+        },
+        {
+          "id": "sculpture-veit-stoss-altar",
+          "title": "The altarpiece of Veit Stoss",
+          "artist": "Veit Stoss",
+          "year": "1477–89",
+          "place": "St Mary's Basilica, Kraków",
+          "line": "The largest Gothic altarpiece in the world: the Dormition and Assumption of Our Lady, carved in limewood and opened for the feasts.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-veit-stoss-altar.jpg",
+          "width": 4288,
+          "height": 3216,
+          "credit": {
+            "author": "Mielon",
+            "licence": "CC BY-SA 3.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:O%C5%82tarz_Wita_Stwosza_001.JPG"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iconography",
+      "title": "Iconography",
+      "lead": "An icon is written, not painted as a private invention. The faces of Christ, of Mary, and of the Saints are a theology that can be kissed.",
+      "more": "Iconography is the grammar of signs: keys for Peter, a sword and a book for Paul, a wheel for Catherine, arrows for Sebastian, a lily for purity, a halo for the holy. The grammar can be misread, and it can be local. The Second Council of Nicaea in 787 is the council that received images. Its decree is linked from the councils and is not retold here.",
+      "works": [
+        {
+          "id": "icon-rublev-trinity",
+          "title": "The Trinity, by Andrei Rublev",
+          "artist": "Andrei Rublev",
+          "year": "c. 1410–20",
+          "place": "Tretyakov Gallery, Moscow",
+          "line": "Three angels sit at Abraham’s table, a cup between them. It is the most famous icon of the Holy Trinity, quiet, circular, and full of peace.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-rublev-trinity.jpg",
+          "width": 3231,
+          "height": 4000,
+          "credit": {
+            "author": "Andrei Rublev",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrey_Rublev_-_%D0%A1%D0%B2._%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%B0_-_Google_Art_Project.jpg"
+          }
+        },
+        {
+          "id": "icon-our-lady-of-vladimir",
+          "title": "Our Lady of Vladimir",
+          "artist": "Unknown Byzantine painter",
+          "year": "c. 1131",
+          "place": "Tretyakov Gallery, Moscow",
+          "line": "The Child presses his face to his Mother’s cheek. The icon was brought from Constantinople to Kiev and then to Vladimir, and it became the protector of Russia.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-our-lady-of-vladimir.jpg",
+          "width": 4384,
+          "height": 6384,
+          "credit": {
+            "author": "Michel Bakni",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virgin_of_Vladimir.jpg"
+          }
+        },
+        {
+          "id": "icon-sinai-ladder",
+          "title": "The Ladder of Divine Ascent",
+          "artist": "Unknown painter of Sinai",
+          "year": "12th century",
+          "place": "St Catherine's Monastery, Sinai",
+          "line": "Monks climb the ladder of Saint John Climacus toward Christ. Some are pulled down by demons, and the whole desert looks on.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-sinai-ladder.jpg",
+          "width": 9400,
+          "height": 13200,
+          "credit": {
+            "author": "Unknown artistUnknown artist",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Ladder_of_Divine_Ascent-Sinai.jpg"
+          }
+        },
+        {
+          "id": "icon-ustyug-annunciation",
+          "title": "The Ustyug Annunciation",
+          "artist": "Unknown painter of Novgorod",
+          "year": "c. 1130–40",
+          "place": "Tretyakov Gallery, Moscow",
+          "line": "The Child is already drawn on Mary’s breast as the angel speaks, the Incarnation shown in the same moment as the greeting.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-ustyug-annunciation.jpg",
+          "width": 3536,
+          "height": 4985,
+          "credit": {
+            "author": "Unknown",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A3%D1%81%D1%82%D1%8E%D0%B6%D1%81%D0%BA%D0%BE%D0%B5_-_Google_Art_Project.jpg"
+          }
+        },
+        {
+          "id": "icon-theophanes-transfiguration",
+          "title": "The Transfiguration",
+          "artist": "Theophanes the Greek",
+          "year": "c. 1403",
+          "place": "Tretyakov Gallery, Moscow",
+          "line": "Christ stands in a burst of light on Tabor, and the Apostles fall to the ground, an icon of the uncreated light.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-theophanes-transfiguration.jpg",
+          "width": 2550,
+          "height": 3510,
+          "credit": {
+            "author": "Theophanes the Greek",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:1400-10_Theophanes_the_Greek_Transfiguration_anagoria.JPG"
+          }
+        },
+        {
+          "id": "icon-zvenigorod-saviour",
+          "title": "The Saviour of Zvenigorod",
+          "artist": "Andrei Rublev (attributed)",
+          "year": "c. 1410s",
+          "place": "Tretyakov Gallery, Moscow",
+          "line": "A damaged panel, yet the face of Christ remains: grave, tender, and among the most beloved images in Russian painting.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-zvenigorod-saviour.jpg",
+          "width": 972,
+          "height": 1635,
+          "credit": {
+            "author": "Andrei Rublev",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rublev%27s_saviour.jpg"
+          }
+        },
+        {
+          "id": "icon-czestochowa",
+          "title": "Our Lady of Częstochowa",
+          "artist": "Unknown",
+          "year": "14th century or earlier",
+          "place": "Jasna Góra, Częstochowa",
+          "line": "The Black Madonna of Poland, with the scars on her cheek, kept at Jasna Góra and visited by pilgrims for centuries.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-czestochowa.jpg",
+          "width": 2719,
+          "height": 4307,
+          "credit": {
+            "author": "UnknownUnknown",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Obraz_Matki_Bo%C5%BCej_Cz%C4%99stochowskiej_bez_ram.jpg"
+          }
+        },
+        {
+          "id": "icon-salus-populi-romani",
+          "title": "Salus Populi Romani",
+          "artist": "Unknown",
+          "year": "c. 6th–13th century",
+          "place": "Basilica of Santa Maria Maggiore, Rome",
+          "line": "The ancient icon of Our Lady in the Pauline Chapel, “Salvation of the Roman People,” carried in procession in times of plague and prayer.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-salus-populi-romani.jpg",
+          "width": 5184,
+          "height": 3456,
+          "credit": {
+            "author": "Fallaner",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome_Santa_Maria_Maggiore_2020_P12_Salus_Populi_Romani.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "symbolism",
+      "title": "Symbolism",
+      "lead": "Before churches could raise a crucifix over a city, the faithful kept a lamb, a fish, a vine, a pelican, a ship, an anchor — small signs of a great hope.",
+      "more": "A lamb, a fish, a vine, a pelican, a ship, an anchor. The earliest Christian signs were small because the faithful were not always free to paint a crucifix in public. Later churches could afford the whole creed on a west front. The symbol is a memory. It is not a second scripture, and it is not a code for people who want the faith kept secret.",
+      "works": [
+        {
+          "id": "symbol-san-clemente-vine",
+          "title": "The vine of San Clemente",
+          "artist": "Unknown mosaicists of Rome",
+          "year": "c. 1130",
+          "place": "Basilica of San Clemente, Rome",
+          "line": "From the Cross a vine springs and fills the apse, with Doctors, doves and a river of living water, and twelve sheep below for the Apostles.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-san-clemente-vine.jpg",
+          "width": 2920,
+          "height": 1990,
+          "credit": {
+            "author": "Jastrow",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apsis_mosaic_San_Clemente.jpg"
+          }
+        },
+        {
+          "id": "symbol-galla-placidia-good-shepherd",
+          "title": "The Good Shepherd",
+          "artist": "Unknown mosaicists of Ravenna",
+          "year": "c. 425–50",
+          "place": "Mausoleum of Galla Placidia, Ravenna",
+          "line": "Christ sits among his sheep in a golden landscape, a young shepherd and a king, in one of the earliest great mosaics of the West.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-galla-placidia-good-shepherd.jpg",
+          "width": 5428,
+          "height": 3582,
+          "credit": {
+            "author": "Richard Mortel",
+            "licence": "CC BY 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lunette_of_the_Good_Shepherd_in_the_Mausoleum_of_Galla_Placidia,_425-50;_Ravenna_(1).jpg"
+          }
+        },
+        {
+          "id": "symbol-san-vitale-lamb",
+          "title": "The Lamb of God, San Vitale",
+          "artist": "Unknown mosaicists of Ravenna",
+          "year": "c. 547",
+          "place": "San Vitale, Ravenna",
+          "line": "The Lamb stands in a wreath of fruit and lilies, held by four angels, the sacrifice at the centre of the vault.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-san-vitale-lamb.jpg",
+          "width": 4309,
+          "height": 3443,
+          "credit": {
+            "author": "Petar Milošević",
+            "licence": "CC BY-SA 4.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_San_Vitale_-_Lamb_of_God_mosaic.jpg"
+          }
+        },
+        {
+          "id": "symbol-ghent-mystic-lamb",
+          "title": "The Adoration of the Mystic Lamb",
+          "artist": "Hubert and Jan van Eyck",
+          "year": "1432",
+          "place": "St Bavo's Cathedral, Ghent",
+          "line": "The Lamb stands on the altar, his blood flowing into a chalice, and the whole Church comes toward him from every side.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-ghent-mystic-lamb.jpg",
+          "width": 6265,
+          "height": 4581,
+          "credit": {
+            "author": "Jan van Eyck / Presumably Hubert van Eyck",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamgods_open.jpg"
+          }
+        },
+        {
+          "id": "symbol-tabgha-loaves-fishes",
+          "title": "The loaves and fishes, Tabgha",
+          "artist": "Unknown mosaicists of the Holy Land",
+          "year": "5th century",
+          "place": "Church of the Multiplication, Tabgha, Galilee",
+          "line": "A basket of bread and two fish, laid in the floor near the place remembered for the feeding of the five thousand.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-tabgha-loaves-fishes.jpg",
+          "width": 4879,
+          "height": 3227,
+          "credit": {
+            "author": "Carole Raddato from FRANKFURT, Germany",
+            "licence": "CC BY-SA 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:5th_century_AD_restored_mosaic_pavement_in_the_Church_of_the_Multiplication_depicting_two_fish_flanking_a_basket_containing_loaves_of_bread,_Tabgha,_Galilee_(19054572015).jpg"
+          }
+        },
+        {
+          "id": "symbol-pelican-ripon",
+          "title": "The pelican in her piety",
+          "artist": "Unknown woodcarver",
+          "year": "15th century",
+          "place": "Ripon Cathedral",
+          "line": "The pelican wounds her breast to feed her young, an old sign of Christ, who gives his blood in the Eucharist. This misericord is a medieval carving of that hope.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-pelican-ripon.jpg",
+          "width": 7064,
+          "height": 4710,
+          "credit": {
+            "author": "Michael Garlick",
+            "licence": "CC BY-SA 2.0",
+            "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ripon_Cathedral,_c15th_Misericords_17,_The_pelican_in_her_piety_-_geograph.org.uk_-_5935813.jpg"
+          }
+        },
+        {
+          "id": "symbol-hinton-st-mary-chi-rho",
+          "title": "The Chi-Rho of Hinton St Mary",
+          "artist": "Unknown Roman-British mosaicist",
+          "year": "4th century",
+          "place": "Hinton St Mary, Dorset (now in the British Museum)",
+          "line": "One of the earliest portraits of Christ in Britain, with the Chi-Rho behind his head, laid in the floor of a Roman villa.",
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-hinton-st-mary-chi-rho.jpg",
+          "width": 900,
+          "height": 730,
+          "credit": {
+            "author": "User:Fransars",
+            "licence": "Public domain",
+            "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hinton_St_Mary_Mosaic.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
