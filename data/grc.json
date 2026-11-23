@@ -1,0 +1,5345 @@
+{
+  "meta": {
+    "title": "General Roman Calendar for Saint of the Day",
+    "status": "Ready on this side only. Do not send to Grok Build and do not publish until Michael says.",
+    "basis": "Roman Missal, Third Typical Edition (2002), reprint of 2008, with later additions through the decree on Saint John Henry Newman (signed 9 November 2025, published 3 February 2026).",
+    "nameStyle": "English Roman Missal style, already used by the live site GRC module and the /saints library: ‘Saint’ and ‘Saints’ written out, not ‘St’ or ‘St.’ British spelling.",
+    "slugStyle": "slug is the A–Z /saints library id (for example f-saint-francis-of-assisi), used as the hash on /journeys/saints. figureSlug is the smaller encyclopedia figure page, when one exists. slugs is used when one celebration covers more than one library page.",
+    "fallbackRule": "On a feria (no GRC celebration that day), keep the site’s current Saint of the Day pick: the England and Wales proper if the live today-strip would show one, otherwise the existing martyrology saint. Do not treat an England and Wales proper as a General Roman Calendar celebration.",
+    "sources": [
+      "Live site module https://theonetruechurch.grok.me/assets/grc-calendar-B57UkZzL.js (last-modified 9 November 2026, 23:07 UTC)",
+      "Live /saints library in the site bundle, and the letter JSON snapshot under /workspace/site-images/work/json/",
+      "Site source: src/data/saint-of-the-day.ts, day-celebration.ts, martyrology.ts, today-strip.tsx",
+      "Calendarium Romanum Generale in the Roman Missal, editio typica tertia (2008 reprint)",
+      "https://en.wikipedia.org/wiki/General_Roman_Calendar (English Missal names, with citations to the decrees)",
+      "Vatican decrees: Mother of the Church (11 Feb 2018); Paul VI (25 Jan 2019); Our Lady of Loreto (31 Oct 2019); Faustina (18 May 2020); Martha, Mary and Lazarus (26 Jan 2021); Gregory of Narek, John of Ávila and Hildegard (25 Jan 2021); Irenaeus, Doctor (21 Jan 2022); Teresa of Calcutta (11 Feb 2025); John Henry Newman, Priest and Doctor of the Church (decree 9 Nov 2025, published 3 Feb 2026)",
+      "USCCB page for Saint John Henry Newman",
+      "Liturgy Office of the CBCEW: National Calendar for England, National Calendar for Wales, and the 2026 liturgical calendar / Ordo notes (Easter 5 April 2026 and 28 March 2027 confirmed)"
+    ],
+    "counts": {
+      "dates": 366,
+      "grcCelebrations": 222,
+      "datesWithGrcCelebration": 202,
+      "feriaDates": 164,
+      "datesWithAtLeastOneLibraryOrFigureLink": 197,
+      "celebrationsWithLibrarySlug": 194,
+      "celebrationsWithFigureSlugOnly": 23,
+      "celebrationsWithNoPage": 5
+    }
+  },
+  "fixed": {
+    "01-01": {
+      "rank": "Solemnity",
+      "name": "Mary, the Holy Mother of God",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Mary, the Holy Mother of God",
+          "rank": "Solemnity",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "01-02": {
+      "rank": "Memorial",
+      "name": "Saints Basil the Great and Gregory Nazianzen, Bishops and Doctors of the Church",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Basil the Great and Gregory Nazianzen, Bishops and Doctors of the Church",
+          "rank": "Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Basil the Great",
+              "slug": "b-saint-basil-the-great"
+            },
+            {
+              "name": "Saint Gregory Nazianzen, Doctor (Gregory of Nazianzus)",
+              "slug": "g-saint-gregory-nazianzen-doctor-gregory-of-nazianzus"
+            }
+          ]
+        }
+      ]
+    },
+    "01-03": {
+      "rank": "Optional Memorial",
+      "name": "The Most Holy Name of Jesus",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Most Holy Name of Jesus",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "jesus"
+        }
+      ]
+    },
+    "01-04": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gregory of Langres",
+        "slug": "g-saint-gregory-of-langres",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-05": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Simeon Stylites the Elder",
+        "slug": "s-saint-simeon-stylites-the-elder",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-06": {
+      "rank": "Solemnity",
+      "name": "The Epiphany of the Lord",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Epiphany of the Lord",
+          "rank": "Solemnity",
+          "slug": null,
+          "figureSlug": "jesus"
+        }
+      ]
+    },
+    "01-07": {
+      "rank": "Optional Memorial",
+      "name": "Saint Raymond of Penyafort, Priest",
+      "slug": "r-saint-raymond-of-penafort",
+      "celebrations": [
+        {
+          "name": "Saint Raymond of Penyafort, Priest",
+          "rank": "Optional Memorial",
+          "slug": "r-saint-raymond-of-penafort"
+        }
+      ]
+    },
+    "01-08": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Severinus of Noricum",
+        "slug": "s-saint-severinus-of-noricum",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-09": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Julian and Basilissa",
+        "slug": "j-saints-julian-and-basilissa",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-10": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gregory of Nyssa, Doctor",
+        "slug": "g-saint-gregory-of-nyssa-doctor",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-11": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Theodosius the Cenobiarch",
+        "slug": "t-saint-theodosius-the-cenobiarch",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-12": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "St Aelred of Rievaulx",
+        "slug": "a-saint-aelred-of-rievaulx",
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England",
+        "nationalRank": "Optional Memorial",
+        "martyrology": {
+          "name": "Saint Marguerite Bourgeoys",
+          "slug": "m-saint-marguerite-bourgeoys"
+        }
+      }
+    },
+    "01-13": {
+      "rank": "Optional Memorial",
+      "name": "Saint Hilary, Bishop and Doctor of the Church",
+      "slug": "h-saint-hilary-of-poitiers-doctor",
+      "celebrations": [
+        {
+          "name": "Saint Hilary, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "h-saint-hilary-of-poitiers-doctor"
+        }
+      ]
+    },
+    "01-14": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Malachi the Prophet",
+        "slug": "m-saint-malachi-the-prophet",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-15": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Paul the Hermit (Paul of Thebes)",
+        "slug": "p-saint-paul-the-hermit-paul-of-thebes",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-16": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Marcellus I, Pope",
+        "slug": "m-saint-marcellus-i-pope",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-17": {
+      "rank": "Memorial",
+      "name": "Saint Anthony, Abbot",
+      "slug": "a-saint-anthony-the-great-anthony-abbot-anthony-of-egypt",
+      "celebrations": [
+        {
+          "name": "Saint Anthony, Abbot",
+          "rank": "Memorial",
+          "slug": "a-saint-anthony-the-great-anthony-abbot-anthony-of-egypt"
+        }
+      ]
+    },
+    "01-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Prisca",
+        "slug": "p-saint-prisca",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-19": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "St Wulstan, Bishop",
+        "slug": "w-saint-wulfstan-of-worcester",
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England",
+        "nationalRank": "Optional Memorial",
+        "martyrology": {
+          "name": "Saint Wulfstan of Worcester",
+          "slug": "w-saint-wulfstan-of-worcester"
+        }
+      }
+    },
+    "01-20": {
+      "rank": "Optional Memorial",
+      "name": "Saint Fabian, Pope and Martyr or Saint Sebastian, Martyr",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Fabian, Pope and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "f-saint-fabian-pope"
+        },
+        {
+          "name": "Saint Sebastian, Martyr",
+          "rank": "Optional Memorial",
+          "slug": "s-saint-sebastian",
+          "figureSlug": "st-sebastian"
+        }
+      ]
+    },
+    "01-21": {
+      "rank": "Memorial",
+      "name": "Saint Agnes, Virgin and Martyr",
+      "slug": "a-saint-agnes-of-rome",
+      "celebrations": [
+        {
+          "name": "Saint Agnes, Virgin and Martyr",
+          "rank": "Memorial",
+          "slug": "a-saint-agnes-of-rome",
+          "figureSlug": "st-agnes"
+        }
+      ]
+    },
+    "01-22": {
+      "rank": "Optional Memorial",
+      "name": "Saint Vincent, Deacon and Martyr",
+      "slug": "v-saint-vincent-of-saragossa",
+      "celebrations": [
+        {
+          "name": "Saint Vincent, Deacon and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "v-saint-vincent-of-saragossa"
+        }
+      ]
+    },
+    "01-23": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Marianne Cope (Marianne of Molokai)",
+        "slug": "m-saint-marianne-cope-marianne-of-molokai",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-24": {
+      "rank": "Memorial",
+      "name": "Saint Francis de Sales, Bishop and Doctor of the Church",
+      "slug": "f-saint-francis-de-sales",
+      "celebrations": [
+        {
+          "name": "Saint Francis de Sales, Bishop and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "f-saint-francis-de-sales",
+          "figureSlug": "st-francis-de-sales"
+        }
+      ]
+    },
+    "01-25": {
+      "rank": "Feast",
+      "name": "The Conversion of Saint Paul the Apostle",
+      "slug": "p-saint-paul-the-apostle",
+      "celebrations": [
+        {
+          "name": "The Conversion of Saint Paul the Apostle",
+          "rank": "Feast",
+          "slug": "p-saint-paul-the-apostle",
+          "figureSlug": "st-paul"
+        }
+      ]
+    },
+    "01-26": {
+      "rank": "Memorial",
+      "name": "Saints Timothy and Titus, Bishops",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Timothy and Titus, Bishops",
+          "rank": "Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Timothy",
+              "slug": "t-saint-timothy"
+            },
+            {
+              "name": "Saint Titus",
+              "slug": "t-saint-titus"
+            }
+          ]
+        }
+      ]
+    },
+    "01-27": {
+      "rank": "Optional Memorial",
+      "name": "Saint Angela Merici, Virgin",
+      "slug": "a-saint-angela-merici",
+      "celebrations": [
+        {
+          "name": "Saint Angela Merici, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-angela-merici",
+          "figureSlug": "st-angela"
+        }
+      ]
+    },
+    "01-28": {
+      "rank": "Memorial",
+      "name": "Saint Thomas Aquinas, Priest and Doctor of the Church",
+      "slug": "t-saint-thomas-aquinas",
+      "celebrations": [
+        {
+          "name": "Saint Thomas Aquinas, Priest and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "t-saint-thomas-aquinas",
+          "figureSlug": "st-thomas-aquinas"
+        }
+      ]
+    },
+    "01-29": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gildas the Wise",
+        "slug": "g-saint-gildas-the-wise",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-30": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Mutien-Marie Wiaux",
+        "slug": "m-saint-mutien-marie-wiaux",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "01-31": {
+      "rank": "Memorial",
+      "name": "Saint John Bosco, Priest",
+      "slug": "j-saint-john-bosco",
+      "celebrations": [
+        {
+          "name": "Saint John Bosco, Priest",
+          "rank": "Memorial",
+          "slug": "j-saint-john-bosco",
+          "figureSlug": "st-john-bosco"
+        }
+      ]
+    },
+    "02-01": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Henry Morse",
+        "slug": "h-saint-henry-morse",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-02": {
+      "rank": "Feast",
+      "name": "The Presentation of the Lord",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Presentation of the Lord",
+          "rank": "Feast",
+          "slug": null,
+          "figureSlug": "jesus"
+        }
+      ]
+    },
+    "02-03": {
+      "rank": "Optional Memorial",
+      "name": "Saint Blaise, Bishop and Martyr or Saint Ansgar, Bishop",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Blaise, Bishop and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "b-saint-blaise-blase-of-sebaste",
+          "figureSlug": "st-blaise"
+        },
+        {
+          "name": "Saint Ansgar, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-ansgar-anskar"
+        }
+      ]
+    },
+    "02-04": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Nicholas Studites",
+        "slug": "n-saint-nicholas-studites",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-05": {
+      "rank": "Memorial",
+      "name": "Saint Agatha, Virgin and Martyr",
+      "slug": "a-saint-agatha",
+      "celebrations": [
+        {
+          "name": "Saint Agatha, Virgin and Martyr",
+          "rank": "Memorial",
+          "slug": "a-saint-agatha",
+          "figureSlug": "st-agatha"
+        }
+      ]
+    },
+    "02-06": {
+      "rank": "Memorial",
+      "name": "Saints Paul Miki and Companions, Martyrs",
+      "slug": "p-saint-paul-miki-and-companions",
+      "celebrations": [
+        {
+          "name": "Saints Paul Miki and Companions, Martyrs",
+          "rank": "Memorial",
+          "slug": "p-saint-paul-miki-and-companions"
+        }
+      ]
+    },
+    "02-07": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Luke of Steiris (Hosios Loukas)",
+        "slug": "l-saint-luke-of-steiris-hosios-loukas",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-08": {
+      "rank": "Optional Memorial",
+      "name": "Saint Jerome Emiliani, Priest or Saint Josephine Bakhita, Virgin",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Jerome Emiliani, Priest",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-jerome-emiliani"
+        },
+        {
+          "name": "Saint Josephine Bakhita, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-josephine-bakhita",
+          "figureSlug": "st-josephine-bakhita"
+        }
+      ]
+    },
+    "02-09": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Miguel Febres Cordero (Brother Miguel)",
+        "slug": "m-saint-miguel-febres-cordero-brother-miguel",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-10": {
+      "rank": "Memorial",
+      "name": "Saint Scholastica, Virgin",
+      "slug": "s-saint-scholastica",
+      "celebrations": [
+        {
+          "name": "Saint Scholastica, Virgin",
+          "rank": "Memorial",
+          "slug": "s-saint-scholastica",
+          "figureSlug": "st-scholastica"
+        }
+      ]
+    },
+    "02-11": {
+      "rank": "Optional Memorial",
+      "name": "Our Lady of Lourdes",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Our Lady of Lourdes",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "02-12": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Eulalia of Barcelona",
+        "slug": "e-saint-eulalia-of-barcelona",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-13": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Fusca and Maura of Ravenna",
+        "slug": "f-saints-fusca-and-maura-of-ravenna",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-14": {
+      "rank": "Memorial",
+      "name": "Saints Cyril, Monk, and Methodius, Bishop",
+      "slug": "c-saints-cyril-and-methodius",
+      "celebrations": [
+        {
+          "name": "Saints Cyril, Monk, and Methodius, Bishop",
+          "rank": "Memorial",
+          "slug": "c-saints-cyril-and-methodius"
+        }
+      ]
+    },
+    "02-15": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Jovita and Faustinus",
+        "slug": "j-saints-jovita-and-faustinus",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-16": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Juliana of Nicomedia",
+        "slug": "j-saint-juliana-of-nicomedia",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-17": {
+      "rank": "Optional Memorial",
+      "name": "The Seven Holy Founders of the Servite Order",
+      "slug": "s-the-seven-holy-founders-of-the-servite-order",
+      "celebrations": [
+        {
+          "name": "The Seven Holy Founders of the Servite Order",
+          "rank": "Optional Memorial",
+          "slug": "s-the-seven-holy-founders-of-the-servite-order"
+        }
+      ]
+    },
+    "02-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Helladius of Toledo",
+        "slug": "h-saint-helladius-of-toledo",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-19": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Quodvultdeus of Carthage",
+        "slug": "q-saint-quodvultdeus-of-carthage",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-20": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Eucherius of Orléans",
+        "slug": "e-saint-eucherius-of-orleans",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-21": {
+      "rank": "Optional Memorial",
+      "name": "Saint Peter Damian, Bishop and Doctor of the Church",
+      "slug": "p-saint-peter-damian",
+      "celebrations": [
+        {
+          "name": "Saint Peter Damian, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-peter-damian"
+        }
+      ]
+    },
+    "02-22": {
+      "rank": "Feast",
+      "name": "The Chair of Saint Peter the Apostle",
+      "slug": "p-saint-peter-the-apostle",
+      "celebrations": [
+        {
+          "name": "The Chair of Saint Peter the Apostle",
+          "rank": "Feast",
+          "slug": "p-saint-peter-the-apostle",
+          "figureSlug": "st-peter-apostle"
+        }
+      ]
+    },
+    "02-23": {
+      "rank": "Memorial",
+      "name": "Saint Polycarp, Bishop and Martyr",
+      "slug": "p-saint-polycarp-of-smyrna",
+      "celebrations": [
+        {
+          "name": "Saint Polycarp, Bishop and Martyr",
+          "rank": "Memorial",
+          "slug": "p-saint-polycarp-of-smyrna",
+          "figureSlug": "st-polycarp"
+        }
+      ]
+    },
+    "02-24": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Betto of Auxerre",
+        "slug": "b-saint-betto-of-auxerre",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-25": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Laurence Bai Xiaoman and Laurence Wang Bing (Martyrs of China)",
+        "slug": "l-saints-laurence-bai-xiaoman-and-laurence-wang-bing-martyrs-of-china",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-26": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Porphyry of Gaza",
+        "slug": "p-saint-porphyrius-of-gaza",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-27": {
+      "rank": "Optional Memorial",
+      "name": "Saint Gregory of Narek, Abbot and Doctor of the Church",
+      "slug": "g-saint-gregory-of-narek",
+      "celebrations": [
+        {
+          "name": "Saint Gregory of Narek, Abbot and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "g-saint-gregory-of-narek"
+        }
+      ]
+    },
+    "02-28": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Oswald of Worcester",
+        "slug": "o-saint-oswald-of-worcester",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "02-29": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Oswald of Worcester",
+        "slug": "o-saint-oswald-of-worcester",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-01": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "St David, Bishop",
+        "slug": "d-saint-david-of-wales-dewi-sant",
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England and Wales",
+        "nationalRank": "Feast in England; Solemnity in Wales",
+        "martyrology": {
+          "name": "Saint Leoluca of Corleone",
+          "slug": "l-saint-leoluca-of-corleone"
+        }
+      }
+    },
+    "03-02": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Fergna the White of Iona",
+        "slug": "f-saint-fergna-the-white-of-iona",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-03": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Emeterius and Chelidonius of Calahorra",
+        "slug": "e-saints-emeterius-and-chelidonius-of-calahorra",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-04": {
+      "rank": "Optional Memorial",
+      "name": "Saint Casimir",
+      "slug": "c-saint-casimir",
+      "celebrations": [
+        {
+          "name": "Saint Casimir",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-casimir"
+        }
+      ]
+    },
+    "03-05": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Lucius I, Pope",
+        "slug": "l-saint-lucius-i-pope",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-06": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Rose of Viterbo",
+        "slug": "r-saint-rose-of-viterbo",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-07": {
+      "rank": "Memorial",
+      "name": "Saints Perpetua and Felicity, Martyrs",
+      "slug": "p-saints-perpetua-and-felicity",
+      "celebrations": [
+        {
+          "name": "Saints Perpetua and Felicity, Martyrs",
+          "rank": "Memorial",
+          "slug": "p-saints-perpetua-and-felicity",
+          "figureSlug": "st-perpetua"
+        }
+      ]
+    },
+    "03-08": {
+      "rank": "Optional Memorial",
+      "name": "Saint John of God, Religious",
+      "slug": "j-saint-john-of-god",
+      "celebrations": [
+        {
+          "name": "Saint John of God, Religious",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-of-god"
+        }
+      ]
+    },
+    "03-09": {
+      "rank": "Optional Memorial",
+      "name": "Saint Frances of Rome, Religious",
+      "slug": "f-saint-frances-of-rome",
+      "celebrations": [
+        {
+          "name": "Saint Frances of Rome, Religious",
+          "rank": "Optional Memorial",
+          "slug": "f-saint-frances-of-rome"
+        }
+      ]
+    },
+    "03-10": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Marie-Eugénie Milleret",
+        "slug": "m-saint-marie-eugenie-milleret",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-11": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Sophronius of Jerusalem",
+        "slug": "s-saint-sophronius-of-jerusalem",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-12": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Maximilian of Tebessa",
+        "slug": "m-saint-maximilian-of-tebessa",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-13": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Leander of Seville",
+        "slug": "l-saint-leander-of-seville",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-14": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Matilda (Mathilde) of Saxony",
+        "slug": "m-saint-matilda-mathilde-of-saxony",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-15": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Zachary, Pope",
+        "slug": "z-saint-zachary-pope",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-16": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Julian of Antioch",
+        "slug": "j-saint-julian-of-antioch",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-17": {
+      "rank": "Optional Memorial",
+      "name": "Saint Patrick, Bishop",
+      "slug": "p-saint-patrick",
+      "celebrations": [
+        {
+          "name": "Saint Patrick, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-patrick",
+          "figureSlug": "st-patrick"
+        }
+      ]
+    },
+    "03-18": {
+      "rank": "Optional Memorial",
+      "name": "Saint Cyril of Jerusalem, Bishop and Doctor of the Church",
+      "slug": "c-saint-cyril-of-jerusalem",
+      "celebrations": [
+        {
+          "name": "Saint Cyril of Jerusalem, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-cyril-of-jerusalem"
+        }
+      ]
+    },
+    "03-19": {
+      "rank": "Solemnity",
+      "name": "Saint Joseph, Spouse of the Blessed Virgin Mary",
+      "slug": "j-saint-joseph-of-nazareth-spouse-of-the-blessed-virgin-mary",
+      "celebrations": [
+        {
+          "name": "Saint Joseph, Spouse of the Blessed Virgin Mary",
+          "rank": "Solemnity",
+          "slug": "j-saint-joseph-of-nazareth-spouse-of-the-blessed-virgin-mary",
+          "figureSlug": "st-joseph"
+        }
+      ]
+    },
+    "03-20": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Martin of Braga (Martin of Dumio)",
+        "slug": "m-saint-martin-of-braga-martin-of-dumio",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-21": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Lupicinus of Condat (with Saint Romanus)",
+        "slug": "l-saint-lupicinus-of-condat-with-saint-romanus",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-22": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Nicholas Owen",
+        "slug": "n-saint-nicholas-owen",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-23": {
+      "rank": "Optional Memorial",
+      "name": "Saint Turibius of Mongrovejo, Bishop",
+      "slug": "t-saint-turibius-of-mogrovejo",
+      "celebrations": [
+        {
+          "name": "Saint Turibius of Mongrovejo, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "t-saint-turibius-of-mogrovejo"
+        }
+      ]
+    },
+    "03-24": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Óscar Romero",
+        "slug": "o-saint-oscar-romero",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-25": {
+      "rank": "Solemnity",
+      "name": "The Annunciation of the Lord",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Annunciation of the Lord",
+          "rank": "Solemnity",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "03-26": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Ludger (Liudger) of Münster",
+        "slug": "l-saint-ludger-liudger-of-munster",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-27": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Rupert of Salzburg",
+        "slug": "r-saint-rupert-of-salzburg",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-28": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Hesychius of Jerusalem",
+        "slug": "h-saint-hesychius-of-jerusalem",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-29": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Jonas and Barachisius",
+        "slug": "j-saints-jonas-and-barachisius",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-30": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Ludovico of Casoria",
+        "slug": "l-saint-ludovico-of-casoria",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "03-31": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Guido (Guy) of Pomposa",
+        "slug": "g-saint-guido-guy-of-pomposa",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-01": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Mary of Egypt",
+        "slug": "m-saint-mary-of-egypt",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-02": {
+      "rank": "Optional Memorial",
+      "name": "Saint Francis of Paola, Hermit",
+      "slug": "f-saint-francis-of-paola",
+      "celebrations": [
+        {
+          "name": "Saint Francis of Paola, Hermit",
+          "rank": "Optional Memorial",
+          "slug": "f-saint-francis-of-paola"
+        }
+      ]
+    },
+    "04-03": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Luigi Scrosoppi",
+        "slug": "l-saint-luigi-scrosoppi",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-04": {
+      "rank": "Optional Memorial",
+      "name": "Saint Isidore, Bishop and Doctor of the Church",
+      "slug": "i-saint-isidore-of-seville",
+      "celebrations": [
+        {
+          "name": "Saint Isidore, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "i-saint-isidore-of-seville"
+        }
+      ]
+    },
+    "04-05": {
+      "rank": "Optional Memorial",
+      "name": "Saint Vincent Ferrer, Priest",
+      "slug": "v-saint-vincent-ferrer",
+      "celebrations": [
+        {
+          "name": "Saint Vincent Ferrer, Priest",
+          "rank": "Optional Memorial",
+          "slug": "v-saint-vincent-ferrer"
+        }
+      ]
+    },
+    "04-06": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Peter of Verona (Peter Martyr)",
+        "slug": "p-saint-peter-of-verona",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-07": {
+      "rank": "Memorial",
+      "name": "Saint John Baptist de la Salle, Priest",
+      "slug": "j-saint-john-baptist-de-la-salle",
+      "celebrations": [
+        {
+          "name": "Saint John Baptist de la Salle, Priest",
+          "rank": "Memorial",
+          "slug": "j-saint-john-baptist-de-la-salle"
+        }
+      ]
+    },
+    "04-08": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Julie Billiart",
+        "slug": "j-saint-julie-billiart",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-09": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Hugh of Rouen",
+        "slug": "h-saint-hugh-of-rouen",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-10": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Michael de Sanctis (Miguel de los Santos)",
+        "slug": "m-saint-michael-de-sanctis-miguel-de-los-santos",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-11": {
+      "rank": "Memorial",
+      "name": "Saint Stanislaus, Bishop and Martyr",
+      "slug": "s-saint-stanislaus-of-cracow",
+      "celebrations": [
+        {
+          "name": "Saint Stanislaus, Bishop and Martyr",
+          "rank": "Memorial",
+          "slug": "s-saint-stanislaus-of-cracow"
+        }
+      ]
+    },
+    "04-12": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Zeno of Verona",
+        "slug": "z-saint-zeno-of-verona",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-13": {
+      "rank": "Optional Memorial",
+      "name": "Saint Martin I, Pope and Martyr",
+      "slug": "m-saint-martin-i-pope",
+      "celebrations": [
+        {
+          "name": "Saint Martin I, Pope and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "m-saint-martin-i-pope"
+        }
+      ]
+    },
+    "04-14": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Lidwina of Schiedam",
+        "slug": "l-saint-lidwina-of-schiedam",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-15": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Hunna of Alsace",
+        "slug": "h-saint-hunna-of-alsace",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-16": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Magnus of Orkney (Magnus Erlendsson)",
+        "slug": "m-saint-magnus-of-orkney-magnus-erlendsson",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-17": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Robert of Molesme",
+        "slug": "r-saint-robert-of-molesme",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Laserian (Molaise) of Leighlin",
+        "slug": "l-saint-laserian-molaise-of-leighlin",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-19": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Leo IX, Pope",
+        "slug": "l-saint-leo-ix-pope",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-20": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Hildegund of Schönau",
+        "slug": "h-saint-hildegund-of-schonau",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-21": {
+      "rank": "Optional Memorial",
+      "name": "Saint Anselm, Bishop and Doctor of the Church",
+      "slug": "a-saint-anselm-of-canterbury",
+      "celebrations": [
+        {
+          "name": "Saint Anselm, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-anselm-of-canterbury",
+          "figureSlug": "st-anselm"
+        }
+      ]
+    },
+    "04-22": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Epipodius and Alexander of Lyons",
+        "slug": "e-saints-epipodius-and-alexander-of-lyons",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-23": {
+      "rank": "Optional Memorial",
+      "name": "Saint George, Martyr or Saint Adalbert, Bishop and Martyr",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint George, Martyr",
+          "rank": "Optional Memorial",
+          "slug": "g-saint-george-the-great-martyr",
+          "figureSlug": "st-george"
+        },
+        {
+          "name": "Saint Adalbert, Bishop and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-adalbert-of-prague"
+        }
+      ]
+    },
+    "04-24": {
+      "rank": "Optional Memorial",
+      "name": "Saint Fidelis of Sigmaringen, Priest and Martyr",
+      "slug": "f-saint-fidelis-of-sigmaringen",
+      "celebrations": [
+        {
+          "name": "Saint Fidelis of Sigmaringen, Priest and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "f-saint-fidelis-of-sigmaringen"
+        }
+      ]
+    },
+    "04-25": {
+      "rank": "Feast",
+      "name": "Saint Mark, Evangelist",
+      "slug": "m-saint-mark-the-evangelist",
+      "celebrations": [
+        {
+          "name": "Saint Mark, Evangelist",
+          "rank": "Feast",
+          "slug": "m-saint-mark-the-evangelist",
+          "figureSlug": "st-mark"
+        }
+      ]
+    },
+    "04-26": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Rafael Arnáiz Barón",
+        "slug": "r-saint-rafael-arnaiz-baron",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-27": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Laurence Nguyễn Văn Hưởng and Laurence Phạm Viết Ngôn (Martyrs of Vietnam)",
+        "slug": "l-saints-laurence-nguy-n-v-n-h-ng-and-laurence-ph-m-vi-t-ng-n-martyrs-of-vietnam",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "04-28": {
+      "rank": "Optional Memorial",
+      "name": "Saint Peter Chanel, Priest and Martyr or Saint Louis Marie Grignion de Montfort, Priest",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Peter Chanel, Priest and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-peter-chanel"
+        },
+        {
+          "name": "Saint Louis Marie Grignion de Montfort, Priest",
+          "rank": "Optional Memorial",
+          "slug": "l-saint-louis-marie-grignion-de-montfort"
+        }
+      ]
+    },
+    "04-29": {
+      "rank": "Memorial",
+      "name": "Saint Catherine of Siena, Virgin and Doctor of the Church",
+      "slug": "c-saint-catherine-of-siena",
+      "celebrations": [
+        {
+          "name": "Saint Catherine of Siena, Virgin and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "c-saint-catherine-of-siena",
+          "figureSlug": "st-catherine-siena-page"
+        }
+      ]
+    },
+    "04-30": {
+      "rank": "Optional Memorial",
+      "name": "Saint Pius V, Pope",
+      "slug": "p-saint-pius-v",
+      "celebrations": [
+        {
+          "name": "Saint Pius V, Pope",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-pius-v"
+        }
+      ]
+    },
+    "05-01": {
+      "rank": "Optional Memorial",
+      "name": "Saint Joseph the Worker",
+      "slug": "j-saint-joseph-of-nazareth-spouse-of-the-blessed-virgin-mary",
+      "celebrations": [
+        {
+          "name": "Saint Joseph the Worker",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-joseph-of-nazareth-spouse-of-the-blessed-virgin-mary",
+          "figureSlug": "st-joseph",
+          "note": "No separate Worker page; this is the existing Saint Joseph page."
+        }
+      ]
+    },
+    "05-02": {
+      "rank": "Memorial",
+      "name": "Saint Athanasius, Bishop and Doctor of the Church",
+      "slug": "a-saint-athanasius-of-alexandria",
+      "celebrations": [
+        {
+          "name": "Saint Athanasius, Bishop and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "a-saint-athanasius-of-alexandria",
+          "figureSlug": "st-athanasius"
+        }
+      ]
+    },
+    "05-03": {
+      "rank": "Feast",
+      "name": "Saints Philip and James, Apostles",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Philip and James, Apostles",
+          "rank": "Feast",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Philip the Apostle",
+              "slug": "p-saint-philip-the-apostle"
+            },
+            {
+              "name": "Saint James the Less, Apostle",
+              "slug": "j-saint-james-the-less-apostle"
+            }
+          ]
+        }
+      ]
+    },
+    "05-04": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "The English Martyrs",
+        "slug": null,
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England (not on the Wales national calendar)",
+        "nationalRank": "Feast",
+        "martyrology": {
+          "name": "Saint John Houghton",
+          "slug": "j-saint-john-houghton"
+        }
+      }
+    },
+    "05-05": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Hilary of Arles",
+        "slug": "h-saint-hilary-of-arles",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-06": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Peter Nolasco",
+        "slug": "p-saint-peter-nolasco",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-07": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Rose Venerini",
+        "slug": "r-saint-rose-venerini",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-08": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Itta (Iduberga) of Nivelles",
+        "slug": "i-saint-itta-iduberga-of-nivelles",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-09": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Pachomius",
+        "slug": "p-saint-pachomius",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-10": {
+      "rank": "Optional Memorial",
+      "name": "Saint John of Ávila, Priest and Doctor of the Church",
+      "slug": "j-saint-john-of-avila-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint John of Ávila, Priest and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-of-avila-doctor-of-the-church"
+        }
+      ]
+    },
+    "05-11": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Mamertus of Vienne",
+        "slug": "m-saint-mamertus-of-vienne",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-12": {
+      "rank": "Optional Memorial",
+      "name": "Saints Nereus and Achilleus, Martyrs or Saint Pancras, Martyr",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Nereus and Achilleus, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "n-saints-nereus-and-achilleus"
+        },
+        {
+          "name": "Saint Pancras, Martyr",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-pancras"
+        }
+      ]
+    },
+    "05-13": {
+      "rank": "Optional Memorial",
+      "name": "Our Lady of Fatima",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Our Lady of Fatima",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "05-14": {
+      "rank": "Feast",
+      "name": "Saint Matthias, Apostle",
+      "slug": "m-saint-matthias-apostle",
+      "celebrations": [
+        {
+          "name": "Saint Matthias, Apostle",
+          "rank": "Feast",
+          "slug": "m-saint-matthias-apostle"
+        }
+      ]
+    },
+    "05-15": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Kaleb of Axum (Elesbaan)",
+        "slug": "k-saint-kaleb-of-axum-elesbaan",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-16": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Ubald of Gubbio (Ubaldo Baldassini)",
+        "slug": "u-saint-ubald-of-gubbio",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-17": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Paschal Baylon",
+        "slug": "p-saint-paschal-baylon",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-18": {
+      "rank": "Optional Memorial",
+      "name": "Saint John I, Pope and Martyr",
+      "slug": "j-saint-john-i-pope",
+      "celebrations": [
+        {
+          "name": "Saint John I, Pope and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-i-pope"
+        }
+      ]
+    },
+    "05-19": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Pudentiana and Praxedes",
+        "slug": "p-saints-pudentiana-and-praxedes",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-20": {
+      "rank": "Optional Memorial",
+      "name": "Saint Bernardine of Siena, Priest",
+      "slug": "b-saint-bernardine-of-siena",
+      "celebrations": [
+        {
+          "name": "Saint Bernardine of Siena, Priest",
+          "rank": "Optional Memorial",
+          "slug": "b-saint-bernardine-of-siena"
+        }
+      ]
+    },
+    "05-21": {
+      "rank": "Optional Memorial",
+      "name": "Saint Christopher Magallanes, Priest, and Companions, Martyrs",
+      "slug": "c-saint-christopher-magallanes-and-companions",
+      "celebrations": [
+        {
+          "name": "Saint Christopher Magallanes, Priest, and Companions, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-christopher-magallanes-and-companions"
+        }
+      ]
+    },
+    "05-22": {
+      "rank": "Optional Memorial",
+      "name": "Saint Rita of Cascia, Religious",
+      "slug": "r-saint-rita-of-cascia",
+      "celebrations": [
+        {
+          "name": "Saint Rita of Cascia, Religious",
+          "rank": "Optional Memorial",
+          "slug": "r-saint-rita-of-cascia",
+          "figureSlug": "st-rita"
+        }
+      ]
+    },
+    "05-23": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Lucius, Montanus and Companions (Martyrs of Carthage)",
+        "slug": "l-saints-lucius-montanus-and-companions-martyrs-of-carthage",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-24": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Vincent of Lérins",
+        "slug": "v-saint-vincent-of-lerins",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-25": {
+      "rank": "Optional Memorial",
+      "name": "Saint Bede the Venerable, Priest and Doctor of the Church or Saint Gregory VII, Pope or Saint Mary Magdalene de’ Pazzi, Virgin",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Bede the Venerable, Priest and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "b-saint-bede-the-venerable"
+        },
+        {
+          "name": "Saint Gregory VII, Pope",
+          "rank": "Optional Memorial",
+          "slug": "g-saint-gregory-vii-pope-hildebrand"
+        },
+        {
+          "name": "Saint Mary Magdalene de’ Pazzi, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "m-saint-mary-magdalene-de-pazzi"
+        }
+      ]
+    },
+    "05-26": {
+      "rank": "Memorial",
+      "name": "Saint Philip Neri, Priest",
+      "slug": "p-saint-philip-neri",
+      "celebrations": [
+        {
+          "name": "Saint Philip Neri, Priest",
+          "rank": "Memorial",
+          "slug": "p-saint-philip-neri",
+          "figureSlug": "st-philip-neri"
+        }
+      ]
+    },
+    "05-27": {
+      "rank": "Optional Memorial",
+      "name": "Saint Augustine of Canterbury, Bishop",
+      "slug": "a-saint-augustine-of-canterbury",
+      "celebrations": [
+        {
+          "name": "Saint Augustine of Canterbury, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-augustine-of-canterbury"
+        }
+      ]
+    },
+    "05-28": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Justus of Urgel",
+        "slug": "j-saint-justus-of-urgel",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-29": {
+      "rank": "Optional Memorial",
+      "name": "Saint Paul VI, Pope",
+      "slug": "p-saint-paul-vi",
+      "celebrations": [
+        {
+          "name": "Saint Paul VI, Pope",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-paul-vi"
+        }
+      ]
+    },
+    "05-30": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Luke Kirby (one of the Forty Martyrs of England and Wales)",
+        "slug": "l-saint-luke-kirby-one-of-the-forty-martyrs-of-england-and-wales",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "05-31": {
+      "rank": "Feast",
+      "name": "The Visitation of the Blessed Virgin Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Visitation of the Blessed Virgin Mary",
+          "rank": "Feast",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "06-01": {
+      "rank": "Memorial",
+      "name": "Saint Justin, Martyr",
+      "slug": "j-saint-justin-martyr",
+      "celebrations": [
+        {
+          "name": "Saint Justin, Martyr",
+          "rank": "Memorial",
+          "slug": "j-saint-justin-martyr",
+          "figureSlug": "st-justin"
+        }
+      ]
+    },
+    "06-02": {
+      "rank": "Optional Memorial",
+      "name": "Saints Marcellinus and Peter, Martyrs",
+      "slug": "m-saints-marcellinus-and-peter",
+      "celebrations": [
+        {
+          "name": "Saints Marcellinus and Peter, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "m-saints-marcellinus-and-peter"
+        }
+      ]
+    },
+    "06-03": {
+      "rank": "Memorial",
+      "name": "Saints Charles Lwanga and Companions, Martyrs",
+      "slug": "c-saint-charles-lwanga-and-companions",
+      "celebrations": [
+        {
+          "name": "Saints Charles Lwanga and Companions, Martyrs",
+          "rank": "Memorial",
+          "slug": "c-saint-charles-lwanga-and-companions"
+        }
+      ]
+    },
+    "06-04": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Quirinus of Siscia",
+        "slug": "q-saint-quirinus-of-siscia",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-05": {
+      "rank": "Memorial",
+      "name": "Saint Boniface, Bishop and Martyr",
+      "slug": "b-saint-boniface-of-mainz-winfrid",
+      "celebrations": [
+        {
+          "name": "Saint Boniface, Bishop and Martyr",
+          "rank": "Memorial",
+          "slug": "b-saint-boniface-of-mainz-winfrid"
+        }
+      ]
+    },
+    "06-06": {
+      "rank": "Optional Memorial",
+      "name": "Saint Norbert, Bishop",
+      "slug": "n-saint-norbert",
+      "celebrations": [
+        {
+          "name": "Saint Norbert, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "n-saint-norbert"
+        }
+      ]
+    },
+    "06-07": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Habentius of Córdoba",
+        "slug": "h-saint-habentius-of-cordoba",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-08": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint William of York (William Fitzherbert)",
+        "slug": "w-saint-william-of-york",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-09": {
+      "rank": "Optional Memorial",
+      "name": "Saint Ephrem, Deacon and Doctor of the Church",
+      "slug": "e-saint-ephrem-the-syrian",
+      "celebrations": [
+        {
+          "name": "Saint Ephrem, Deacon and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "e-saint-ephrem-the-syrian"
+        }
+      ]
+    },
+    "06-10": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Landry (Landericus) of Paris",
+        "slug": "l-saint-landry-landericus-of-paris",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-11": {
+      "rank": "Memorial",
+      "name": "Saint Barnabas, Apostle",
+      "slug": "b-saint-barnabas-the-apostle",
+      "celebrations": [
+        {
+          "name": "Saint Barnabas, Apostle",
+          "rank": "Memorial",
+          "slug": "b-saint-barnabas-the-apostle",
+          "figureSlug": "st-barnabas"
+        }
+      ]
+    },
+    "06-12": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Onuphrius",
+        "slug": "o-saint-onuphrius",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-13": {
+      "rank": "Memorial",
+      "name": "Saint Anthony of Padua, Priest and Doctor of the Church",
+      "slug": "a-saint-anthony-of-padua",
+      "celebrations": [
+        {
+          "name": "Saint Anthony of Padua, Priest and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "a-saint-anthony-of-padua",
+          "figureSlug": "st-anthony-padua"
+        }
+      ]
+    },
+    "06-14": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Dogmael (Dogfael)",
+        "slug": "d-saint-dogmael-dogfael",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-15": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Vitus",
+        "slug": "v-saint-vitus",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-16": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Ferreolus and Ferrutio",
+        "slug": "f-saints-ferreolus-and-ferrutio",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-17": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Isaurus and Companions",
+        "slug": "i-saint-isaurus-and-companions",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gregory Barbarigo",
+        "slug": "g-saint-gregory-barbarigo",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-19": {
+      "rank": "Optional Memorial",
+      "name": "Saint Romuald, Abbot",
+      "slug": "r-saint-romuald",
+      "celebrations": [
+        {
+          "name": "Saint Romuald, Abbot",
+          "rank": "Optional Memorial",
+          "slug": "r-saint-romuald"
+        }
+      ]
+    },
+    "06-20": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Florentina of Cartagena",
+        "slug": "f-saint-florentina-of-cartagena",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-21": {
+      "rank": "Memorial",
+      "name": "Saint Aloysius Gonzaga, Religious",
+      "slug": "a-saint-aloysius-gonzaga",
+      "celebrations": [
+        {
+          "name": "Saint Aloysius Gonzaga, Religious",
+          "rank": "Memorial",
+          "slug": "a-saint-aloysius-gonzaga",
+          "figureSlug": "st-aloysius"
+        }
+      ]
+    },
+    "06-22": {
+      "rank": "Optional Memorial",
+      "name": "Saint Paulinus of Nola, Bishop or Saints John Fisher, Bishop, and Thomas More, Martyrs",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Paulinus of Nola, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-paulinus-of-nola"
+        },
+        {
+          "name": "Saints John Fisher, Bishop, and Thomas More, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint John Fisher",
+              "slug": "j-saint-john-fisher-bishop-and-martyr"
+            },
+            {
+              "name": "Saint Thomas More",
+              "slug": "t-saint-thomas-more"
+            }
+          ],
+          "figureSlug": "st-thomas-more"
+        }
+      ]
+    },
+    "06-23": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Thomas Garnet",
+        "slug": "t-saint-thomas-garnet",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-24": {
+      "rank": "Solemnity",
+      "name": "The Nativity of Saint John the Baptist",
+      "slug": "j-saint-john-the-baptist",
+      "celebrations": [
+        {
+          "name": "The Nativity of Saint John the Baptist",
+          "rank": "Solemnity",
+          "slug": "j-saint-john-the-baptist",
+          "figureSlug": "st-john-baptist"
+        }
+      ]
+    },
+    "06-25": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gohard of Nantes",
+        "slug": "g-saint-gohard-of-nantes",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-26": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Josemaría Escrivá",
+        "slug": "j-saint-josemaria-escriva",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "06-27": {
+      "rank": "Optional Memorial",
+      "name": "Saint Cyril of Alexandria, Bishop and Doctor of the Church",
+      "slug": "c-saint-cyril-of-alexandria",
+      "celebrations": [
+        {
+          "name": "Saint Cyril of Alexandria, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-cyril-of-alexandria"
+        }
+      ]
+    },
+    "06-28": {
+      "rank": "Memorial",
+      "name": "Saint Irenaeus, Bishop, Martyr and Doctor of the Church",
+      "slug": "i-saint-irenaeus-of-lyons",
+      "celebrations": [
+        {
+          "name": "Saint Irenaeus, Bishop, Martyr and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "i-saint-irenaeus-of-lyons",
+          "figureSlug": "st-irenaeus"
+        }
+      ]
+    },
+    "06-29": {
+      "rank": "Solemnity",
+      "name": "Saints Peter and Paul, Apostles",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Peter and Paul, Apostles",
+          "rank": "Solemnity",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Peter the Apostle",
+              "slug": "p-saint-peter-the-apostle"
+            },
+            {
+              "name": "Saint Paul the Apostle",
+              "slug": "p-saint-paul-the-apostle"
+            }
+          ],
+          "figureSlug": "st-peter-apostle"
+        }
+      ]
+    },
+    "06-30": {
+      "rank": "Optional Memorial",
+      "name": "The First Martyrs of the Holy Roman Church",
+      "slug": "f-saint-first-martyrs-of-the-church-of-rome",
+      "celebrations": [
+        {
+          "name": "The First Martyrs of the Holy Roman Church",
+          "rank": "Optional Memorial",
+          "slug": "f-saint-first-martyrs-of-the-church-of-rome"
+        }
+      ]
+    },
+    "07-01": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Oliver Plunkett",
+        "slug": "o-saint-oliver-plunkett",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-02": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Processus and Martinian",
+        "slug": "p-saints-processus-and-martinian",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-03": {
+      "rank": "Feast",
+      "name": "Saint Thomas, Apostle",
+      "slug": "t-saint-thomas-the-apostle",
+      "celebrations": [
+        {
+          "name": "Saint Thomas, Apostle",
+          "rank": "Feast",
+          "slug": "t-saint-thomas-the-apostle",
+          "figureSlug": "st-thomas-apostle"
+        }
+      ]
+    },
+    "07-04": {
+      "rank": "Optional Memorial",
+      "name": "Saint Elizabeth of Portugal",
+      "slug": "e-saint-elizabeth-of-portugal",
+      "celebrations": [
+        {
+          "name": "Saint Elizabeth of Portugal",
+          "rank": "Optional Memorial",
+          "slug": "e-saint-elizabeth-of-portugal"
+        }
+      ]
+    },
+    "07-05": {
+      "rank": "Optional Memorial",
+      "name": "Saint Anthony Zaccaria, Priest",
+      "slug": "a-saint-anthony-zaccaria",
+      "celebrations": [
+        {
+          "name": "Saint Anthony Zaccaria, Priest",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-anthony-zaccaria"
+        }
+      ]
+    },
+    "07-06": {
+      "rank": "Optional Memorial",
+      "name": "Saint Maria Goretti, Virgin and Martyr",
+      "slug": "m-saint-maria-goretti",
+      "celebrations": [
+        {
+          "name": "Saint Maria Goretti, Virgin and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "m-saint-maria-goretti",
+          "figureSlug": "st-maria-goretti"
+        }
+      ]
+    },
+    "07-07": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Willibald of Eichstätt",
+        "slug": "w-saint-willibald-of-eichstatt",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-08": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Landrada of Munsterbilzen",
+        "slug": "l-saint-landrada-of-munsterbilzen",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-09": {
+      "rank": "Optional Memorial",
+      "name": "Saint Augustine Zhao Rong, Priest, and Companions, Martyrs",
+      "slug": "a-saints-augustine-zhao-rong-and-companions",
+      "celebrations": [
+        {
+          "name": "Saint Augustine Zhao Rong, Priest, and Companions, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "a-saints-augustine-zhao-rong-and-companions"
+        }
+      ]
+    },
+    "07-10": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Canute (Cnut) IV of Denmark",
+        "slug": "c-saint-canute-cnut-iv-of-denmark",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-11": {
+      "rank": "Memorial",
+      "name": "Saint Benedict, Abbot",
+      "slug": "b-saint-benedict-of-nursia",
+      "celebrations": [
+        {
+          "name": "Saint Benedict, Abbot",
+          "rank": "Memorial",
+          "slug": "b-saint-benedict-of-nursia",
+          "figureSlug": "st-benedict"
+        }
+      ]
+    },
+    "07-12": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Nabor and Felix",
+        "slug": "n-saints-nabor-and-felix",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-13": {
+      "rank": "Optional Memorial",
+      "name": "Saint Henry",
+      "slug": "h-saint-henry-ii-emperor",
+      "celebrations": [
+        {
+          "name": "Saint Henry",
+          "rank": "Optional Memorial",
+          "slug": "h-saint-henry-ii-emperor"
+        }
+      ]
+    },
+    "07-14": {
+      "rank": "Optional Memorial",
+      "name": "Saint Camillus de Lellis, Priest",
+      "slug": "c-saint-camillus-de-lellis",
+      "celebrations": [
+        {
+          "name": "Saint Camillus de Lellis, Priest",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-camillus-de-lellis"
+        }
+      ]
+    },
+    "07-15": {
+      "rank": "Memorial",
+      "name": "Saint Bonaventure, Bishop and Doctor of the Church",
+      "slug": "b-saint-bonaventure",
+      "celebrations": [
+        {
+          "name": "Saint Bonaventure, Bishop and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "b-saint-bonaventure",
+          "figureSlug": "st-bonaventure"
+        }
+      ]
+    },
+    "07-16": {
+      "rank": "Optional Memorial",
+      "name": "Our Lady of Mount Carmel",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Our Lady of Mount Carmel",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "07-17": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Leo IV, Pope",
+        "slug": "l-saint-leo-iv-pope",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Frederick of Utrecht",
+        "slug": "f-saint-frederick-of-utrecht",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-19": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Macrina the Younger",
+        "slug": "m-saint-macrina-the-younger",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-20": {
+      "rank": "Optional Memorial",
+      "name": "Saint Apollinaris, Bishop and Martyr",
+      "slug": "a-saint-apollinaris-of-ravenna",
+      "celebrations": [
+        {
+          "name": "Saint Apollinaris, Bishop and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-apollinaris-of-ravenna"
+        }
+      ]
+    },
+    "07-21": {
+      "rank": "Optional Memorial",
+      "name": "Saint Lawrence of Brindisi, Priest and Doctor of the Church",
+      "slug": "l-saint-lawrence-of-brindisi-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint Lawrence of Brindisi, Priest and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "l-saint-lawrence-of-brindisi-doctor-of-the-church"
+        }
+      ]
+    },
+    "07-22": {
+      "rank": "Feast",
+      "name": "Saint Mary Magdalene",
+      "slug": "m-saint-mary-magdalene",
+      "celebrations": [
+        {
+          "name": "Saint Mary Magdalene",
+          "rank": "Feast",
+          "slug": "m-saint-mary-magdalene",
+          "figureSlug": "st-mary-magdalene"
+        }
+      ]
+    },
+    "07-23": {
+      "rank": "Optional Memorial",
+      "name": "Saint Bridget, Religious",
+      "slug": "b-saint-bridget-of-sweden-birgitta",
+      "celebrations": [
+        {
+          "name": "Saint Bridget, Religious",
+          "rank": "Optional Memorial",
+          "slug": "b-saint-bridget-of-sweden-birgitta",
+          "figureSlug": "st-bridget"
+        }
+      ]
+    },
+    "07-24": {
+      "rank": "Optional Memorial",
+      "name": "Saint Sharbel Makhluf, Priest",
+      "slug": "c-saint-charbel-sharbel-makhlouf",
+      "celebrations": [
+        {
+          "name": "Saint Sharbel Makhluf, Priest",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-charbel-sharbel-makhlouf",
+          "figureSlug": "st-charbel-page"
+        }
+      ]
+    },
+    "07-25": {
+      "rank": "Feast",
+      "name": "Saint James, Apostle",
+      "slug": "j-saint-james-the-greater-apostle",
+      "celebrations": [
+        {
+          "name": "Saint James, Apostle",
+          "rank": "Feast",
+          "slug": "j-saint-james-the-greater-apostle",
+          "figureSlug": "st-james"
+        }
+      ]
+    },
+    "07-26": {
+      "rank": "Memorial",
+      "name": "Saints Joachim and Anne, Parents of the Blessed Virgin Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Joachim and Anne, Parents of the Blessed Virgin Mary",
+          "rank": "Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Anne (with Saint Joachim)",
+              "slug": "a-saint-anne-with-saint-joachim"
+            },
+            {
+              "name": "Saint Joachim, Father of the Blessed Virgin Mary",
+              "slug": "j-saint-joachim-father-of-the-blessed-virgin-mary"
+            }
+          ],
+          "figureSlug": "st-anne"
+        }
+      ]
+    },
+    "07-27": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Liliosa, Felix, Aurelius, Natalia and George (Martyrs of Córdoba)",
+        "slug": "l-saints-liliosa-felix-aurelius-natalia-and-george-martyrs-of-cordoba",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-28": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Nazarius and Celsus",
+        "slug": "n-saints-nazarius-and-celsus",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "07-29": {
+      "rank": "Memorial",
+      "name": "Saints Martha, Mary and Lazarus",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Martha, Mary and Lazarus",
+          "rank": "Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Martha of Bethany",
+              "slug": "m-saint-martha-of-bethany"
+            },
+            {
+              "name": "Saint Lazarus of Bethany",
+              "slug": "l-saint-lazarus-of-bethany"
+            }
+          ],
+          "figureSlug": "st-martha",
+          "note": "There is no existing saint page for Mary of Bethany."
+        }
+      ]
+    },
+    "07-30": {
+      "rank": "Optional Memorial",
+      "name": "Saint Peter Chrysologus, Bishop and Doctor of the Church",
+      "slug": "p-saint-peter-chrysologus-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint Peter Chrysologus, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-peter-chrysologus-doctor-of-the-church"
+        }
+      ]
+    },
+    "07-31": {
+      "rank": "Memorial",
+      "name": "Saint Ignatius of Loyola, Priest",
+      "slug": "i-saint-ignatius-of-loyola",
+      "celebrations": [
+        {
+          "name": "Saint Ignatius of Loyola, Priest",
+          "rank": "Memorial",
+          "slug": "i-saint-ignatius-of-loyola",
+          "figureSlug": "st-ignatius-loyola"
+        }
+      ]
+    },
+    "08-01": {
+      "rank": "Memorial",
+      "name": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
+      "slug": "a-saint-alphonsus-liguori",
+      "celebrations": [
+        {
+          "name": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "a-saint-alphonsus-liguori",
+          "figureSlug": "st-alphonsus"
+        }
+      ]
+    },
+    "08-02": {
+      "rank": "Optional Memorial",
+      "name": "Saint Eusebius of Vercelli, Bishop or Saint Peter Julian Eymard, Priest",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Eusebius of Vercelli, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "e-saint-eusebius-of-vercelli"
+        },
+        {
+          "name": "Saint Peter Julian Eymard, Priest",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-peter-julian-eymard"
+        }
+      ]
+    },
+    "08-03": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Lydia",
+        "slug": null,
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "08-04": {
+      "rank": "Memorial",
+      "name": "Saint John Vianney, Priest",
+      "slug": "j-saint-john-vianney-jean-marie-vianney-the-cure-of-ars",
+      "celebrations": [
+        {
+          "name": "Saint John Vianney, Priest",
+          "rank": "Memorial",
+          "slug": "j-saint-john-vianney-jean-marie-vianney-the-cure-of-ars",
+          "figureSlug": "st-john-vianney"
+        }
+      ]
+    },
+    "08-05": {
+      "rank": "Optional Memorial",
+      "name": "The Dedication of the Basilica of Saint Mary Major",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Dedication of the Basilica of Saint Mary Major",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "08-06": {
+      "rank": "Feast",
+      "name": "The Transfiguration of the Lord",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Transfiguration of the Lord",
+          "rank": "Feast",
+          "slug": null,
+          "figureSlug": "jesus"
+        }
+      ]
+    },
+    "08-07": {
+      "rank": "Optional Memorial",
+      "name": "Saint Sixtus II, Pope, and Companions, Martyrs or Saint Cajetan, Priest",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Sixtus II, Pope, and Companions, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "s-saint-sixtus-ii"
+        },
+        {
+          "name": "Saint Cajetan, Priest",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-cajetan-gaetano-of-thiene"
+        }
+      ]
+    },
+    "08-08": {
+      "rank": "Memorial",
+      "name": "Saint Dominic, Priest",
+      "slug": "d-saint-dominic-domingo-de-guzman",
+      "celebrations": [
+        {
+          "name": "Saint Dominic, Priest",
+          "rank": "Memorial",
+          "slug": "d-saint-dominic-domingo-de-guzman",
+          "figureSlug": "st-dominic"
+        }
+      ]
+    },
+    "08-09": {
+      "rank": "Optional Memorial",
+      "name": "Saint Teresa Benedicta of the Cross, Virgin and Martyr",
+      "slug": "e-saint-edith-stein-teresa-benedicta-of-the-cross",
+      "celebrations": [
+        {
+          "name": "Saint Teresa Benedicta of the Cross, Virgin and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "e-saint-edith-stein-teresa-benedicta-of-the-cross",
+          "figureSlug": "st-edith-stein"
+        }
+      ]
+    },
+    "08-10": {
+      "rank": "Feast",
+      "name": "Saint Lawrence, Deacon and Martyr",
+      "slug": "l-saint-lawrence-of-rome-deacon-and-martyr",
+      "celebrations": [
+        {
+          "name": "Saint Lawrence, Deacon and Martyr",
+          "rank": "Feast",
+          "slug": "l-saint-lawrence-of-rome-deacon-and-martyr",
+          "figureSlug": "st-lawrence"
+        }
+      ]
+    },
+    "08-11": {
+      "rank": "Memorial",
+      "name": "Saint Clare, Virgin",
+      "slug": "c-saint-clare-of-assisi",
+      "celebrations": [
+        {
+          "name": "Saint Clare, Virgin",
+          "rank": "Memorial",
+          "slug": "c-saint-clare-of-assisi",
+          "figureSlug": "st-clare"
+        }
+      ]
+    },
+    "08-12": {
+      "rank": "Optional Memorial",
+      "name": "Saint Jane Frances de Chantal, Religious",
+      "slug": "j-saint-jane-frances-de-chantal",
+      "celebrations": [
+        {
+          "name": "Saint Jane Frances de Chantal, Religious",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-jane-frances-de-chantal",
+          "figureSlug": "st-jane-de-chantal"
+        }
+      ]
+    },
+    "08-13": {
+      "rank": "Optional Memorial",
+      "name": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Pontian",
+              "slug": "h-saint-pontian"
+            },
+            {
+              "name": "Saint Hippolytus of Rome",
+              "slug": "h-saint-hippolytus-of-rome"
+            }
+          ]
+        }
+      ]
+    },
+    "08-14": {
+      "rank": "Memorial",
+      "name": "Saint Maximilian Kolbe, Priest and Martyr",
+      "slug": "m-saint-maximilian-kolbe",
+      "celebrations": [
+        {
+          "name": "Saint Maximilian Kolbe, Priest and Martyr",
+          "rank": "Memorial",
+          "slug": "m-saint-maximilian-kolbe",
+          "figureSlug": "st-maximilian"
+        }
+      ]
+    },
+    "08-15": {
+      "rank": "Solemnity",
+      "name": "The Assumption of the Blessed Virgin Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Assumption of the Blessed Virgin Mary",
+          "rank": "Solemnity",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "08-16": {
+      "rank": "Optional Memorial",
+      "name": "Saint Stephen of Hungary",
+      "slug": "s-saint-stephen-of-hungary",
+      "celebrations": [
+        {
+          "name": "Saint Stephen of Hungary",
+          "rank": "Optional Memorial",
+          "slug": "s-saint-stephen-of-hungary"
+        }
+      ]
+    },
+    "08-17": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Mammes (Mamas) of Caesarea",
+        "slug": "m-saint-mammes-mamas-of-caesarea",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "08-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Helena (Helen), Empress",
+        "slug": "h-saint-helena-helen-empress",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "08-19": {
+      "rank": "Optional Memorial",
+      "name": "Saint John Eudes, Priest",
+      "slug": "j-saint-john-eudes",
+      "celebrations": [
+        {
+          "name": "Saint John Eudes, Priest",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-eudes"
+        }
+      ]
+    },
+    "08-20": {
+      "rank": "Memorial",
+      "name": "Saint Bernard, Abbot and Doctor of the Church",
+      "slug": "b-saint-bernard-of-clairvaux",
+      "celebrations": [
+        {
+          "name": "Saint Bernard, Abbot and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "b-saint-bernard-of-clairvaux",
+          "figureSlug": "st-bernard"
+        }
+      ]
+    },
+    "08-21": {
+      "rank": "Memorial",
+      "name": "Saint Pius X, Pope",
+      "slug": "p-saint-pius-x",
+      "celebrations": [
+        {
+          "name": "Saint Pius X, Pope",
+          "rank": "Memorial",
+          "slug": "p-saint-pius-x",
+          "figureSlug": "st-pius-x-page"
+        }
+      ]
+    },
+    "08-22": {
+      "rank": "Memorial",
+      "name": "The Queenship of the Blessed Virgin Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Queenship of the Blessed Virgin Mary",
+          "rank": "Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "08-23": {
+      "rank": "Optional Memorial",
+      "name": "Saint Rose of Lima, Virgin",
+      "slug": "r-saint-rose-of-lima",
+      "celebrations": [
+        {
+          "name": "Saint Rose of Lima, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "r-saint-rose-of-lima",
+          "figureSlug": "st-rose-lima"
+        }
+      ]
+    },
+    "08-24": {
+      "rank": "Feast",
+      "name": "Saint Bartholomew, Apostle",
+      "slug": "b-saint-bartholomew-the-apostle",
+      "celebrations": [
+        {
+          "name": "Saint Bartholomew, Apostle",
+          "rank": "Feast",
+          "slug": "b-saint-bartholomew-the-apostle",
+          "figureSlug": "st-bartholomew"
+        }
+      ]
+    },
+    "08-25": {
+      "rank": "Optional Memorial",
+      "name": "Saint Louis or Saint Joseph Calasanz, Priest",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Louis",
+          "rank": "Optional Memorial",
+          "slug": "l-saint-louis-ix-king-of-france",
+          "figureSlug": "st-louis"
+        },
+        {
+          "name": "Saint Joseph Calasanz, Priest",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-joseph-calasanz"
+        }
+      ]
+    },
+    "08-26": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Irenaeus and Abundius of Rome",
+        "slug": "i-saints-irenaeus-and-abundius-of-rome",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "08-27": {
+      "rank": "Memorial",
+      "name": "Saint Monica",
+      "slug": "m-saint-monica",
+      "celebrations": [
+        {
+          "name": "Saint Monica",
+          "rank": "Memorial",
+          "slug": "m-saint-monica",
+          "figureSlug": "st-monica"
+        }
+      ]
+    },
+    "08-28": {
+      "rank": "Memorial",
+      "name": "Saint Augustine, Bishop and Doctor of the Church",
+      "slug": "a-saint-augustine-of-hippo",
+      "celebrations": [
+        {
+          "name": "Saint Augustine, Bishop and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "a-saint-augustine-of-hippo",
+          "figureSlug": "st-augustine"
+        }
+      ]
+    },
+    "08-29": {
+      "rank": "Memorial",
+      "name": "The Passion of Saint John the Baptist",
+      "slug": "j-saint-john-the-baptist",
+      "celebrations": [
+        {
+          "name": "The Passion of Saint John the Baptist",
+          "rank": "Memorial",
+          "slug": "j-saint-john-the-baptist",
+          "figureSlug": "st-john-baptist"
+        }
+      ]
+    },
+    "08-30": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Felix and Adauctus",
+        "slug": "f-saints-felix-and-adauctus",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "08-31": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Raymond Nonnatus",
+        "slug": "r-saint-raymond-nonnatus",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-01": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Lupus (Loup) of Sens",
+        "slug": "l-saint-lupus-loup-of-sens",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-02": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Justus of Lyons",
+        "slug": "j-saint-justus-of-lyons",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-03": {
+      "rank": "Memorial",
+      "name": "Saint Gregory the Great, Pope and Doctor of the Church",
+      "slug": "g-saint-gregory-the-great-pope-and-doctor",
+      "celebrations": [
+        {
+          "name": "Saint Gregory the Great, Pope and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "g-saint-gregory-the-great-pope-and-doctor",
+          "figureSlug": "st-gregory"
+        }
+      ]
+    },
+    "09-04": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Rosalia of Palermo",
+        "slug": "r-saint-rosalia-of-palermo",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-05": {
+      "rank": "Optional Memorial",
+      "name": "Saint Teresa of Calcutta, Virgin",
+      "slug": "t-saint-teresa-of-calcutta",
+      "celebrations": [
+        {
+          "name": "Saint Teresa of Calcutta, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "t-saint-teresa-of-calcutta",
+          "figureSlug": "st-teresa-calcutta"
+        }
+      ]
+    },
+    "09-06": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Magnus of Füssen (Mang)",
+        "slug": "m-saint-magnus-of-fussen-mang",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-07": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gratus of Aosta",
+        "slug": "g-saint-gratus-of-aosta",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-08": {
+      "rank": "Feast",
+      "name": "The Nativity of the Blessed Virgin Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Nativity of the Blessed Virgin Mary",
+          "rank": "Feast",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "09-09": {
+      "rank": "Optional Memorial",
+      "name": "Saint Peter Claver, Priest",
+      "slug": "p-saint-peter-claver",
+      "celebrations": [
+        {
+          "name": "Saint Peter Claver, Priest",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-peter-claver"
+        }
+      ]
+    },
+    "09-10": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Nemesian and Companions",
+        "slug": "n-saints-nemesian-and-companions",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-11": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Felix and Regula",
+        "slug": "f-saints-felix-and-regula",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-12": {
+      "rank": "Optional Memorial",
+      "name": "The Most Holy Name of Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Most Holy Name of Mary",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "09-13": {
+      "rank": "Memorial",
+      "name": "Saint John Chrysostom, Bishop and Doctor of the Church",
+      "slug": "j-saint-john-chrysostom-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint John Chrysostom, Bishop and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "j-saint-john-chrysostom-doctor-of-the-church",
+          "figureSlug": "st-john-chrysostom"
+        }
+      ]
+    },
+    "09-14": {
+      "rank": "Feast",
+      "name": "The Exaltation of the Holy Cross",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Exaltation of the Holy Cross",
+          "rank": "Feast",
+          "slug": null,
+          "figureSlug": "jesus"
+        }
+      ]
+    },
+    "09-15": {
+      "rank": "Memorial",
+      "name": "Our Lady of Sorrows",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Our Lady of Sorrows",
+          "rank": "Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "09-16": {
+      "rank": "Memorial",
+      "name": "Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+          "rank": "Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Cornelius, Pope",
+              "slug": "c-saint-cornelius-pope"
+            },
+            {
+              "name": "Saint Cyprian of Carthage",
+              "slug": "c-saint-cyprian-of-carthage"
+            }
+          ],
+          "figureSlug": "st-cyprian"
+        }
+      ]
+    },
+    "09-17": {
+      "rank": "Optional Memorial",
+      "name": "Saint Robert Bellarmine, Bishop and Doctor of the Church or Saint Hildegard of Bingen, Virgin and Doctor of the Church",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Robert Bellarmine, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "r-saint-robert-bellarmine",
+          "figureSlug": "st-robert"
+        },
+        {
+          "name": "Saint Hildegard of Bingen, Virgin and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "h-saint-hildegard-of-bingen-doctor",
+          "figureSlug": "st-hildegard"
+        }
+      ]
+    },
+    "09-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Methodius of Olympus",
+        "slug": "m-saint-methodius-of-olympus",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-19": {
+      "rank": "Optional Memorial",
+      "name": "Saint Januarius, Bishop and Martyr",
+      "slug": "j-saint-januarius-gennaro",
+      "celebrations": [
+        {
+          "name": "Saint Januarius, Bishop and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-januarius-gennaro",
+          "figureSlug": "st-januarius"
+        }
+      ]
+    },
+    "09-20": {
+      "rank": "Memorial",
+      "name": "Saints Andrew Kim Tae-gŏn, Priest, Paul Chŏng Ha-sang, and Companions, Martyrs",
+      "slug": "a-saints-andrew-kim-tae-gon-paul-chong-ha-sang-and-companions",
+      "celebrations": [
+        {
+          "name": "Saints Andrew Kim Tae-gŏn, Priest, Paul Chŏng Ha-sang, and Companions, Martyrs",
+          "rank": "Memorial",
+          "slug": "a-saints-andrew-kim-tae-gon-paul-chong-ha-sang-and-companions"
+        }
+      ]
+    },
+    "09-21": {
+      "rank": "Feast",
+      "name": "Saint Matthew, Apostle and Evangelist",
+      "slug": "m-saint-matthew-apostle-and-evangelist",
+      "celebrations": [
+        {
+          "name": "Saint Matthew, Apostle and Evangelist",
+          "rank": "Feast",
+          "slug": "m-saint-matthew-apostle-and-evangelist",
+          "figureSlug": "st-matthew"
+        }
+      ]
+    },
+    "09-22": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Maurice and the Theban Legion",
+        "slug": "m-saint-maurice-and-the-theban-legion",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-23": {
+      "rank": "Memorial",
+      "name": "Saint Pius of Pietrelcina, Priest",
+      "slug": "p-saint-pio-of-pietrelcina",
+      "celebrations": [
+        {
+          "name": "Saint Pius of Pietrelcina, Priest",
+          "rank": "Memorial",
+          "slug": "p-saint-pio-of-pietrelcina",
+          "figureSlug": "padre-pio"
+        }
+      ]
+    },
+    "09-24": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Our Lady of Walsingham",
+        "slug": null,
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England",
+        "nationalRank": "Feast",
+        "figureSlug": "our-lady",
+        "martyrology": {
+          "name": "Saint Pacificus of San Severino",
+          "slug": "p-saint-pacificus-of-san-severino"
+        }
+      }
+    },
+    "09-25": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Vincent Strambi",
+        "slug": "v-saint-vincent-strambi",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "09-26": {
+      "rank": "Optional Memorial",
+      "name": "Saints Cosmas and Damian, Martyrs",
+      "slug": "c-saints-cosmas-and-damian",
+      "celebrations": [
+        {
+          "name": "Saints Cosmas and Damian, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "c-saints-cosmas-and-damian"
+        }
+      ]
+    },
+    "09-27": {
+      "rank": "Memorial",
+      "name": "Saint Vincent de Paul, Priest",
+      "slug": "v-saint-vincent-de-paul",
+      "celebrations": [
+        {
+          "name": "Saint Vincent de Paul, Priest",
+          "rank": "Memorial",
+          "slug": "v-saint-vincent-de-paul",
+          "figureSlug": "st-vincent-paul"
+        }
+      ]
+    },
+    "09-28": {
+      "rank": "Optional Memorial",
+      "name": "Saint Wenceslaus, Martyr or Saint Lawrence Ruiz and Companions, Martyrs",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Wenceslaus, Martyr",
+          "rank": "Optional Memorial",
+          "slug": "w-saint-wenceslaus",
+          "figureSlug": "st-wenceslaus"
+        },
+        {
+          "name": "Saint Lawrence Ruiz and Companions, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "l-saint-lorenzo-ruiz-and-companions-lawrence-ruiz-martyrs-of-japan"
+        }
+      ]
+    },
+    "09-29": {
+      "rank": "Feast",
+      "name": "Saints Michael, Gabriel and Raphael, Archangels",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Michael, Gabriel and Raphael, Archangels",
+          "rank": "Feast",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Michael the Archangel",
+              "slug": "m-saint-michael-the-archangel"
+            },
+            {
+              "name": "Saint Gabriel the Archangel",
+              "slug": "g-saint-gabriel-the-archangel"
+            },
+            {
+              "name": "Saint Raphael the Archangel",
+              "slug": "r-saint-raphael-the-archangel"
+            }
+          ],
+          "figureSlug": "st-michael"
+        }
+      ]
+    },
+    "09-30": {
+      "rank": "Memorial",
+      "name": "Saint Jerome, Priest and Doctor of the Church",
+      "slug": "j-saint-jerome-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint Jerome, Priest and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "j-saint-jerome-doctor-of-the-church",
+          "figureSlug": "st-jerome"
+        }
+      ]
+    },
+    "10-01": {
+      "rank": "Memorial",
+      "name": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+      "slug": "t-saint-therese-of-lisieux",
+      "celebrations": [
+        {
+          "name": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "t-saint-therese-of-lisieux",
+          "figureSlug": "st-therese"
+        }
+      ]
+    },
+    "10-02": {
+      "rank": "Memorial",
+      "name": "The Holy Guardian Angels",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Holy Guardian Angels",
+          "rank": "Memorial",
+          "slug": null
+        }
+      ]
+    },
+    "10-03": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Ewald the Fair and Ewald the Dark",
+        "slug": "e-saints-ewald-the-fair-and-ewald-the-dark",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-04": {
+      "rank": "Memorial",
+      "name": "Saint Francis of Assisi",
+      "slug": "f-saint-francis-of-assisi",
+      "celebrations": [
+        {
+          "name": "Saint Francis of Assisi",
+          "rank": "Memorial",
+          "slug": "f-saint-francis-of-assisi",
+          "figureSlug": "st-francis-assisi"
+        }
+      ]
+    },
+    "10-05": {
+      "rank": "Optional Memorial",
+      "name": "Saint Faustina Kowalska, Virgin",
+      "slug": "f-saint-faustina-kowalska",
+      "celebrations": [
+        {
+          "name": "Saint Faustina Kowalska, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "f-saint-faustina-kowalska",
+          "figureSlug": "st-faustina"
+        }
+      ]
+    },
+    "10-06": {
+      "rank": "Optional Memorial",
+      "name": "Saint Bruno, Priest",
+      "slug": "b-saint-bruno-of-cologne",
+      "celebrations": [
+        {
+          "name": "Saint Bruno, Priest",
+          "rank": "Optional Memorial",
+          "slug": "b-saint-bruno-of-cologne"
+        }
+      ]
+    },
+    "10-07": {
+      "rank": "Memorial",
+      "name": "Our Lady of the Rosary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Our Lady of the Rosary",
+          "rank": "Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "10-08": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Pelagia of Antioch (Pelagia the Penitent)",
+        "slug": "p-saint-pelagia-of-antioch-pelagia-the-penitent",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-09": {
+      "rank": "Optional Memorial",
+      "name": "Saint Denis, Bishop, and Companions, Martyrs or Saint John Leonardi, Priest or Saint John Henry Newman, Priest and Doctor of the Church",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Denis, Bishop, and Companions, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": "d-saint-denis-of-paris-with-saints-rusticus-and-eleutherius"
+        },
+        {
+          "name": "Saint John Leonardi, Priest",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-leonardi"
+        },
+        {
+          "name": "Saint John Henry Newman, Priest and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-henry-newman-doctor-of-the-church"
+        }
+      ]
+    },
+    "10-10": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "St Paulinus of York, Bishop",
+        "slug": "p-saint-paulinus-of-york",
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England",
+        "nationalRank": "Optional Memorial",
+        "martyrology": {
+          "name": "Saint Gereon of Cologne and Companions",
+          "slug": "g-saint-gereon-of-cologne-and-companions"
+        }
+      }
+    },
+    "10-11": {
+      "rank": "Optional Memorial",
+      "name": "Saint John XXIII, Pope",
+      "slug": "j-saint-john-xxiii-pope",
+      "celebrations": [
+        {
+          "name": "Saint John XXIII, Pope",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-xxiii-pope",
+          "figureSlug": "st-john-xxiii"
+        }
+      ]
+    },
+    "10-12": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "St Wilfrid, Bishop",
+        "slug": "w-saint-wilfrid-of-york",
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England",
+        "nationalRank": "Optional Memorial",
+        "martyrology": {
+          "name": "Saint Wilfrid of York",
+          "slug": "w-saint-wilfrid-of-york"
+        }
+      }
+    },
+    "10-13": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "St Edward the Confessor",
+        "slug": "e-saint-edward-the-confessor",
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England",
+        "nationalRank": "Optional Memorial",
+        "figureSlug": "st-edward",
+        "martyrology": {
+          "name": "Saints Faustus, Januarius and Martial",
+          "slug": "f-saints-faustus-januarius-and-martial"
+        }
+      }
+    },
+    "10-14": {
+      "rank": "Optional Memorial",
+      "name": "Saint Callistus I, Pope and Martyr",
+      "slug": "c-saint-callistus-i-pope",
+      "celebrations": [
+        {
+          "name": "Saint Callistus I, Pope and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-callistus-i-pope"
+        }
+      ]
+    },
+    "10-15": {
+      "rank": "Memorial",
+      "name": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+      "slug": "t-saint-teresa-of-avila",
+      "celebrations": [
+        {
+          "name": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "t-saint-teresa-of-avila",
+          "figureSlug": "st-teresa-avila"
+        }
+      ]
+    },
+    "10-16": {
+      "rank": "Optional Memorial",
+      "name": "Saint Hedwig, Religious or Saint Margaret Mary Alacoque, Virgin",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Hedwig, Religious",
+          "rank": "Optional Memorial",
+          "slug": "h-saint-hedwig-of-silesia"
+        },
+        {
+          "name": "Saint Margaret Mary Alacoque, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "m-saint-margaret-mary-alacoque",
+          "figureSlug": "st-margaret-mary"
+        }
+      ]
+    },
+    "10-17": {
+      "rank": "Memorial",
+      "name": "Saint Ignatius of Antioch, Bishop and Martyr",
+      "slug": "i-saint-ignatius-of-antioch",
+      "celebrations": [
+        {
+          "name": "Saint Ignatius of Antioch, Bishop and Martyr",
+          "rank": "Memorial",
+          "slug": "i-saint-ignatius-of-antioch",
+          "figureSlug": "st-ignatius-antioch"
+        }
+      ]
+    },
+    "10-18": {
+      "rank": "Feast",
+      "name": "Saint Luke, Evangelist",
+      "slug": "l-saint-luke-the-evangelist",
+      "celebrations": [
+        {
+          "name": "Saint Luke, Evangelist",
+          "rank": "Feast",
+          "slug": "l-saint-luke-the-evangelist",
+          "figureSlug": "st-luke"
+        }
+      ]
+    },
+    "10-19": {
+      "rank": "Optional Memorial",
+      "name": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs or Saint Paul of the Cross, Priest",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint John de Brébeuf",
+              "slug": "j-saint-john-de-brebeuf"
+            },
+            {
+              "name": "Saint Isaac Jogues",
+              "slug": "i-saint-isaac-jogues"
+            }
+          ],
+          "figureSlug": "st-isaac-jogues"
+        },
+        {
+          "name": "Saint Paul of the Cross, Priest",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-paul-of-the-cross"
+        }
+      ]
+    },
+    "10-20": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Maria Bertilla Boscardin",
+        "slug": "m-saint-maria-bertilla-boscardin",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-21": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Ursula and Companions",
+        "slug": "u-saint-ursula",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-22": {
+      "rank": "Optional Memorial",
+      "name": "Saint John Paul II, Pope",
+      "slug": "j-saint-john-paul-ii-pope",
+      "celebrations": [
+        {
+          "name": "Saint John Paul II, Pope",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-paul-ii-pope",
+          "figureSlug": "st-john-paul-ii"
+        }
+      ]
+    },
+    "10-23": {
+      "rank": "Optional Memorial",
+      "name": "Saint John of Capistrano, Priest",
+      "slug": "j-saint-john-of-capistrano",
+      "celebrations": [
+        {
+          "name": "Saint John of Capistrano, Priest",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-of-capistrano"
+        }
+      ]
+    },
+    "10-24": {
+      "rank": "Optional Memorial",
+      "name": "Saint Anthony Mary Claret, Bishop",
+      "slug": "a-saint-anthony-mary-claret",
+      "celebrations": [
+        {
+          "name": "Saint Anthony Mary Claret, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-anthony-mary-claret"
+        }
+      ]
+    },
+    "10-25": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saints Crispin and Crispinian",
+        "slug": "c-saints-crispin-and-crispinian",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-26": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Ss Chad and Cedd, Bishops",
+        "slug": null,
+        "source": "current site Saint of the Day (England and Wales proper, not GRC)",
+        "where": "England",
+        "nationalRank": "Optional Memorial",
+        "slugs": [
+          {
+            "name": "Saint Chad (Ceadda) of Lichfield",
+            "slug": "c-saint-chad-ceadda-of-lichfield"
+          },
+          {
+            "name": "Saint Cedd",
+            "slug": "c-saint-cedd"
+          }
+        ],
+        "martyrology": {
+          "name": "Saint Evaristus, Pope",
+          "slug": "e-saint-evaristus-pope"
+        }
+      }
+    },
+    "10-27": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gaudiosus of Naples",
+        "slug": "g-saint-gaudiosus-of-naples",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-28": {
+      "rank": "Feast",
+      "name": "Saints Simon and Jude, Apostles",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saints Simon and Jude, Apostles",
+          "rank": "Feast",
+          "slug": null,
+          "slugs": [
+            {
+              "name": "Saint Simon the Apostle",
+              "slug": "s-saint-simon-the-apostle"
+            },
+            {
+              "name": "Saint Jude Thaddeus, Apostle",
+              "slug": "j-saint-jude-thaddeus-apostle"
+            }
+          ],
+          "figureSlug": "st-jude"
+        }
+      ]
+    },
+    "10-29": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Narcissus of Jerusalem",
+        "slug": "n-saint-narcissus-of-jerusalem",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-30": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Marcellus the Centurion",
+        "slug": "m-saint-marcellus-the-centurion",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "10-31": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Wolfgang of Regensburg",
+        "slug": "w-saint-wolfgang-of-regensburg",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-01": {
+      "rank": "Solemnity",
+      "name": "All Saints",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "All Saints",
+          "rank": "Solemnity",
+          "slug": null
+        }
+      ]
+    },
+    "11-02": {
+      "rank": "Commemoration",
+      "name": "The Commemoration of All the Faithful Departed",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Commemoration of All the Faithful Departed",
+          "rank": "Commemoration",
+          "slug": null,
+          "note": "Officially a Commemoration, ranked with Solemnities (Universal Norms, Table of Liturgical Days, I.3). It is not itself a Solemnity."
+        }
+      ]
+    },
+    "11-03": {
+      "rank": "Optional Memorial",
+      "name": "Saint Martin de Porres, Religious",
+      "slug": "m-saint-martin-de-porres",
+      "celebrations": [
+        {
+          "name": "Saint Martin de Porres, Religious",
+          "rank": "Optional Memorial",
+          "slug": "m-saint-martin-de-porres",
+          "figureSlug": "st-martin-porres"
+        }
+      ]
+    },
+    "11-04": {
+      "rank": "Memorial",
+      "name": "Saint Charles Borromeo, Bishop",
+      "slug": "c-saint-charles-borromeo",
+      "celebrations": [
+        {
+          "name": "Saint Charles Borromeo, Bishop",
+          "rank": "Memorial",
+          "slug": "c-saint-charles-borromeo",
+          "figureSlug": "st-charles"
+        }
+      ]
+    },
+    "11-05": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Galation and Saint Episteme",
+        "slug": "g-saint-galation-and-saint-episteme",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-06": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Nuno Álvares Pereira (Nuno of Saint Mary)",
+        "slug": "n-saint-nuno-alvares-pereira-nuno-of-saint-mary",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-07": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Willibrord",
+        "slug": "w-saint-willibrord",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-08": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "The Four Crowned Martyrs",
+        "slug": "f-saint-four-crowned-martyrs",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-09": {
+      "rank": "Feast",
+      "name": "The Dedication of the Lateran Basilica",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Dedication of the Lateran Basilica",
+          "rank": "Feast",
+          "slug": null
+        }
+      ]
+    },
+    "11-10": {
+      "rank": "Memorial",
+      "name": "Saint Leo the Great, Pope and Doctor of the Church",
+      "slug": "l-saint-leo-the-great-pope-and-doctor-of-the-church-leo-i",
+      "celebrations": [
+        {
+          "name": "Saint Leo the Great, Pope and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "l-saint-leo-the-great-pope-and-doctor-of-the-church-leo-i",
+          "figureSlug": "st-leo-great"
+        }
+      ]
+    },
+    "11-11": {
+      "rank": "Memorial",
+      "name": "Saint Martin of Tours, Bishop",
+      "slug": "m-saint-martin-of-tours",
+      "celebrations": [
+        {
+          "name": "Saint Martin of Tours, Bishop",
+          "rank": "Memorial",
+          "slug": "m-saint-martin-of-tours",
+          "figureSlug": "st-martin-tours"
+        }
+      ]
+    },
+    "11-12": {
+      "rank": "Memorial",
+      "name": "Saint Josaphat, Bishop and Martyr",
+      "slug": "j-saint-josaphat-kuntsevych",
+      "celebrations": [
+        {
+          "name": "Saint Josaphat, Bishop and Martyr",
+          "rank": "Memorial",
+          "slug": "j-saint-josaphat-kuntsevych"
+        }
+      ]
+    },
+    "11-13": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Nicholas I, Pope (Nicholas the Great)",
+        "slug": "n-saint-nicholas-i-pope-nicholas-the-great",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-14": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Nicholas Tavelić and Companions",
+        "slug": "n-saint-nicholas-tavelic-and-companions",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-15": {
+      "rank": "Optional Memorial",
+      "name": "Saint Albert the Great, Bishop and Doctor of the Church",
+      "slug": "a-saint-albert-the-great-albertus-magnus",
+      "celebrations": [
+        {
+          "name": "Saint Albert the Great, Bishop and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "a-saint-albert-the-great-albertus-magnus",
+          "figureSlug": "st-albert"
+        }
+      ]
+    },
+    "11-16": {
+      "rank": "Optional Memorial",
+      "name": "Saint Margaret of Scotland or Saint Gertrude, Virgin",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Margaret of Scotland",
+          "rank": "Optional Memorial",
+          "slug": "m-saint-margaret-of-scotland"
+        },
+        {
+          "name": "Saint Gertrude, Virgin",
+          "rank": "Optional Memorial",
+          "slug": "g-saint-gertrude-the-great",
+          "figureSlug": "st-gertrude"
+        }
+      ]
+    },
+    "11-17": {
+      "rank": "Memorial",
+      "name": "Saint Elizabeth of Hungary, Religious",
+      "slug": "e-saint-elizabeth-of-hungary",
+      "celebrations": [
+        {
+          "name": "Saint Elizabeth of Hungary, Religious",
+          "rank": "Memorial",
+          "slug": "e-saint-elizabeth-of-hungary",
+          "figureSlug": "st-elizabeth-hungary"
+        }
+      ]
+    },
+    "11-18": {
+      "rank": "Optional Memorial",
+      "name": "The Dedication of the Basilicas of Saints Peter and Paul, Apostles",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Dedication of the Basilicas of Saints Peter and Paul, Apostles",
+          "rank": "Optional Memorial",
+          "slug": null
+        }
+      ]
+    },
+    "11-19": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Raphael Kalinowski",
+        "slug": "r-saint-raphael-kalinowski",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-20": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Felix of Valois",
+        "slug": "f-saint-felix-of-valois",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-21": {
+      "rank": "Memorial",
+      "name": "The Presentation of the Blessed Virgin Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Presentation of the Blessed Virgin Mary",
+          "rank": "Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "11-22": {
+      "rank": "Memorial",
+      "name": "Saint Cecilia, Virgin and Martyr",
+      "slug": "c-saint-cecilia",
+      "celebrations": [
+        {
+          "name": "Saint Cecilia, Virgin and Martyr",
+          "rank": "Memorial",
+          "slug": "c-saint-cecilia",
+          "figureSlug": "st-cecilia-page"
+        }
+      ]
+    },
+    "11-23": {
+      "rank": "Optional Memorial",
+      "name": "Saint Clement I, Pope and Martyr or Saint Columban, Abbot",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Saint Clement I, Pope and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-clement-i-pope"
+        },
+        {
+          "name": "Saint Columban, Abbot",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-columban-columbanus"
+        }
+      ]
+    },
+    "11-24": {
+      "rank": "Memorial",
+      "name": "Saints Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+      "slug": "a-saints-andrew-dung-lac-and-companions",
+      "celebrations": [
+        {
+          "name": "Saints Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+          "rank": "Memorial",
+          "slug": "a-saints-andrew-dung-lac-and-companions"
+        }
+      ]
+    },
+    "11-25": {
+      "rank": "Optional Memorial",
+      "name": "Saint Catherine of Alexandria, Virgin and Martyr",
+      "slug": "c-saint-catherine-of-alexandria",
+      "celebrations": [
+        {
+          "name": "Saint Catherine of Alexandria, Virgin and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "c-saint-catherine-of-alexandria",
+          "figureSlug": "st-catherine-alexandria"
+        }
+      ]
+    },
+    "11-26": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Leonard of Port Maurice",
+        "slug": "l-saint-leonard-of-port-maurice",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-27": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Virgil of Salzburg (Fergal)",
+        "slug": "v-saint-virgil-of-salzburg",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-28": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint James of the March",
+        "slug": "j-saint-james-of-the-march",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-29": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Saturninus of Toulouse (Sernin)",
+        "slug": "s-saint-saturninus-of-toulouse-sernin",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "11-30": {
+      "rank": "Feast",
+      "name": "Saint Andrew, Apostle",
+      "slug": "a-saint-andrew-apostle",
+      "celebrations": [
+        {
+          "name": "Saint Andrew, Apostle",
+          "rank": "Feast",
+          "slug": "a-saint-andrew-apostle",
+          "figureSlug": "st-andrew"
+        }
+      ]
+    },
+    "12-01": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Natalia of Nicomedia (with Saint Adrian)",
+        "slug": "n-saint-natalia-of-nicomedia-with-saint-adrian",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-02": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Chromatius of Aquileia",
+        "slug": "c-saint-chromatius-of-aquileia",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-03": {
+      "rank": "Memorial",
+      "name": "Saint Francis Xavier, Priest",
+      "slug": "f-saint-francis-xavier",
+      "celebrations": [
+        {
+          "name": "Saint Francis Xavier, Priest",
+          "rank": "Memorial",
+          "slug": "f-saint-francis-xavier",
+          "figureSlug": "st-francis-xavier"
+        }
+      ]
+    },
+    "12-04": {
+      "rank": "Optional Memorial",
+      "name": "Saint John Damascene, Priest and Doctor of the Church",
+      "slug": "j-saint-john-damascene-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint John Damascene, Priest and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-damascene-doctor-of-the-church"
+        }
+      ]
+    },
+    "12-05": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Sabas (Sabbas the Sanctified)",
+        "slug": "s-saint-sabas",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-06": {
+      "rank": "Optional Memorial",
+      "name": "Saint Nicholas, Bishop",
+      "slug": "n-saint-nicholas-of-myra",
+      "celebrations": [
+        {
+          "name": "Saint Nicholas, Bishop",
+          "rank": "Optional Memorial",
+          "slug": "n-saint-nicholas-of-myra",
+          "figureSlug": "st-nicholas"
+        }
+      ]
+    },
+    "12-07": {
+      "rank": "Memorial",
+      "name": "Saint Ambrose, Bishop and Doctor of the Church",
+      "slug": "a-saint-ambrose-of-milan",
+      "celebrations": [
+        {
+          "name": "Saint Ambrose, Bishop and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "a-saint-ambrose-of-milan",
+          "figureSlug": "st-ambrose"
+        }
+      ]
+    },
+    "12-08": {
+      "rank": "Solemnity",
+      "name": "The Immaculate Conception of the Blessed Virgin Mary",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Immaculate Conception of the Blessed Virgin Mary",
+          "rank": "Solemnity",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "12-09": {
+      "rank": "Optional Memorial",
+      "name": "Saint Juan Diego Cuauhtlatoatzin",
+      "slug": "j-saint-juan-diego-cuauhtlatoatzin",
+      "celebrations": [
+        {
+          "name": "Saint Juan Diego Cuauhtlatoatzin",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-juan-diego-cuauhtlatoatzin",
+          "figureSlug": "st-juan-diego"
+        }
+      ]
+    },
+    "12-10": {
+      "rank": "Optional Memorial",
+      "name": "Our Lady of Loreto",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Our Lady of Loreto",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "12-11": {
+      "rank": "Optional Memorial",
+      "name": "Saint Damasus I, Pope",
+      "slug": "d-saint-damasus-i-pope",
+      "celebrations": [
+        {
+          "name": "Saint Damasus I, Pope",
+          "rank": "Optional Memorial",
+          "slug": "d-saint-damasus-i-pope"
+        }
+      ]
+    },
+    "12-12": {
+      "rank": "Optional Memorial",
+      "name": "Our Lady of Guadalupe",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "Our Lady of Guadalupe",
+          "rank": "Optional Memorial",
+          "slug": null,
+          "figureSlug": "our-lady"
+        }
+      ]
+    },
+    "12-13": {
+      "rank": "Memorial",
+      "name": "Saint Lucy, Virgin and Martyr",
+      "slug": "l-saint-lucy-of-syracuse-virgin-and-martyr",
+      "celebrations": [
+        {
+          "name": "Saint Lucy, Virgin and Martyr",
+          "rank": "Memorial",
+          "slug": "l-saint-lucy-of-syracuse-virgin-and-martyr",
+          "figureSlug": "st-lucy"
+        }
+      ]
+    },
+    "12-14": {
+      "rank": "Memorial",
+      "name": "Saint John of the Cross, Priest and Doctor of the Church",
+      "slug": "j-saint-john-of-the-cross-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint John of the Cross, Priest and Doctor of the Church",
+          "rank": "Memorial",
+          "slug": "j-saint-john-of-the-cross-doctor-of-the-church",
+          "figureSlug": "st-john-cross"
+        }
+      ]
+    },
+    "12-15": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Virginia Centurione Bracelli",
+        "slug": "v-saint-virginia-centurione-bracelli",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-16": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Haggai the Prophet",
+        "slug": "h-saint-haggai-the-prophet",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-17": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Olympias of Constantinople",
+        "slug": "o-saint-olympias-of-constantinople",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-18": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gatian of Tours",
+        "slug": "g-saint-gatian-of-tours",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-19": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Anastasius I",
+        "slug": null,
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-20": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Zephyrinus, Pope",
+        "slug": "z-saint-zephyrinus-pope",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-21": {
+      "rank": "Optional Memorial",
+      "name": "Saint Peter Canisius, Priest and Doctor of the Church",
+      "slug": "p-saint-peter-canisius-doctor-of-the-church",
+      "celebrations": [
+        {
+          "name": "Saint Peter Canisius, Priest and Doctor of the Church",
+          "rank": "Optional Memorial",
+          "slug": "p-saint-peter-canisius-doctor-of-the-church"
+        }
+      ]
+    },
+    "12-22": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Ischyrion",
+        "slug": "i-saint-ischyrion",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-23": {
+      "rank": "Optional Memorial",
+      "name": "Saint John of Kanty, Priest",
+      "slug": "j-saint-john-kanty-john-of-kanty",
+      "celebrations": [
+        {
+          "name": "Saint John of Kanty, Priest",
+          "rank": "Optional Memorial",
+          "slug": "j-saint-john-kanty-john-of-kanty"
+        }
+      ]
+    },
+    "12-24": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Gregory of Spoleto",
+        "slug": "g-saint-gregory-of-spoleto",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-25": {
+      "rank": "Solemnity",
+      "name": "The Nativity of the Lord",
+      "slug": null,
+      "celebrations": [
+        {
+          "name": "The Nativity of the Lord",
+          "rank": "Solemnity",
+          "slug": null,
+          "figureSlug": "jesus"
+        }
+      ]
+    },
+    "12-26": {
+      "rank": "Feast",
+      "name": "Saint Stephen, the First Martyr",
+      "slug": "s-saint-stephen-the-deacon",
+      "celebrations": [
+        {
+          "name": "Saint Stephen, the First Martyr",
+          "rank": "Feast",
+          "slug": "s-saint-stephen-the-deacon"
+        }
+      ]
+    },
+    "12-27": {
+      "rank": "Feast",
+      "name": "Saint John, Apostle and Evangelist",
+      "slug": "j-saint-john-the-evangelist-apostle",
+      "celebrations": [
+        {
+          "name": "Saint John, Apostle and Evangelist",
+          "rank": "Feast",
+          "slug": "j-saint-john-the-evangelist-apostle",
+          "figureSlug": "st-john-evangelist"
+        }
+      ]
+    },
+    "12-28": {
+      "rank": "Feast",
+      "name": "The Holy Innocents, Martyrs",
+      "slug": "h-the-holy-innocents",
+      "celebrations": [
+        {
+          "name": "The Holy Innocents, Martyrs",
+          "rank": "Feast",
+          "slug": "h-the-holy-innocents"
+        }
+      ]
+    },
+    "12-29": {
+      "rank": "Optional Memorial",
+      "name": "Saint Thomas Becket, Bishop and Martyr",
+      "slug": "t-saint-thomas-becket",
+      "celebrations": [
+        {
+          "name": "Saint Thomas Becket, Bishop and Martyr",
+          "rank": "Optional Memorial",
+          "slug": "t-saint-thomas-becket"
+        }
+      ]
+    },
+    "12-30": {
+      "rank": "feria",
+      "name": null,
+      "slug": null,
+      "celebrations": [],
+      "fallback": {
+        "name": "Saint Egwin of Worcester",
+        "slug": "e-saint-egwin-of-worcester",
+        "source": "current site martyrology, used by the home Saint of the Day strip on an open weekday"
+      }
+    },
+    "12-31": {
+      "rank": "Optional Memorial",
+      "name": "Saint Sylvester I, Pope",
+      "slug": "s-saint-sylvester-i",
+      "celebrations": [
+        {
+          "name": "Saint Sylvester I, Pope",
+          "rank": "Optional Memorial",
+          "slug": "s-saint-sylvester-i"
+        }
+      ]
+    }
+  },
+  "moveable": [
+    {
+      "id": "ash-wednesday",
+      "name": "Ash Wednesday",
+      "rank": "Privileged weekday",
+      "rule": "46 days before Easter (Wednesday before the First Sunday of Lent)",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-02-18",
+        "2027": "2027-02-10"
+      }
+    },
+    {
+      "id": "palm-sunday",
+      "name": "Palm Sunday of the Passion of the Lord",
+      "rank": "Solemnity",
+      "rule": "Sunday before Easter",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-03-29",
+        "2027": "2027-03-21"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "holy-thursday",
+      "name": "Thursday of the Lord’s Supper",
+      "rank": "Paschal Triduum",
+      "rule": "Three days before Easter",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-04-02",
+        "2027": "2027-03-25"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "good-friday",
+      "name": "Good Friday of the Passion of the Lord",
+      "rank": "Paschal Triduum",
+      "rule": "Two days before Easter",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-04-03",
+        "2027": "2027-03-26"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "holy-saturday",
+      "name": "Holy Saturday",
+      "rank": "Paschal Triduum",
+      "rule": "The day before Easter",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-04-04",
+        "2027": "2027-03-27"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "easter",
+      "name": "Easter Sunday of the Resurrection of the Lord",
+      "rank": "Solemnity",
+      "rule": "Sunday after the first full moon on or after 21 March (Gregorian Computus, as in the site calendar)",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-04-05",
+        "2027": "2027-03-28"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "divine-mercy",
+      "name": "Second Sunday of Easter, or of Divine Mercy",
+      "rank": "Solemnity",
+      "rule": "Sunday after Easter (the octave day of Easter)",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-04-12",
+        "2027": "2027-04-04"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "ascension",
+      "name": "The Ascension of the Lord",
+      "rank": "Solemnity",
+      "rule": "Thursday, 39 days after Easter (the fortieth day counting Easter). In some particular calendars it is transferred to the following Sunday; England and Wales keep the Thursday.",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-05-14",
+        "2027": "2027-05-06"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "pentecost",
+      "name": "Pentecost Sunday",
+      "rank": "Solemnity",
+      "rule": "Sunday, 49 days after Easter (the fiftieth day counting Easter)",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-05-24",
+        "2027": "2027-05-16"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "mother-of-the-church",
+      "name": "The Blessed Virgin Mary, Mother of the Church",
+      "rank": "Memorial",
+      "rule": "Monday after Pentecost. If this Memorial coincides with another obligatory Memorial, only Mother of the Church is kept that year (Notification, 24 March 2018).",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-05-25",
+        "2027": "2027-05-17"
+      },
+      "figureSlug": "our-lady",
+      "note": "Added to the General Roman Calendar by decree of 11 February 2018. Missing from the live site grc-calendar module."
+    },
+    {
+      "id": "trinity",
+      "name": "The Most Holy Trinity",
+      "rank": "Solemnity",
+      "rule": "Sunday after Pentecost (56 days after Easter)",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-05-31",
+        "2027": "2027-05-23"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "corpus-christi",
+      "name": "The Most Holy Body and Blood of Christ",
+      "rank": "Solemnity",
+      "rule": "Thursday after Trinity (60 days after Easter; 11 days after Pentecost). Particular calendars, including England and Wales, may keep it on the following Sunday.",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-06-04",
+        "2027": "2027-05-27"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "sacred-heart",
+      "name": "The Most Sacred Heart of Jesus",
+      "rank": "Solemnity",
+      "rule": "Friday after the Second Sunday after Pentecost (68 days after Easter; 19 days after Pentecost)",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-06-12",
+        "2027": "2027-06-04"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "immaculate-heart",
+      "name": "The Immaculate Heart of the Blessed Virgin Mary",
+      "rank": "Memorial",
+      "rule": "Saturday after the Sacred Heart (69 days after Easter; 20 days after Pentecost). If it coincides with another obligatory Memorial, both are optional that year.",
+      "cycle": "easter",
+      "dates": {
+        "2026": "2026-06-13",
+        "2027": "2027-06-05"
+      },
+      "figureSlug": "our-lady"
+    },
+    {
+      "id": "christ-the-king",
+      "name": "Our Lord Jesus Christ, King of the Universe",
+      "rank": "Solemnity",
+      "rule": "Last Sunday in Ordinary Time: the Sunday before the First Sunday of Advent",
+      "cycle": "advent",
+      "dates": {
+        "2026": "2026-11-22",
+        "2027": "2027-11-21"
+      },
+      "figureSlug": "jesus"
+    },
+    {
+      "id": "first-sunday-of-advent",
+      "name": "First Sunday of Advent",
+      "rank": "Sunday",
+      "rule": "Four Sundays before 25 December. If Christmas is a Sunday, Advent starts 28 days earlier; otherwise 21 days plus the weekday number of Christmas (Sunday = 0).",
+      "cycle": "advent",
+      "dates": {
+        "2026": "2026-11-29",
+        "2027": "2027-11-28"
+      }
+    },
+    {
+      "id": "holy-family",
+      "name": "The Holy Family of Jesus, Mary and Joseph",
+      "rank": "Feast",
+      "rule": "Sunday within the Octave of Christmas, or 30 December if there is no such Sunday (when Christmas itself is a Sunday)",
+      "cycle": "advent",
+      "dates": {
+        "2026": "2026-12-27",
+        "2027": "2027-12-26"
+      },
+      "figureSlug": "jesus",
+      "note": "In 2027 this falls on 26 December, so the Feast of Saint Stephen is impeded that year."
+    },
+    {
+      "id": "baptism-of-the-lord",
+      "name": "The Baptism of the Lord",
+      "rank": "Feast",
+      "rule": "Sunday after 6 January. If the Epiphany is transferred to Sunday 7 or 8 January, the Baptism is kept on the following Monday.",
+      "cycle": "advent",
+      "dates": {
+        "2026": "2026-01-11",
+        "2027": "2027-01-10"
+      },
+      "figureSlug": "jesus"
+    }
+  ],
+  "solemnityTransfers": [
+    {
+      "year": 2027,
+      "name": "The Annunciation of the Lord",
+      "from": "03-25",
+      "to": "2027-04-05",
+      "rule": "If 25 March falls in Holy Week or the Octave of Easter, transfer to the Monday after the Octave of Easter."
+    }
+  ],
+  "englandAndWales": {
+    "note": "Do not mix these into the General Roman Calendar. This is an optional national list only. Sources: Liturgy Office of the Catholic Bishops’ Conference of England and Wales, National Calendar for England and National Calendar for Wales (recognitio 2000, with later additions), and the 2026 Ordo notes.",
+    "rankElevationsOfGrcDays": [
+      {
+        "date": "02-14",
+        "name": "Saints Cyril, Monk, and Methodius, Bishop",
+        "grcRank": "Memorial",
+        "nationalRank": "Feast",
+        "where": "England and Wales (patrons of Europe)"
+      },
+      {
+        "date": "03-17",
+        "name": "Saint Patrick, Bishop",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Feast",
+        "where": "England (listed on the National Calendar for England; not listed on the Wales national table)"
+      },
+      {
+        "date": "04-23",
+        "name": "Saint George, Martyr, Patron of England",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Solemnity",
+        "where": "England only. In Wales he remains an optional memorial. In England, Saint Adalbert is kept on 24 April."
+      },
+      {
+        "date": "04-29",
+        "name": "Saint Catherine of Siena, Virgin and Doctor of the Church",
+        "grcRank": "Memorial",
+        "nationalRank": "Feast",
+        "where": "England and Wales (patron of Europe)"
+      },
+      {
+        "date": "05-25",
+        "name": "Saint Bede the Venerable, Priest and Doctor of the Church",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Memorial",
+        "where": "England"
+      },
+      {
+        "date": "05-27",
+        "name": "Saint Augustine of Canterbury, Bishop",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Feast",
+        "where": "England (the live site note also says Wales; the Wales national table does not list 27 May)"
+      },
+      {
+        "date": "06-22",
+        "name": "Saints John Fisher, Bishop, and Thomas More, Martyrs",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Feast",
+        "where": "England (and in practice England and Wales; not listed on the short Wales table)"
+      },
+      {
+        "date": "07-11",
+        "name": "Saint Benedict, Abbot",
+        "grcRank": "Memorial",
+        "nationalRank": "Feast",
+        "where": "England and Wales (patron of Europe)"
+      },
+      {
+        "date": "07-23",
+        "name": "Saint Bridget, Religious",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Feast",
+        "where": "England and Wales (patron of Europe)"
+      },
+      {
+        "date": "08-09",
+        "name": "Saint Teresa Benedicta of the Cross, Virgin and Martyr",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Feast",
+        "where": "England and Wales (patron of Europe)"
+      },
+      {
+        "date": "09-03",
+        "name": "Saint Gregory the Great, Pope and Doctor of the Church",
+        "grcRank": "Memorial",
+        "nationalRank": "Feast",
+        "where": "England"
+      },
+      {
+        "date": "10-09",
+        "name": "Saint John Henry Newman, Priest and Doctor of the Church",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Feast",
+        "where": "England (raised to a Feast after the 2019 canonisation; the Wales national page still shows an older ‘Bl John Henry Newman’ line and may be stale)",
+        "slug": "j-saint-john-henry-newman-doctor-of-the-church"
+      },
+      {
+        "date": "12-29",
+        "name": "Saint Thomas Becket, Bishop and Martyr",
+        "grcRank": "Optional Memorial",
+        "nationalRank": "Feast",
+        "where": "England",
+        "slug": "t-saint-thomas-becket"
+      }
+    ],
+    "englandPropersNotInGrc": [
+      {
+        "date": "01-12",
+        "name": "Saint Aelred of Rievaulx, Abbot",
+        "rank": "Optional Memorial",
+        "slug": "a-saint-aelred-of-rievaulx"
+      },
+      {
+        "date": "01-19",
+        "name": "Saint Wulstan, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "w-saint-wulfstan-of-worcester"
+      },
+      {
+        "date": "03-01",
+        "name": "Saint David, Bishop, Patron of Wales",
+        "rank": "Feast in England",
+        "slug": "d-saint-david-of-wales-dewi-sant"
+      },
+      {
+        "date": "05-04",
+        "name": "The English Martyrs",
+        "rank": "Feast",
+        "slug": null,
+        "note": "Not on the Wales national calendar. No combined saint page."
+      },
+      {
+        "date": "05-19",
+        "name": "Saint Dunstan, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "d-saint-dunstan-of-canterbury"
+      },
+      {
+        "date": "06-09",
+        "name": "Saint Columba, Abbot",
+        "rank": "Optional Memorial",
+        "slug": "c-saint-columba-colum-cille-of-iona",
+        "note": "Same date as the GRC optional memorial of Saint Ephrem; in England either may be kept."
+      },
+      {
+        "date": "06-16",
+        "name": "Saint Richard of Chichester, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "r-saint-richard-of-chichester"
+      },
+      {
+        "date": "06-20",
+        "name": "Saint Alban, Martyr",
+        "rank": "Optional Memorial",
+        "slug": "a-saint-alban"
+      },
+      {
+        "date": "06-23",
+        "name": "Saint Etheldreda (Audrey), Abbess",
+        "rank": "Optional Memorial",
+        "slug": "e-saint-etheldreda-audrey-of-ely"
+      },
+      {
+        "date": "07-01",
+        "name": "Saint Oliver Plunkett, Bishop and Martyr",
+        "rank": "Optional Memorial",
+        "slug": "o-saint-oliver-plunkett"
+      },
+      {
+        "date": "08-26",
+        "name": "Blessed Dominic of the Mother of God Barberi, Priest",
+        "rank": "Optional Memorial",
+        "slug": null,
+        "note": "No existing saint page."
+      },
+      {
+        "date": "08-30",
+        "name": "Saints Margaret Clitherow, Anne Line and Margaret Ward, Martyrs",
+        "rank": "Optional Memorial",
+        "slugs": [
+          {
+            "name": "Saint Margaret Clitherow",
+            "slug": "m-saint-margaret-clitherow"
+          },
+          {
+            "name": "Saint Anne Line",
+            "slug": "a-saint-anne-line"
+          },
+          {
+            "name": "Saint Margaret Ward",
+            "slug": "m-saint-margaret-ward"
+          }
+        ]
+      },
+      {
+        "date": "08-31",
+        "name": "Saint Aidan, Bishop, and the Saints of Lindisfarne",
+        "rank": "Optional Memorial",
+        "slug": "a-saint-aidan-of-lindisfarne"
+      },
+      {
+        "date": "09-04",
+        "name": "Saint Cuthbert, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "c-saint-cuthbert"
+      },
+      {
+        "date": "09-19",
+        "name": "Saint Theodore of Canterbury, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "t-saint-theodore-of-canterbury-theodore-of-tarsus",
+        "note": "Same date as the GRC optional memorial of Saint Januarius."
+      },
+      {
+        "date": "09-24",
+        "name": "Our Lady of Walsingham",
+        "rank": "Feast",
+        "slug": null,
+        "figureSlug": "our-lady"
+      },
+      {
+        "date": "10-10",
+        "name": "Saint Paulinus of York, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "p-saint-paulinus-of-york",
+        "note": "In England the GRC optional memorials of Saint Denis and Saint John Leonardi, impeded by the Feast of Saint John Henry Newman on 9 October, may be kept on 10 October."
+      },
+      {
+        "date": "10-12",
+        "name": "Saint Wilfrid, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "w-saint-wilfrid-of-york"
+      },
+      {
+        "date": "10-13",
+        "name": "Saint Edward the Confessor",
+        "rank": "Optional Memorial",
+        "slug": "e-saint-edward-the-confessor"
+      },
+      {
+        "date": "10-26",
+        "name": "Saints Chad and Cedd, Bishops",
+        "rank": "Optional Memorial",
+        "slugs": [
+          {
+            "name": "Saint Chad (Ceadda) of Lichfield",
+            "slug": "c-saint-chad-ceadda-of-lichfield"
+          },
+          {
+            "name": "Saint Cedd",
+            "slug": "c-saint-cedd"
+          }
+        ]
+      },
+      {
+        "date": "11-03",
+        "name": "Saint Winefride, Virgin",
+        "rank": "Optional Memorial",
+        "slug": "w-saint-winefride",
+        "note": "Also on the Wales national calendar. Same date as the GRC optional memorial of Saint Martin de Porres."
+      },
+      {
+        "date": "11-07",
+        "name": "Saint Willibrord, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "w-saint-willibrord"
+      },
+      {
+        "date": "11-16",
+        "name": "Saint Edmund of Abingdon, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "e-saint-edmund-of-abingdon-edmund-rich",
+        "note": "Same date as the GRC optional memorials of Saint Margaret of Scotland and Saint Gertrude."
+      },
+      {
+        "date": "11-17",
+        "name": "Saint Hilda, Abbess, and Saint Hugh of Lincoln, Bishop",
+        "rank": "Optional Memorial",
+        "note": "In England the GRC Memorial of Saint Elizabeth of Hungary is made optional so that Saint Hilda and Saint Hugh may be kept.",
+        "slugs": [
+          {
+            "name": "Saint Hilda of Whitby",
+            "slug": "h-saint-hilda-of-whitby"
+          },
+          {
+            "name": "Saint Hugh of Lincoln",
+            "slug": "h-saint-hugh-of-lincoln"
+          }
+        ]
+      }
+    ],
+    "walesPropersNotInGrc": [
+      {
+        "date": "02-09",
+        "name": "Saint Teilo, Bishop",
+        "rank": "Optional Memorial",
+        "slug": null,
+        "note": "No existing saint page."
+      },
+      {
+        "date": "03-01",
+        "name": "Saint David, Bishop, Patron of Wales",
+        "rank": "Solemnity",
+        "slug": "d-saint-david-of-wales-dewi-sant"
+      },
+      {
+        "date": "04-20",
+        "name": "Saint Beuno, Abbot",
+        "rank": "Optional Memorial",
+        "slug": "b-saint-beuno"
+      },
+      {
+        "date": "05-05",
+        "name": "Saint Asaph, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "a-saint-asaph"
+      },
+      {
+        "date": "06-20",
+        "name": "Saints Alban, Julius and Aaron, Martyrs",
+        "rank": "Optional Memorial",
+        "slugs": [
+          {
+            "name": "Saint Alban",
+            "slug": "a-saint-alban"
+          },
+          {
+            "name": "Saint Aaron of Caerleon",
+            "slug": "a-saint-aaron-of-caerleon"
+          }
+        ],
+        "note": "No separate page was found for Saint Julius of Caerleon."
+      },
+      {
+        "date": "07-12",
+        "name": "Saint John Jones, Martyr",
+        "rank": "Optional Memorial",
+        "slug": "j-saint-john-jones"
+      },
+      {
+        "date": "07-23",
+        "name": "Saints Philip Evans and John Lloyd, Martyrs",
+        "rank": "Optional Memorial",
+        "note": "Same date as the Feast of Saint Bridget, patron of Europe.",
+        "slugs": [
+          {
+            "name": "Saint Philip Evans",
+            "slug": "p-saint-philip-evans"
+          },
+          {
+            "name": "Saint John Lloyd",
+            "slug": "j-saint-john-lloyd"
+          }
+        ]
+      },
+      {
+        "date": "08-03",
+        "name": "Saint Germanus of Auxerre, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "g-saint-germanus-of-auxerre"
+      },
+      {
+        "date": "08-26",
+        "name": "Saint David Lewis, Martyr",
+        "rank": "Optional Memorial",
+        "slug": "d-saint-david-lewis"
+      },
+      {
+        "date": "09-11",
+        "name": "Saint Deiniol, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "d-saint-deiniol-of-bangor"
+      },
+      {
+        "date": "10-16",
+        "name": "Saint Richard Gwyn, Martyr",
+        "rank": "Optional Memorial",
+        "slug": "r-saint-richard-gwyn-richard-white",
+        "note": "Same date as the GRC optional memorials of Saint Hedwig and Saint Margaret Mary Alacoque."
+      },
+      {
+        "date": "10-25",
+        "name": "The Six Welsh Martyrs and their Companions",
+        "rank": "Feast",
+        "slug": null,
+        "note": "No combined saint page."
+      },
+      {
+        "date": "11-03",
+        "name": "Saint Winifride, Virgin",
+        "rank": "Optional Memorial",
+        "slug": "w-saint-winefride"
+      },
+      {
+        "date": "11-06",
+        "name": "Saint Illtud, Abbot",
+        "rank": "Optional Memorial",
+        "slug": "i-saint-illtud"
+      },
+      {
+        "date": "11-08",
+        "name": "All Saints of Wales",
+        "rank": "Feast",
+        "slug": null
+      },
+      {
+        "date": "11-14",
+        "name": "Saint Dyfrig, Bishop",
+        "rank": "Optional Memorial",
+        "slug": "d-saint-dubricius-dyfrig"
+      },
+      {
+        "date": "12-10",
+        "name": "Saint John Roberts, Martyr",
+        "rank": "Optional Memorial",
+        "slug": "j-saint-john-roberts",
+        "note": "Same date as the GRC optional memorial of Our Lady of Loreto."
+      }
+    ],
+    "transfersAndParticularNotes": [
+      {
+        "item": "The Most Holy Body and Blood of Christ",
+        "grc": "Thursday after Trinity",
+        "englandAndWales": "the following Sunday",
+        "dates": {
+          "2026": {
+            "grc": "2026-06-04",
+            "englandAndWales": "2026-06-07"
+          },
+          "2027": {
+            "grc": "2027-05-27",
+            "englandAndWales": "2027-05-30"
+          }
+        }
+      },
+      {
+        "item": "The Epiphany of the Lord, Saints Peter and Paul, the Assumption, and All Saints",
+        "note": "In England and Wales, from the First Sunday of Advent 2017, these holy days move to the adjacent Sunday when they fall on a Saturday or a Monday. The Ascension is kept on the Thursday. Christmas remains 25 December."
+      },
+      {
+        "item": "Our Lord Jesus Christ, the Eternal High Priest",
+        "rank": "Feast",
+        "rule": "Thursday after Pentecost. Particular feast of England and Wales; not in the General Roman Calendar.",
+        "dates": {
+          "2026": "2026-05-28",
+          "2027": "2027-05-20"
+        }
+      }
+    ]
+  }
+}
