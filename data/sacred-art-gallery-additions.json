@@ -1,0 +1,1109 @@
+{
+  "galleries": {
+    "jesus": {
+      "Christ the King": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-monreale-pantocrator.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-monreale-pantocrator.jpg",
+          "alt": "Unknown mosaicists, under King William II of Sicily, The face of the Pantocrator, Monreale, c. 1180–90",
+          "caption": "The face of the Pantocrator, Monreale",
+          "credit": "Photo: José Luiz, CC BY-SA 4.0.",
+          "workId": "byzantine-monreale-pantocrator"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-moissac-tympanum.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-moissac-tympanum.jpg",
+          "alt": "Unknown sculptors of Moissac, Christ in Majesty, Moissac, c. 1115–30",
+          "caption": "Christ in Majesty, Moissac",
+          "credit": "Photo: Séraphin-Médéric Mieusement, CC BY-SA 4.0.",
+          "workId": "romanesque-moissac-tympanum"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-zvenigorod-saviour.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-zvenigorod-saviour.jpg",
+          "alt": "Andrei Rublev (attributed), The Saviour of Zvenigorod, c. 1410s",
+          "caption": "The Saviour of Zvenigorod",
+          "credit": "Public domain.",
+          "workId": "icon-zvenigorod-saviour"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-hinton-st-mary-chi-rho.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-hinton-st-mary-chi-rho.jpg",
+          "alt": "Unknown Roman-British mosaicist, The Chi-Rho of Hinton St Mary, 4th century",
+          "caption": "The Chi-Rho of Hinton St Mary",
+          "credit": "Photo: Fransars, Public domain.",
+          "workId": "symbol-hinton-st-mary-chi-rho"
+        }
+      ],
+      "Miracles": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-tabgha-loaves-fishes.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-tabgha-loaves-fishes.jpg",
+          "alt": "Unknown mosaicists of the Holy Land, The loaves and fishes, Tabgha, 5th century",
+          "caption": "The loaves and fishes, Tabgha",
+          "credit": "Photo: Carole Raddato, CC BY-SA 2.0.",
+          "workId": "symbol-tabgha-loaves-fishes"
+        }
+      ],
+      "Resurrection": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-marco-mosaics.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-marco-mosaics.jpg",
+          "alt": "Unknown Venetian mosaicists, The golden mosaics of St Mark’s, 11th–13th century",
+          "caption": "The golden mosaics of St Mark’s",
+          "credit": "Photo: Richard Mortel, CC BY 2.0.",
+          "workId": "byzantine-san-marco-mosaics"
+        }
+      ]
+    },
+    "our-lady": {
+      "Pietà and Our Lady of Sorrows": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-pieta.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-pieta.jpg",
+          "alt": "Michelangelo, The Pietà, 1498–99",
+          "caption": "The Pietà",
+          "credit": "Photo: Juan M Romero, CC BY-SA 4.0.",
+          "workId": "sculpture-michelangelo-pieta"
+        }
+      ],
+      "Madonna and Child": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-bruges-madonna.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-bruges-madonna.jpg",
+          "alt": "Michelangelo, The Madonna of Bruges, c. 1504",
+          "caption": "The Madonna of Bruges",
+          "credit": "CC0.",
+          "workId": "sculpture-michelangelo-bruges-madonna"
+        }
+      ],
+      "Annunciation": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-ustyug-annunciation.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-ustyug-annunciation.jpg",
+          "alt": "Unknown painter of Novgorod, The Ustyug Annunciation, c. 1130–40",
+          "caption": "The Ustyug Annunciation",
+          "credit": "Public domain.",
+          "workId": "icon-ustyug-annunciation"
+        }
+      ],
+      "Dormition and Assumption": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-veit-stoss-altar.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-veit-stoss-altar.jpg",
+          "alt": "Veit Stoss, The altarpiece of Veit Stoss, 1477–89",
+          "caption": "The altarpiece of Veit Stoss",
+          "credit": "Photo: Mielon, CC BY-SA 3.0.",
+          "workId": "sculpture-veit-stoss-altar"
+        }
+      ]
+    },
+    "last-things": {
+      "Last Judgement": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-autun-tympanum.png",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-autun-tympanum.png",
+          "alt": "Gislebertus, The Last Judgement, Autun, c. 1130",
+          "caption": "The Last Judgement, Autun",
+          "credit": "Photo: NateBergin, CC BY 4.0.",
+          "workId": "romanesque-autun-tympanum"
+        }
+      ],
+      "Heaven": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-el-greco-orgaz.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-el-greco-orgaz.jpg",
+          "alt": "El Greco, The Burial of the Count of Orgaz, 1586–88",
+          "caption": "The Burial of the Count of Orgaz",
+          "credit": "Public domain.",
+          "workId": "painting-el-greco-orgaz"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-san-vitale-lamb.jpg",
+          "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-san-vitale-lamb.jpg",
+          "alt": "Unknown mosaicists of Ravenna, The Lamb of God, San Vitale, c. 547",
+          "caption": "The Lamb of God, San Vitale",
+          "credit": "Photo: Petar Milošević, CC BY-SA 4.0.",
+          "workId": "symbol-san-vitale-lamb"
+        }
+      ]
+    }
+  },
+  "saints_in_art": {
+    "Apostles and Evangelists": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-caravaggio-calling-matthew.jpg",
+        "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-caravaggio-calling-matthew.jpg",
+        "alt": "Caravaggio, The Calling of Saint Matthew, c. 1599–1600",
+        "caption": "The Calling of Saint Matthew. Caravaggio, c. 1599–1600. San Luigi dei Francesi, Rome.",
+        "credit": {
+          "text": "Public domain.",
+          "licence": "Public domain",
+          "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+        },
+        "saint": "St Matthew",
+        "saintSlug": "m-saint-matthew-apostle-and-evangelist",
+        "workId": "painting-caravaggio-calling-matthew"
+      }
+    ],
+    "John the Baptist and Mary Magdalene": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-donatello-magdalene.jpg",
+        "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-donatello-magdalene.jpg",
+        "alt": "Donatello, The Penitent Magdalene, c. 1453–55",
+        "caption": "The Penitent Magdalene. Donatello, c. 1453–55. Museo dell’Opera del Duomo, Florence.",
+        "credit": {
+          "text": "Photo: George M. Groutas, CC BY 2.0.",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0/"
+        },
+        "saint": "St Mary Magdalene",
+        "saintSlug": "m-saint-mary-magdalene",
+        "workId": "sculpture-donatello-magdalene"
+      }
+    ],
+    "Doctors, monks and friars": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-bernini-st-teresa.jpg",
+        "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-bernini-st-teresa.jpg",
+        "alt": "Gian Lorenzo Bernini, The Ecstasy of Saint Teresa, 1647–52",
+        "caption": "The Ecstasy of Saint Teresa. Gian Lorenzo Bernini, 1647–52. Santa Maria della Vittoria, Rome.",
+        "credit": {
+          "text": "CC BY-SA 4.0.",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "saint": "St Teresa of Ávila",
+        "saintSlug": "t-saint-teresa-of-avila",
+        "workId": "sculpture-bernini-st-teresa"
+      }
+    ],
+    "Bishops and helpers": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-notre-dame-saint-denis.jpg",
+        "thumb": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-notre-dame-saint-denis.jpg",
+        "alt": "Unknown Gothic sculptors of Paris, Saint Denis, Notre-Dame de Paris, 13th century",
+        "caption": "Saint Denis, Notre-Dame de Paris. Unknown Gothic sculptors of Paris, 13th century. Notre-Dame de Paris.",
+        "credit": {
+          "text": "Photo: Thesupermat, CC BY-SA 3.0.",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        "saint": "St Denis of Paris",
+        "saintSlug": "d-saint-denis-of-paris-with-saints-rusticus-and-eleutherius",
+        "workId": "sculpture-notre-dame-saint-denis"
+      }
+    ]
+  },
+  "buildings_add_frames": {
+    "vatican": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-peters-facade.jpg",
+        "caption": "Saint Peter’s Basilica.",
+        "alt": "Donato Bramante, Michelangelo, Carlo Maderno, Gian Lorenzo Bernini and others, Saint Peter’s Basilica, 1506–1626",
+        "credit": "Photo: Alvesgaspar, CC BY-SA 4.0.",
+        "workId": "basilica-st-peters-facade"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-peters-interior.jpg",
+        "caption": "The nave of Saint Peter’s.",
+        "alt": "Michelangelo, Maderno, Bernini and others, The nave of Saint Peter’s, 16th–17th century",
+        "credit": "Photo: Christoph Strässler, CC BY-SA 2.0.",
+        "workId": "basilica-st-peters-interior"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-bernini-baldachin.jpg",
+        "caption": "The baldachin of Saint Peter’s.",
+        "alt": "Gian Lorenzo Bernini, The baldachin of Saint Peter’s, 1624–33",
+        "credit": "Photo: Wilfredor, CC0.",
+        "workId": "sculpture-bernini-baldachin"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-michelangelo-sistine-ceiling.jpg",
+        "caption": "The Sistine Chapel ceiling.",
+        "alt": "Michelangelo, The Sistine Chapel ceiling, 1508–12",
+        "credit": "Photo: Jörg Bittner Unna, CC BY 3.0.",
+        "workId": "painting-michelangelo-sistine-ceiling"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-michelangelo-creation-adam.jpg",
+        "caption": "The Creation of Adam.",
+        "alt": "Michelangelo, The Creation of Adam, c. 1511–12",
+        "credit": "Public domain.",
+        "workId": "painting-michelangelo-creation-adam"
+      }
+    ],
+    "notre-dame-paris": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-notre-dame-paris.jpg",
+        "caption": "Notre-Dame de Paris.",
+        "alt": "Bishop Maurice de Sully and his masons, Notre-Dame de Paris, from 1163",
+        "credit": "CC BY-SA 3.0.",
+        "workId": "gothic-notre-dame-paris"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-notre-dame-south-rose.jpg",
+        "caption": "The south rose of Notre-Dame de Paris.",
+        "alt": "Jean de Chelles and Pierre de Montreuil, The south rose of Notre-Dame de Paris, c. 1260; restored after 2019",
+        "credit": "Photo: Ibex73, CC BY 4.0.",
+        "workId": "glass-notre-dame-south-rose"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-notre-dame-saint-denis.jpg",
+        "caption": "Saint Denis, Notre-Dame de Paris.",
+        "alt": "Unknown Gothic sculptors of Paris, Saint Denis, Notre-Dame de Paris, 13th century",
+        "credit": "Photo: Thesupermat, CC BY-SA 3.0.",
+        "workId": "sculpture-notre-dame-saint-denis"
+      }
+    ],
+    "chartres": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-chartres-nave.jpg",
+        "caption": "The nave of Chartres Cathedral.",
+        "alt": "Unknown masons of Chartres, The nave of Chartres Cathedral, rebuilt after 1194",
+        "credit": "Photo: Ludvig14, CC BY-SA 4.0.",
+        "workId": "gothic-chartres-nave"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-chartres-valley.jpg",
+        "caption": "Chartres across the fields.",
+        "alt": "Unknown masons of Chartres, Chartres across the fields, rebuilt after 1194",
+        "credit": "Photo: Bedoule, CC BY-SA 4.0.",
+        "workId": "gothic-chartres-valley"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-chartres-north-rose.jpg",
+        "caption": "The north rose of Chartres.",
+        "alt": "Unknown glaziers of Chartres, The north rose of Chartres, c. 1230",
+        "credit": "Photo: Ludvig14, CC BY-SA 4.0.",
+        "workId": "glass-chartres-north-rose"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-chartres-west-rose.jpg",
+        "caption": "The west rose and lancets of Chartres.",
+        "alt": "Unknown glaziers of Chartres, The west rose and lancets of Chartres, c. 1215, with earlier lancets",
+        "credit": "Photo: Michelet-密是力 (talk) 06:49, 6 November 2016 (UTC), Public domain.",
+        "workId": "glass-chartres-west-rose"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-chartres-belle-verriere.jpg",
+        "caption": "Notre-Dame de la Belle Verrière.",
+        "alt": "Unknown glaziers of Chartres, Notre-Dame de la Belle Verrière, 12th century, with 13th-century surrounds",
+        "credit": "Photo: Ludvig14, CC BY-SA 4.0.",
+        "workId": "glass-chartres-belle-verriere"
+      }
+    ],
+    "cologne": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-cologne-facade.jpg",
+        "caption": "Cologne Cathedral.",
+        "alt": "Unknown masons of Cologne, Cologne Cathedral, begun 1248, finished 1880",
+        "credit": "Photo: Raimond Spekking, CC BY-SA 4.0.",
+        "workId": "gothic-cologne-facade"
+      }
+    ],
+    "compostela": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-santiago-portico.jpg",
+        "caption": "The Pórtico de la Gloria.",
+        "alt": "Master Mateo, The Pórtico de la Gloria, completed 1188",
+        "credit": "Photo: Constantin Uhde, Public domain.",
+        "workId": "romanesque-santiago-portico"
+      }
+    ],
+    "milan": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-milan-duomo.jpg",
+        "caption": "The Duomo of Milan.",
+        "alt": "Unknown masters, from the late 14th century, The Duomo of Milan, from 1386",
+        "credit": "Photo: Jiuguang Wang, CC BY-SA 3.0.",
+        "workId": "gothic-milan-duomo"
+      }
+    ],
+    "florence": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-florence-duomo.jpg",
+        "caption": "The cathedral of Florence.",
+        "alt": "Arnolfo di Cambio; façade by Emilio De Fabris; dome by Filippo Brunelleschi, The cathedral of Florence, from 1296; façade 1887; dome 1420–36",
+        "credit": "Photo: Fred Romero from Paris, France, CC BY 2.0.",
+        "workId": "basilica-florence-duomo"
+      }
+    ],
+    "sagrada": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-sagrada-exterior.jpg",
+        "caption": "The Sagrada Família.",
+        "alt": "Antoni Gaudí, The Sagrada Família, begun 1882, still being finished",
+        "credit": "Photo: Alvesgaspar, CC BY-SA 4.0.",
+        "workId": "basilica-sagrada-exterior"
+      },
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-sagrada-interior.jpg",
+        "caption": "The nave of the Sagrada Família.",
+        "alt": "Antoni Gaudí, The nave of the Sagrada Família, 20th–21st century, from Gaudí’s plan",
+        "credit": "Photo: Mafer Arenas, CC BY-SA 4.0.",
+        "workId": "basilica-sagrada-interior"
+      }
+    ],
+    "assisi": [
+      {
+        "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-assisi.jpg",
+        "caption": "The Basilica of Saint Francis.",
+        "alt": "Unknown masons, begun under Pope Gregory IX, The Basilica of Saint Francis, from 1228",
+        "credit": "Photo: Hagai Agmon-Snir حچاي اچمون-سنير חגי אגמון-שניר, CC BY-SA 4.0.",
+        "workId": "basilica-assisi"
+      }
+    ]
+  },
+  "buildings_new": [
+    {
+      "slug": "hagia-sophia",
+      "name": "Hagia Sophia",
+      "kind": "cathedral",
+      "place": "Istanbul",
+      "country": "Turkey",
+      "century": "6th century",
+      "why": "The great church of the Patriarch of Constantinople, raised by Justinian, whose dome and gold mosaics set the pattern of the Eastern Church for a thousand years.",
+      "story": [
+        "It was dedicated in 537. For centuries the Divine Liturgy was offered under this dome. The mosaics of Christ remain in the church that later became a mosque."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-hagia-sophia-exterior.jpg",
+          "caption": "Hagia Sophia, from the outside.",
+          "alt": "Unknown architects, under the Emperor Justinian, Hagia Sophia, from the outside, 532–537",
+          "credit": "Photo: Alvesgaspar, CC BY-SA 4.0.",
+          "workId": "byzantine-hagia-sophia-exterior"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-hagia-sophia-nave.jpg",
+          "caption": "Hagia Sophia, the nave.",
+          "alt": "Unknown architects, under the Emperor Justinian, Hagia Sophia, the nave, 532–537",
+          "credit": "Photo: Arnoldius, CC BY-SA 4.0.",
+          "workId": "byzantine-hagia-sophia-nave"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-hagia-sophia-deesis.jpg",
+          "caption": "Christ Pantocrator, the Deësis mosaic.",
+          "alt": "Unknown Byzantine mosaicist, Christ Pantocrator, the Deësis mosaic, c. 1261",
+          "credit": "Photo: Dianelos Georgoudis, Public domain.",
+          "workId": "byzantine-hagia-sophia-deesis"
+        }
+      ]
+    },
+    {
+      "slug": "san-vitale",
+      "name": "Basilica of San Vitale",
+      "kind": "basilica",
+      "place": "Ravenna",
+      "country": "Italy",
+      "century": "6th century",
+      "why": "The octagonal church in Ravenna whose sanctuary is clothed in Justinian’s gold mosaics, with the Lamb of God in the vault.",
+      "story": [
+        "The church was dedicated in 547. In the apse, Christ sits in glory; on the side walls the Emperor Justinian and the Empress Theodora approach with their courts."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-vitale-dome.jpg",
+          "caption": "The sanctuary of San Vitale.",
+          "alt": "Unknown architects and mosaicists, The sanctuary of San Vitale, 547",
+          "credit": "Photo: Commonists, CC BY-SA 4.0.",
+          "workId": "byzantine-san-vitale-dome"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-vitale-justinian.jpg",
+          "caption": "The Emperor Justinian and his court.",
+          "alt": "Unknown Byzantine mosaicist, The Emperor Justinian and his court, c. 547",
+          "credit": "Photo: Ввласенко, CC BY-SA 3.0.",
+          "workId": "byzantine-san-vitale-justinian"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-vitale-theodora.jpg",
+          "caption": "The Empress Theodora.",
+          "alt": "Unknown Byzantine mosaicist, The Empress Theodora, c. 547",
+          "credit": "Photo: José Luiz, CC BY-SA 4.0.",
+          "workId": "byzantine-san-vitale-theodora"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-san-vitale-lamb.jpg",
+          "caption": "The Lamb of God, San Vitale.",
+          "alt": "Unknown mosaicists of Ravenna, The Lamb of God, San Vitale, c. 547",
+          "credit": "Photo: Petar Milošević, CC BY-SA 4.0.",
+          "workId": "symbol-san-vitale-lamb"
+        }
+      ]
+    },
+    {
+      "slug": "sant-apollinare-in-classe",
+      "name": "Sant’Apollinare in Classe",
+      "kind": "basilica",
+      "place": "Ravenna",
+      "country": "Italy",
+      "century": "6th century",
+      "why": "The basilica at the old harbour of Ravenna, with Saint Apollinaris in the apse among a field of sheep and a golden cross in the sky.",
+      "story": [
+        "It was dedicated in 549, outside the walls, near the harbour of Classe. The apse mosaic still shows the Transfiguration as a jewelled cross over the flock."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-apollinare-classe.jpg",
+          "caption": "The apse of Sant’Apollinare in Classe.",
+          "alt": "Unknown Byzantine mosaicists, The apse of Sant’Apollinare in Classe, c. 549",
+          "credit": "Photo: bradhostetler, CC BY-SA 2.0.",
+          "workId": "byzantine-apollinare-classe"
+        }
+      ]
+    },
+    {
+      "slug": "monreale",
+      "name": "Monreale Cathedral",
+      "kind": "cathedral",
+      "place": "Monreale",
+      "country": "Italy",
+      "century": "12th century",
+      "why": "The cathedral raised by King William II of Sicily, its sanctuary a single vast mosaic of Christ the Pantocrator.",
+      "story": [
+        "The church looks down over Palermo. The apse is filled by the blessing Christ, and the aisles carry the Old and New Testament in gold mosaic."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-monreale-interior.jpg",
+          "caption": "Christ Pantocrator in the apse, Monreale.",
+          "alt": "Unknown mosaicists, under King William II of Sicily, Christ Pantocrator in the apse, Monreale, c. 1180–90",
+          "credit": "Photo: Benjamin Smith, CC BY-SA 4.0.",
+          "workId": "byzantine-monreale-interior"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-monreale-pantocrator.jpg",
+          "caption": "The face of the Pantocrator, Monreale.",
+          "alt": "Unknown mosaicists, under King William II of Sicily, The face of the Pantocrator, Monreale, c. 1180–90",
+          "credit": "Photo: José Luiz, CC BY-SA 4.0.",
+          "workId": "byzantine-monreale-pantocrator"
+        }
+      ]
+    },
+    {
+      "slug": "cefalu",
+      "name": "Cefalù Cathedral",
+      "kind": "cathedral",
+      "place": "Cefalù",
+      "country": "Italy",
+      "century": "12th century",
+      "why": "The cathedral of King Roger II of Sicily, with the great mosaic of Christ the Pantocrator in the apse.",
+      "story": [
+        "The Norman church looks out over the sea. In the apse the blessing Christ is set in gold, one of the great faces of the twelfth century."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-cefalu-pantocrator.jpg",
+          "caption": "Christ Pantocrator, Cefalù.",
+          "alt": "Unknown mosaicists, under King Roger II of Sicily, Christ Pantocrator, Cefalù, 1148",
+          "credit": "Photo: Andreas Wahra, CC BY-SA 3.0.",
+          "workId": "byzantine-cefalu-pantocrator"
+        }
+      ]
+    },
+    {
+      "slug": "st-marks-venice",
+      "name": "Basilica of St Mark",
+      "kind": "basilica",
+      "place": "Venice",
+      "country": "Italy",
+      "century": "11th–13th century",
+      "why": "The basilica of Venice, whose vaults are a field of gold mosaic, including the Holy Women at the empty tomb.",
+      "story": [
+        "The church holds the relics of Saint Mark. The mosaics tell the Gospel over the people at Mass, in gold from the eleventh century onward."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/byzantine-san-marco-mosaics.jpg",
+          "caption": "The golden mosaics of St Mark’s.",
+          "alt": "Unknown Venetian mosaicists, The golden mosaics of St Mark’s, 11th–13th century",
+          "credit": "Photo: Richard Mortel, CC BY 2.0.",
+          "workId": "byzantine-san-marco-mosaics"
+        }
+      ]
+    },
+    {
+      "slug": "durham",
+      "name": "Durham Cathedral",
+      "kind": "cathedral",
+      "place": "Durham",
+      "country": "United Kingdom",
+      "century": "from 1093",
+      "why": "The shrine of Saint Cuthbert, and the earliest great ribbed vault in Europe.",
+      "story": [
+        "The nave’s massive piers and ribbed vault were raised by Norman masons from 1093. The church still keeps the tomb of Saint Cuthbert."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-durham-nave.jpg",
+          "caption": "The nave of Durham Cathedral.",
+          "alt": "Unknown masons of Durham, The nave of Durham Cathedral, from 1093",
+          "credit": "Photo: Michael D Beckwith, CC0.",
+          "workId": "romanesque-durham-nave"
+        }
+      ]
+    },
+    {
+      "slug": "saint-sernin",
+      "name": "Basilica of Saint-Sernin",
+      "kind": "basilica",
+      "place": "Toulouse",
+      "country": "France",
+      "century": "11th–12th century",
+      "why": "The great pilgrimage church of Toulouse, built for those walking to the tomb of Saint Saturnin and on toward Compostela.",
+      "story": [
+        "The long barrel of the nave and the tall crossing tower mark one of the largest surviving Romanesque churches on the pilgrimage roads."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-saint-sernin-nave.jpg",
+          "caption": "The nave of Saint-Sernin.",
+          "alt": "Unknown masons of Toulouse, The nave of Saint-Sernin, 11th–12th century",
+          "credit": "Photo: Didier Descouens, CC BY-SA 4.0.",
+          "workId": "romanesque-saint-sernin-nave"
+        }
+      ]
+    },
+    {
+      "slug": "vezelay",
+      "name": "Basilica of Sainte-Marie-Madeleine, Vézelay",
+      "kind": "basilica",
+      "place": "Vézelay",
+      "country": "France",
+      "century": "12th century",
+      "why": "The pilgrimage basilica of Saint Mary Magdalene, on the road to Compostela, famous for its carved narthex and tympanum of the Mission of the Apostles.",
+      "story": [
+        "Pilgrims entered under the carved capitals of the narthex. The church is a papal basilica, and was an abbey church of Burgundy."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-vezelay-narthex.jpg",
+          "caption": "The narthex of Vézelay.",
+          "alt": "Unknown masons of Burgundy, The narthex of Vézelay, c. 1120–50",
+          "credit": "Photo: Benjamin Smith, CC BY-SA 4.0.",
+          "workId": "romanesque-vezelay-narthex"
+        }
+      ]
+    },
+    {
+      "slug": "speyer",
+      "name": "Speyer Cathedral",
+      "kind": "cathedral",
+      "place": "Speyer",
+      "country": "Germany",
+      "century": "from 1030",
+      "why": "The largest Romanesque church in the world, and a burial place of the Salian emperors.",
+      "story": [
+        "Building began under Conrad II. The west front rises over the old town, with the long nave and the crypt of the emperors behind it."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-speyer.jpg",
+          "caption": "Speyer Cathedral.",
+          "alt": "Unknown masons, under the Salian emperors, Speyer Cathedral, from 1030",
+          "credit": "Photo: Roman Eisele, CC BY-SA 4.0.",
+          "workId": "romanesque-speyer"
+        }
+      ]
+    },
+    {
+      "slug": "autun",
+      "name": "Cathedral of Saint-Lazare, Autun",
+      "kind": "cathedral",
+      "place": "Autun",
+      "country": "France",
+      "century": "12th century",
+      "why": "The cathedral of Autun, whose west tympanum is Gislebertus’s Last Judgement.",
+      "story": [
+        "Christ sits in a mandorla while the dead rise and the souls are weighed. The sculptor signed the lintel: “Gislebertus hoc fecit.”"
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-autun-tympanum.png",
+          "caption": "The Last Judgement, Autun.",
+          "alt": "Gislebertus, The Last Judgement, Autun, c. 1130",
+          "credit": "Photo: NateBergin, CC BY 4.0.",
+          "workId": "romanesque-autun-tympanum"
+        }
+      ]
+    },
+    {
+      "slug": "moissac",
+      "name": "Abbey of Saint-Pierre, Moissac",
+      "kind": "abbey",
+      "place": "Moissac",
+      "country": "France",
+      "century": "11th–12th century",
+      "why": "The abbey on the pilgrimage road whose south doorway shows Christ in Majesty among the four living creatures.",
+      "story": [
+        "The tympanum was carved in the early twelfth century. The cloister still holds some of the finest Romanesque capitals in France."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-moissac-tympanum.jpg",
+          "caption": "Christ in Majesty, Moissac.",
+          "alt": "Unknown sculptors of Moissac, Christ in Majesty, Moissac, c. 1115–30",
+          "credit": "Photo: Séraphin-Médéric Mieusement, CC BY-SA 4.0.",
+          "workId": "romanesque-moissac-tympanum"
+        }
+      ]
+    },
+    {
+      "slug": "conques",
+      "name": "Sainte-Foy at Conques",
+      "kind": "abbey",
+      "place": "Conques",
+      "country": "France",
+      "century": "11th–12th century",
+      "why": "The abbey church of Saint Faith on the pilgrimage road to Compostela, set in a tight valley of the Rouergue.",
+      "story": [
+        "The church was raised for pilgrims coming to the shrine of the child martyr Saint Faith. The west tympanum shows the Last Judgement."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-conques.jpg",
+          "caption": "Sainte-Foy at Conques.",
+          "alt": "Unknown masons of the Rouergue, Sainte-Foy at Conques, 11th–12th century",
+          "credit": "Photo: Krzysztof Golik, CC BY-SA 4.0.",
+          "workId": "romanesque-conques"
+        }
+      ]
+    },
+    {
+      "slug": "pisa",
+      "name": "Pisa Cathedral",
+      "kind": "cathedral",
+      "place": "Pisa",
+      "country": "Italy",
+      "century": "11th–12th century",
+      "why": "The cathedral on the Field of Miracles, a Romanesque church of striped marble beside the baptistery and the leaning tower.",
+      "story": [
+        "Building began in 1063 after a Pisan victory at sea. The façade of arches and the long nave still stand as they were in the Middle Ages."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/romanesque-pisa-cathedral.jpg",
+          "caption": "Pisa Cathedral.",
+          "alt": "Buscheto and successors, Pisa Cathedral, from 1063",
+          "credit": "Photo: Zairon, CC BY 4.0.",
+          "workId": "romanesque-pisa-cathedral"
+        }
+      ]
+    },
+    {
+      "slug": "sainte-chapelle",
+      "name": "The Sainte-Chapelle",
+      "kind": "church",
+      "place": "Paris",
+      "country": "France",
+      "century": "1240s",
+      "why": "The royal chapel of King Louis IX, built to hold the Crown of Thorns, its upper church almost entirely of stained glass.",
+      "story": [
+        "The chapel was dedicated in 1248. The windows tell the story of salvation in coloured light, from Genesis to the coming of the relics to Paris."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-sainte-chapelle.jpg",
+          "caption": "The Sainte-Chapelle.",
+          "alt": "Unknown masons, for King Louis IX, The Sainte-Chapelle, 1242–48",
+          "credit": "Photo: Diego Delso, CC BY-SA 4.0.",
+          "workId": "gothic-sainte-chapelle"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-sainte-chapelle.jpg",
+          "caption": "The windows of the Sainte-Chapelle.",
+          "alt": "Unknown glaziers, for King Louis IX, The windows of the Sainte-Chapelle, 1240s",
+          "credit": "Photo: Oldmanisold, CC BY-SA 4.0.",
+          "workId": "glass-sainte-chapelle"
+        }
+      ]
+    },
+    {
+      "slug": "reims",
+      "name": "Reims Cathedral",
+      "kind": "cathedral",
+      "place": "Reims",
+      "country": "France",
+      "century": "13th century",
+      "why": "The cathedral of the coronation of the kings of France, with its great sculpted façade, the Smiling Angel, and its rose windows.",
+      "story": [
+        "The present church was begun after a fire in 1210. The west front is a screen of stone figures, and the glass still fills the nave with colour."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-reims-facade.jpg",
+          "caption": "Reims Cathedral.",
+          "alt": "Unknown masons of Reims, Reims Cathedral, from 1211",
+          "credit": "Photo: Gennadii Saus i Segura, CC BY-SA 4.0.",
+          "workId": "gothic-reims-facade"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-reims-rose.jpg",
+          "caption": "A rose of Reims Cathedral.",
+          "alt": "Unknown glaziers of Reims, A rose of Reims Cathedral, 13th century",
+          "credit": "Photo: Ad Meskens You are free to use this picture for any purpose as long as you credit its author, Ad Meskens. Example: © Ad Meskens / Wikimedia Commons If you use, CC BY-SA 4.0.",
+          "workId": "glass-reims-rose"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-reims-smiling-angel.jpg",
+          "caption": "The Smiling Angel of Reims.",
+          "alt": "Unknown sculptors of Reims, The Smiling Angel of Reims, 13th century",
+          "credit": "Photo: Dazaikrosan48, CC BY-SA 4.0.",
+          "workId": "sculpture-reims-smiling-angel"
+        }
+      ]
+    },
+    {
+      "slug": "amiens",
+      "name": "Amiens Cathedral",
+      "kind": "cathedral",
+      "place": "Amiens",
+      "country": "France",
+      "century": "13th century",
+      "why": "The largest Gothic cathedral in France, whose nave rises in a single sweep of stone and light.",
+      "story": [
+        "Building began in 1220. The vaults of the nave are among the highest of the Middle Ages, and the west front is covered with sculpture of the Last Judgement and the saints."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-amiens-nave.jpg",
+          "caption": "The nave of Amiens Cathedral.",
+          "alt": "Robert de Luzarches and successors, The nave of Amiens Cathedral, from 1220",
+          "credit": "Photo: Diliff, CC BY-SA 3.0.",
+          "workId": "gothic-amiens-nave"
+        }
+      ]
+    },
+    {
+      "slug": "strasbourg",
+      "name": "Strasbourg Cathedral",
+      "kind": "cathedral",
+      "place": "Strasbourg",
+      "country": "France",
+      "century": "12th–15th century",
+      "why": "The red-sandstone cathedral of Strasbourg, with its single great spire over the crossing of the Grand Île.",
+      "story": [
+        "The nave is Gothic, the west front a carved screen of the late Middle Ages. The spire was finished in 1439 and long stood as the tallest work of its kind in the Christian world."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-strasbourg.jpg",
+          "caption": "Strasbourg Cathedral.",
+          "alt": "Erwin von Steinbach and successors, Strasbourg Cathedral, from the 12th century",
+          "credit": "Photo: Diliff, CC BY-SA 3.0.",
+          "workId": "gothic-strasbourg"
+        }
+      ]
+    },
+    {
+      "slug": "saint-denis",
+      "name": "Basilica of Saint-Denis",
+      "kind": "basilica",
+      "place": "Saint-Denis",
+      "country": "France",
+      "century": "12th century",
+      "why": "The royal abbey and basilica north of Paris, where Abbot Suger’s choir opened the way to Gothic light, and where the kings of France were buried.",
+      "story": [
+        "The twelfth-century choir and the rose windows still show what Suger asked for: a church filled with coloured light. The crypt and the tombs remain in the church."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/gothic-saint-denis-choir.jpg",
+          "caption": "The choir of Saint-Denis.",
+          "alt": "Abbot Suger’s masons, The choir of Saint-Denis, 1140s",
+          "credit": "Photo: Pierre Poschadel, CC BY-SA 3.0.",
+          "workId": "gothic-saint-denis-choir"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-saint-denis-rose.jpg",
+          "caption": "The north rose of Saint-Denis.",
+          "alt": "Unknown glaziers of Saint-Denis, The north rose of Saint-Denis, 13th century",
+          "credit": "Photo: Diliff, CC BY-SA 3.0.",
+          "workId": "glass-saint-denis-rose"
+        }
+      ]
+    },
+    {
+      "slug": "lateran",
+      "name": "Archbasilica of St John Lateran",
+      "kind": "cathedral",
+      "place": "Rome",
+      "country": "Italy",
+      "century": "from the 4th century",
+      "why": "The cathedral of the Bishop of Rome, the mother and head of all the churches of the city and of the world.",
+      "story": [
+        "The church stands on the Lateran, not at the Vatican. The present façade was finished in 1735; the nave was recast by Borromini, over a church whose foundation is Constantinian."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-lateran-facade.jpg",
+          "caption": "The Archbasilica of St John Lateran.",
+          "alt": "Alessandro Galilei (façade), on a far older church, The Archbasilica of St John Lateran, façade 1735; the church from the 4th century",
+          "credit": "Photo: Livioandronico2013, CC BY-SA 4.0.",
+          "workId": "basilica-lateran-facade"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-lateran-interior.jpg",
+          "caption": "The nave of St John Lateran.",
+          "alt": "Francesco Borromini (remodelling) and earlier builders, The nave of St John Lateran, the church from the 4th century; nave remodelled in the 17th",
+          "credit": "Photo: Ondřej Žváček, CC BY 2.5.",
+          "workId": "basilica-lateran-interior"
+        }
+      ]
+    },
+    {
+      "slug": "santa-maria-maggiore",
+      "name": "Basilica of Santa Maria Maggiore",
+      "kind": "basilica",
+      "place": "Rome",
+      "country": "Italy",
+      "century": "from the 5th century",
+      "why": "The great Roman basilica of Our Lady, which keeps the icon Salus Populi Romani and the mosaics of the fifth century.",
+      "story": [
+        "The basilica was raised on the Esquiline in the fifth century. The nave still has its early mosaics, and the famous icon of Our Lady is venerated in the Borghese chapel."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-maggiore-facade.jpg",
+          "caption": "Santa Maria Maggiore.",
+          "alt": "Unknown early Christian builders; façade by Ferdinando Fuga, Santa Maria Maggiore, from the 5th century; façade 1743",
+          "credit": "Photo: Diego Delso, CC BY-SA 4.0.",
+          "workId": "basilica-maggiore-facade"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-maggiore-interior.jpg",
+          "caption": "The nave of Santa Maria Maggiore.",
+          "alt": "Unknown 5th-century builders, The nave of Santa Maria Maggiore, from the 5th century",
+          "credit": "Photo: Livioandronico2013, CC BY-SA 4.0.",
+          "workId": "basilica-maggiore-interior"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/icon-salus-populi-romani.jpg",
+          "caption": "Salus Populi Romani.",
+          "alt": "Unknown, Salus Populi Romani, c. 6th–13th century",
+          "credit": "Photo: Fallaner, CC BY-SA 4.0.",
+          "workId": "icon-salus-populi-romani"
+        }
+      ]
+    },
+    {
+      "slug": "st-paul-outside-the-walls",
+      "name": "St Paul Outside the Walls",
+      "kind": "basilica",
+      "place": "Rome",
+      "country": "Italy",
+      "century": "4th–5th century, rebuilt in the 19th",
+      "why": "The patriarchal basilica over the tomb of Saint Paul, rebuilt after the fire of 1823 on the plan of the ancient church.",
+      "story": [
+        "Constantine’s church, enlarged under Honorius, burned in 1823. The rebuilt nave keeps the long line of papal medallions and the tomb of the Apostle before the confessio."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-paul-facade.jpg",
+          "caption": "St Paul Outside the Walls.",
+          "alt": "Rebuilt after the fire of 1823, on Constantine’s and Honorius’s church, St Paul Outside the Walls, the church from the 4th–5th century; rebuilt in the 19th",
+          "credit": "Photo: Herbert Weber, Hildesheim, CC BY-SA 4.0.",
+          "workId": "basilica-st-paul-facade"
+        },
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/basilica-st-paul-interior.jpg",
+          "caption": "The nave of St Paul Outside the Walls.",
+          "alt": "Rebuilt after 1823, following the ancient plan, The nave of St Paul Outside the Walls, 19th century, on a 4th–5th-century plan",
+          "credit": "Photo: Palickap, CC BY-SA 4.0.",
+          "workId": "basilica-st-paul-interior"
+        }
+      ]
+    },
+    {
+      "slug": "san-clemente",
+      "name": "Basilica of San Clemente",
+      "kind": "basilica",
+      "place": "Rome",
+      "country": "Italy",
+      "century": "12th century, over earlier churches",
+      "why": "The Roman basilica whose apse mosaic is the great vine of San Clemente, a twelfth-century church standing over earlier places of worship.",
+      "story": [
+        "The present church was raised in the twelfth century. Its apse shows the Cross as a living vine, with the Doctors and the rivers of Paradise among the branches."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-san-clemente-vine.jpg",
+          "caption": "The vine of San Clemente.",
+          "alt": "Unknown mosaicists of Rome, The vine of San Clemente, c. 1130",
+          "credit": "Photo: Jastrow, Public domain.",
+          "workId": "symbol-san-clemente-vine"
+        }
+      ]
+    },
+    {
+      "slug": "leon",
+      "name": "León Cathedral",
+      "kind": "cathedral",
+      "place": "León",
+      "country": "Spain",
+      "century": "13th century",
+      "why": "The Gothic cathedral of León, famous for the walls of stained glass and for its west rose.",
+      "story": [
+        "The church was begun in the thirteenth century, in the French Gothic manner. The west rose still fills the façade with colour over the pilgrims’ road to Compostela."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/glass-leon-rose.jpg",
+          "caption": "The west rose of León Cathedral.",
+          "alt": "Unknown glaziers of León, The west rose of León Cathedral, 13th century",
+          "credit": "Photo: Joselodos, CC0.",
+          "workId": "glass-leon-rose"
+        }
+      ]
+    },
+    {
+      "slug": "florence-baptistery",
+      "name": "Florence Baptistery",
+      "kind": "church",
+      "place": "Florence",
+      "country": "Italy",
+      "century": "11th–15th century",
+      "why": "The baptistery before the cathedral of Florence, whose east doors are Ghiberti’s Gates of Paradise.",
+      "story": [
+        "The octagonal baptistery is older than the present cathedral. Ghiberti’s gilded doors retell the Old Testament in bronze."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-ghiberti-gates-of-paradise.jpg",
+          "caption": "The Gates of Paradise.",
+          "alt": "Lorenzo Ghiberti, The Gates of Paradise, 1425–52",
+          "credit": "Photo: Sailko, CC BY 3.0.",
+          "workId": "sculpture-ghiberti-gates-of-paradise"
+        }
+      ]
+    },
+    {
+      "slug": "tabgha",
+      "name": "Church of the Multiplication, Tabgha",
+      "kind": "holy-site",
+      "place": "Tabgha",
+      "country": "Israel",
+      "century": "5th-century mosaic, church rebuilt",
+      "why": "The church on the shore of the Sea of Galilee, at the place remembered for the feeding of the five thousand, with the mosaic of the loaves and fishes before the altar.",
+      "story": [
+        "The mosaic is of the fifth century, kept in the church that stands again on the old site. The two fish and the basket of loaves lie in the floor by the altar."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/symbol-tabgha-loaves-fishes.jpg",
+          "caption": "The loaves and fishes, Tabgha.",
+          "alt": "Unknown mosaicists of the Holy Land, The loaves and fishes, Tabgha, 5th century",
+          "credit": "Photo: Carole Raddato, CC BY-SA 2.0.",
+          "workId": "symbol-tabgha-loaves-fishes"
+        }
+      ]
+    },
+    {
+      "slug": "san-pietro-in-vincoli",
+      "name": "San Pietro in Vincoli",
+      "kind": "church",
+      "place": "Rome",
+      "country": "Italy",
+      "century": "5th century, later rebuilt",
+      "why": "The church that keeps the chains venerated as Saint Peter’s, and Michelangelo’s Moses.",
+      "story": [
+        "Pilgrims come for the chains in the confessio, and for the huge figure of Moses made for the tomb of Pope Julius II."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-moses.jpg",
+          "caption": "Moses.",
+          "alt": "Michelangelo, Moses, c. 1513–15",
+          "credit": "Photo: Szilas, Public domain.",
+          "workId": "sculpture-michelangelo-moses"
+        }
+      ]
+    },
+    {
+      "slug": "santa-maria-della-vittoria",
+      "name": "Santa Maria della Vittoria",
+      "kind": "church",
+      "place": "Rome",
+      "country": "Italy",
+      "century": "17th century",
+      "why": "The Baroque church in Rome whose Cornaro Chapel holds Bernini’s Ecstasy of Saint Teresa.",
+      "story": [
+        "Bernini set the Ecstasy of Saint Teresa in the Cornaro Chapel, with the saint in white marble and the Cornaro cardinals looking on from the sides."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-bernini-st-teresa.jpg",
+          "caption": "The Ecstasy of Saint Teresa.",
+          "alt": "Gian Lorenzo Bernini, The Ecstasy of Saint Teresa, 1647–52",
+          "credit": "CC BY-SA 4.0.",
+          "workId": "sculpture-bernini-st-teresa"
+        }
+      ]
+    },
+    {
+      "slug": "our-lady-bruges",
+      "name": "Church of Our Lady, Bruges",
+      "kind": "church",
+      "place": "Bruges",
+      "country": "Belgium",
+      "century": "13th–15th century",
+      "why": "The church in Bruges that keeps Michelangelo’s Madonna and Child in marble.",
+      "story": [
+        "The Madonna of Bruges was brought north in Michelangelo’s lifetime, and still stands in the church."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-michelangelo-bruges-madonna.jpg",
+          "caption": "The Madonna of Bruges.",
+          "alt": "Michelangelo, The Madonna of Bruges, c. 1504",
+          "credit": "CC0.",
+          "workId": "sculpture-michelangelo-bruges-madonna"
+        }
+      ]
+    },
+    {
+      "slug": "st-marys-krakow",
+      "name": "St Mary’s Basilica, Kraków",
+      "kind": "basilica",
+      "place": "Kraków",
+      "country": "Poland",
+      "century": "14th–15th century",
+      "why": "The parish basilica of Kraków, whose high altar is Veit Stoss’s great limewood carving of the Dormition of Our Lady.",
+      "story": [
+        "The altarpiece opens on the falling asleep of Mary and her Assumption, carved in limewood, and remains the heart of the basilica."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/sculpture-veit-stoss-altar.jpg",
+          "caption": "The altarpiece of Veit Stoss.",
+          "alt": "Veit Stoss, The altarpiece of Veit Stoss, 1477–89",
+          "credit": "Photo: Mielon, CC BY-SA 3.0.",
+          "workId": "sculpture-veit-stoss-altar"
+        }
+      ]
+    },
+    {
+      "slug": "santo-tome-toledo",
+      "name": "Church of Santo Tomé, Toledo",
+      "kind": "church",
+      "place": "Toledo",
+      "country": "Spain",
+      "century": "14th century",
+      "why": "The parish church in Toledo that holds El Greco’s Burial of the Count of Orgaz.",
+      "story": [
+        "The painting stands in a side chapel: the burial below, and the soul of the Count received in heaven above."
+      ],
+      "frames": [
+        {
+          "src": "https://m91028238-hash.github.io/otc-media/images/sacred-art/painting-el-greco-orgaz.jpg",
+          "caption": "The Burial of the Count of Orgaz.",
+          "alt": "El Greco, The Burial of the Count of Orgaz, 1586–88",
+          "credit": "Public domain.",
+          "workId": "painting-el-greco-orgaz"
+        }
+      ]
+    }
+  ]
+}
